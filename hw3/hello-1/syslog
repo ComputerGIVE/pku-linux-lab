@@ -1,0 +1,36 @@
+Oct  4 06:27:10 ubuntu rsyslogd: [origin software="rsyslogd" swVersion="7.4.4" x-pid="621" x-info="http://www.rsyslog.com"] rsyslogd was HUPed
+Oct  4 06:47:01 ubuntu CRON[2691]: (root) CMD (test -x /usr/sbin/anacron || ( cd / && run-parts --report /etc/cron.weekly ))
+Oct  4 07:17:01 ubuntu CRON[2714]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Oct  4 07:20:57 ubuntu dhclient: DHCPREQUEST of 10.0.2.15 on eth0 to 10.0.2.2 port 67 (xid=0x2dc4e609)
+Oct  4 07:20:57 ubuntu dhclient: DHCPACK of 10.0.2.15 from 10.0.2.2
+Oct  4 07:20:57 ubuntu dhclient: bound to 10.0.2.15 -- renewal in 40971 seconds.
+Oct  4 08:17:01 ubuntu CRON[2745]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Oct  4 09:17:01 ubuntu CRON[2748]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Oct  4 10:17:01 ubuntu CRON[2751]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Oct  4 11:17:01 ubuntu CRON[2754]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Oct  4 12:17:01 ubuntu CRON[2757]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Oct  4 13:17:01 ubuntu CRON[2760]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Oct  4 14:17:01 ubuntu CRON[2765]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Oct  4 15:17:01 ubuntu CRON[2768]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Oct  4 16:17:01 ubuntu CRON[2771]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Oct  5 20:17:01 ubuntu CRON[2774]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Oct  5 21:17:01 ubuntu CRON[2781]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Oct  5 21:46:08 ubuntu dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 3 (xid=0x821ab74e)
+Oct  5 21:46:08 ubuntu dhclient: DHCPREQUEST of 10.0.2.15 on eth0 to 255.255.255.255 port 67 (xid=0x4eb71a82)
+Oct  5 21:46:08 ubuntu dhclient: DHCPOFFER of 10.0.2.15 from 10.0.2.2
+Oct  5 21:46:08 ubuntu dhclient: DHCPACK of 10.0.2.15 from 10.0.2.2
+Oct  5 21:46:08 ubuntu dhclient: bound to 10.0.2.15 -- renewal in 37772 seconds.
+Oct  5 22:16:22 ubuntu kernel: [174804.558105] init: tty1 main process ended, respawning
+Oct  5 22:17:01 ubuntu CRON[3041]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Oct  5 22:17:22 ubuntu kernel: [174864.403935] init: tty1 main process ended, respawning
+Oct  5 22:20:52 ubuntu kernel: [175074.789034] atkbd serio0: Spurious NAK on isa0060/serio0. Some program might be trying to access hardware directly.
+Oct  5 23:00:24 ubuntu kernel: [177446.207738] atkbd serio0: Spurious NAK on isa0060/serio0. Some program might be trying to access hardware directly.
+Oct  5 23:14:00 ubuntu kernel: [178262.838439] atkbd serio0: Spurious NAK on isa0060/serio0. Some program might be trying to access hardware directly.
+Oct  5 23:16:38 ubuntu kernel: [178420.483764] atkbd serio0: Spurious NAK on isa0060/serio0. Some program might be trying to access hardware directly.
+Oct  5 23:17:01 ubuntu CRON[7071]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Oct  5 23:18:48 ubuntu kernel: [178550.554374] atkbd serio0: Spurious NAK on isa0060/serio0. Some program might be trying to access hardware directly.
+Oct  5 23:20:42 ubuntu kernel: [178664.882037] atkbd serio0: Spurious NAK on isa0060/serio0. Some program might be trying to access hardware directly.
+Oct  5 23:35:05 ubuntu kernel: [179527.413717] hello_1: module license 'unspecified' taints kernel.
+Oct  5 23:35:05 ubuntu kernel: [179527.413718] Disabling lock debugging due to kernel taint
+Oct  5 23:35:05 ubuntu kernel: [179527.418071] Hello world 1. 
+Oct  5 23:36:34 ubuntu kernel: [179616.513093] Goodbye world 1. 
