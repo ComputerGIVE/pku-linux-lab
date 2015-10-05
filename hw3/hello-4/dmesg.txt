@@ -1,0 +1,10 @@
+[179527.413717] hello_1: module license 'unspecified' taints kernel.
+[179527.413718] Disabling lock debugging due to kernel taint
+[179527.418071] Hello world 1. 
+[179616.513093] Goodbye world 1. 
+[180014.919765] Hello, world 2
+[180020.256055] Goodbye, world 2. 
+[180770.177687] Hello, world 3
+[180775.352731] Goodbye, world 3. 
+[181736.704441] Hello, world 4. 
+[181745.958599] Goodbye, world 4. 

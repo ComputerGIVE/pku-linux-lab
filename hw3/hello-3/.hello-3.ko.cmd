@@ -1,0 +1,1 @@
+cmd_/home/gnoliyil/osprac/hw3/hello-3/hello-3.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o /home/gnoliyil/osprac/hw3/hello-3/hello-3.ko /home/gnoliyil/osprac/hw3/hello-3/hello-3.o /home/gnoliyil/osprac/hw3/hello-3/hello-3.mod.o

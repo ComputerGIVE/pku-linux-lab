@@ -1,0 +1,11 @@
+filename:       /home/gnoliyil/osprac/hw3/hello-5/hello-5.ko
+author:         Li Yilong
+license:        GPL
+srcversion:     E39F0F1568D4EAE70FB40C0
+depends:        
+vermagic:       3.19.8-ckt6-lyl1+ SMP mod_unload modversions 
+parm:           myshort:A short integer (short)
+parm:           myint:An integer (int)
+parm:           mylong:A long integer (long)
+parm:           mystring:A character String (charp)
+parm:           myintArray:An array of integers (array of int)

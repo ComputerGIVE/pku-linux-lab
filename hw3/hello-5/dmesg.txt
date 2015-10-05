@@ -1,0 +1,50 @@
+[178262.838439] atkbd serio0: Spurious NAK on isa0060/serio0. Some program might be trying to access hardware directly.
+[178420.483764] atkbd serio0: Spurious NAK on isa0060/serio0. Some program might be trying to access hardware directly.
+[178550.554374] atkbd serio0: Spurious NAK on isa0060/serio0. Some program might be trying to access hardware directly.
+[178664.882037] atkbd serio0: Spurious NAK on isa0060/serio0. Some program might be trying to access hardware directly.
+[179527.413717] hello_1: module license 'unspecified' taints kernel.
+[179527.413718] Disabling lock debugging due to kernel taint
+[179527.418071] Hello world 1. 
+[179616.513093] Goodbye world 1. 
+[180014.919765] Hello, world 2
+[180020.256055] Goodbye, world 2. 
+[180770.177687] Hello, world 3
+[180775.352731] Goodbye, world 3. 
+[181736.704441] Hello, world 4. 
+[181745.958599] Goodbye, world 4. 
+[183142.705110] Hello, world 5. 
+[183142.705111] myshort is a short integer: 1
+[183142.705112] myint is an integer: 420
+[183142.705113] mylong is a long integer: 9999
+[183142.705113] mystring is a string: bebop
+[183142.705114] myintArray[0] = -1
+[183142.705114] myintArray[1] = -1
+[183142.705114] got 1 arguments for myintArray.
+[183178.732929] Goodbye, world 5.
+[183180.395506] Hello, world 5. 
+[183180.395507] myshort is a short integer: 1
+[183180.395508] myint is an integer: 420
+[183180.395509] mylong is a long integer: 9999
+[183180.395509] mystring is a string: bebop
+[183180.395510] myintArray[0] = 101
+[183180.395510] myintArray[1] = -1
+[183180.395511] got 1 arguments for myintArray.
+[183193.467856] Goodbye, world 5.
+[183196.909957] Hello, world 5. 
+[183196.909958] myshort is a short integer: 1
+[183196.909958] myint is an integer: 420
+[183196.909959] mylong is a long integer: 9999
+[183196.909959] mystring is a string: bebop
+[183196.909960] myintArray[0] = 101
+[183196.909961] myintArray[1] = 202
+[183196.909961] got 2 arguments for myintArray.
+[183246.133755] Goodbye, world 5.
+[183247.507388] Hello, world 5. 
+[183247.507396] myshort is a short integer: 1
+[183247.507397] myint is an integer: 420
+[183247.507399] mylong is a long integer: 10240000000
+[183247.507400] mystring is a string: blah
+[183247.507401] myintArray[0] = 101
+[183247.507402] myintArray[1] = 202
+[183247.507403] got 2 arguments for myintArray.
+[183257.052027] Goodbye, world 5.
