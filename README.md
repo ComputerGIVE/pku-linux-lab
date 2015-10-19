@@ -41,3 +41,11 @@ http://tldp.org/LDP/lkmpg/2.6/html/index.html
 
 实战4：解决hello-5.c中的所有code style问题（1分）<br />
 ``scripts/checkpatch.pl -f hello-5.c``
+
+
+LL104 -- 抽象层次
+------------------
+
+实战1：修改The Linux Kernel Module Programming Guide 8.1的例子，替换open系统调用（3分）
+
+实战2：解决make headerdep的一个Warning（1分）
