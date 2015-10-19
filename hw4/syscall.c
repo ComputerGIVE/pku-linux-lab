@@ -19,7 +19,7 @@
 #include <linux/module.h>	/* Specifically, a module, */
 #include <linux/moduleparam.h>	/* which will have params */
 #include <linux/unistd.h>	/* The list of system calls */
-
+#define CR0_WP 0x00010000 /* Kernel WriteProtect bit */
 /* 
  * For the current (process) structure, we need
  * this to know who the current user is. 
@@ -37,7 +37,8 @@
  * have to apply the supplied patch against your current kernel
  * and recompile it.
  */
-extern void *sys_call_table[];
+/* extern void *sys_call_table[]; */
+void **sys_call_table = (void **)0xffffffff81801440;  
 
 /* 
  * UID we want to spy on - will be filled from the
@@ -83,7 +84,7 @@ asmlinkage int our_sys_open(const char *filename, int flags, int mode)
 	/* 
 	 * Check if this is the user we're spying on 
 	 */
-	if (uid == current->uid) {
+	if (uid == (int)current->loginuid.val) {
 		/* 
 		 * Report the file, if relevant 
 		 */
@@ -108,6 +109,7 @@ asmlinkage int our_sys_open(const char *filename, int flags, int mode)
  */
 int init_module()
 {
+	unsigned long cr0; 
 	/* 
 	 * Warning - too late for it now, but maybe for
 	 * next time... 
@@ -124,9 +126,19 @@ int init_module()
 	 * Keep a pointer to the original function in
 	 * original_call, and then replace the system call
 	 * in the system call table with our_sys_open 
-	 */
+	 */  
+    
 	original_call = sys_call_table[__NR_open];
+	
+	/*
+	 * Turn on the WP option to write sys_call_table in Linux
+	 */ 
+	cr0 = read_cr0(); 
+	write_cr0(cr0 & ~CR0_WP);
+
 	sys_call_table[__NR_open] = our_sys_open;
+
+	write_cr0(cr0); /* restore */
 
 	/* 
 	 * To get the address of the function for system
@@ -143,6 +155,7 @@ int init_module()
  */
 void cleanup_module()
 {
+	unsigned long cr0; 
 	/* 
 	 * Return the system call back to normal 
 	 */
@@ -153,6 +166,14 @@ void cleanup_module()
 		printk(KERN_ALERT "an unstable state.\n");
 	}
 
+	/*
+	 * Turn on the WP option to write sys_call_table in Linux
+	 */ 
+	cr0 = read_cr0(); 
+	write_cr0(cr0 & ~CR0_WP); 
+
 	sys_call_table[__NR_open] = original_call;
+	
+	write_cr0(cr0); /* restore */
 }
  
