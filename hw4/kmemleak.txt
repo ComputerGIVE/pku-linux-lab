@@ -1,0 +1,15 @@
+diff --git a/include/linux/kmemleak.h b/include/linux/kmemleak.h
+index d0a1f99..b747d60 100644
+--- a/include/linux/kmemleak.h
++++ b/include/linux/kmemleak.h
+@@ -21,7 +21,9 @@
+ #ifndef __KMEMLEAK_H
+ #define __KMEMLEAK_H
+ 
+-#include <linux/slab.h>
++#ifndef _LINUX_SLAB_H
++/* #include <linux/slab.h> */ 
++#endif
+ 
+ #ifdef CONFIG_DEBUG_KMEMLEAK
+ 

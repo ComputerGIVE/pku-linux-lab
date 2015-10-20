@@ -1,0 +1,41 @@
+make headerdep
+In file included from linux/slab.h,
+                 from linux/kmemleak.h:24
+                 from linux/slab.h:106 <-- here
+                 from linux/crypto.h:24
+                 from crypto/hash.h:16
+                 from crypto/cryptd.h:17
+./include/crypto/ablk_helper.h:10: warning: recursive header inclusion
+In file included from linux/slab.h,
+                 from linux/kmemleak.h:24
+                 from linux/slab.h:106 <-- here
+                 from linux/crypto.h:24
+./include/crypto/hash.h:16: warning: recursive header inclusion
+In file included from linux/slab.h,
+                 from linux/kmemleak.h:24
+                 from linux/slab.h:106 <-- here
+                 from linux/crypto.h:24
+                 from crypto/rng.h:16
+
+
+==========================================================================
+
+gnoliyil@ubuntu:~/ubuntu-src/ubuntu-trusty$ make headerdep
+In file included from linux/mmzone.h,
+                 from linux/memory_hotplug.h:5
+                 from linux/mmzone.h:791 <-- here
+                 from linux/topology.h:32
+                 from linux/gfp.h:8
+                 from linux/slab.h:14
+                 from linux/crypto.h:24
+                 from crypto/hash.h:16
+                 from crypto/cryptd.h:17
+./include/crypto/ablk_helper.h:10: warning: recursive header inclusion
+In file included from linux/mmzone.h,
+                 from linux/memory_hotplug.h:5
+                 from linux/mmzone.h:791 <-- here
+                 from linux/topology.h:32
+                 from linux/gfp.h:8
+                 from linux/slab.h:14
+                 from linux/crypto.h:24
+
