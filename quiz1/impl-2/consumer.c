@@ -49,14 +49,21 @@ static int consumer_thread_function(void *data)
 		do_gettimeofday(&tv); 
 		ns_after = timeval_to_ns(&tv);
 
-#ifdef DEBUG
-		printk(KERN_ALERT "[Consumer] after = %lld, before = %lld, minus = %lld\n", 
-		ns_after % 100000000 / 1000, 
-		ns_before% 100000000 / 1000, 
+#if 1
+		printk(KERN_INFO "[Consumer] after = %lld, before = %lld, minus = %lld\n", 
+		ns_after % 10000000000 / 1000, 
+		ns_before% 10000000000 / 1000, 
 		(ns_after - ns_before)/1000); 
 #endif
 		
 		ms_sleep(sleep_ms - (ns_after - ns_before) / 1000000); 
+
+		do_gettimeofday(&tv); 
+		ns_after = timeval_to_ns(&tv);
+
+		printk(KERN_INFO "[Consumer] now = %lld\n", 
+		ns_after % 10000000000 / 1000); 
+
 	}
 	return 0; 
 }

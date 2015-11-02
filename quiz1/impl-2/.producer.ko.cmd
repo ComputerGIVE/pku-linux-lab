@@ -1,0 +1,1 @@
+cmd_/home/gnoliyil/osprac/quiz1/impl-2/producer.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o /home/gnoliyil/osprac/quiz1/impl-2/producer.ko /home/gnoliyil/osprac/quiz1/impl-2/producer.o /home/gnoliyil/osprac/quiz1/impl-2/producer.mod.o
