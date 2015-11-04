@@ -1,0 +1,16 @@
+Script started on Mon 02 Nov 2015 09:03:52 PM CST
+gnoliyil@ubuntu:~/osprac/hw5/ex2$ su
+Password: 
+root@ubuntu:/home/gnoliyil/osprac/hw5/ex2# cat [K[K[K[Kecho 1 > /proc.[K/sys/kernel/sysrq
+root@ubuntu:/home/gnoliyil/osprac/hw5/ex2# exit
+exit
+gnoliyil@ubuntu:~/osprac/hw5/ex2$ 
+gnoliyil@ubuntu:~/osprac/hw5/ex2$ 
+gnoliyil@ubuntu:~/osprac/hw5/ex2$ 
+gnoliyil@ubuntu:~/osprac/hw5/ex2$ 
+gnoliyil@ubuntu:~/osprac/hw5/ex2$ 
+gnoliyil@ubuntu:~/osprac/hw5/ex2$ 
+gnoliyil@ubuntu:~/osprac/hw5/ex2$ 
+gnoliyil@ubuntu:~/osprac/hw5/ex2$ 
+gnoliyil@ubuntu:~/osprac/hw5/ex2$ 
+gnoliyil@ubuntu:~/osprac/hw5/ex2$ 

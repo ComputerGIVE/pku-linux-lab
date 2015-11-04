@@ -1,0 +1,12 @@
+# tracer: function
+#
+# entries-in-buffer/entries-written: 1/1   #P:2
+#
+#                              _-----=> irqs-off
+#                             / _----=> need-resched
+#                            | / _---=> hardirq/softirq
+#                            || / _--=> preempt-depth
+#                            ||| /     delay
+#           TASK-PID   CPU#  ||||    TIMESTAMP  FUNCTION
+#              | |       |   ||||       |         |
+            bash-4613  [000] ...1  4482.706825: tracing_mark_write: hello world

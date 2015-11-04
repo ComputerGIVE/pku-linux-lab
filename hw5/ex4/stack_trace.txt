@@ -1,0 +1,17 @@
+        Depth    Size   Location    (15 entries)
+        -----    ----   --------
+  0)     3104     216   update_group_capacity+0x2c/0x270
+  1)     2888      64   msecs_to_jiffies+0x5/0x30
+  2)     2824      88   update_group_capacity+0x2c/0x270
+  3)     2736     384   find_busiest_group+0x10c/0x960
+  4)     2352     288   load_balance+0x1ac/0x900
+  5)     2064     128   pick_next_task_fair+0x48e/0x880
+  6)     1936     112   __schedule+0x11f/0x810
+  7)     1824      16   schedule+0x29/0x70
+  8)     1808     160   schedule_hrtimeout_range_clock+0x135/0x140
+  9)     1648      16   schedule_hrtimeout_range+0x13/0x20
+ 10)     1632      24   poll_schedule_timeout+0x49/0x70
+ 11)     1608     952   do_select+0x5ac/0x790
+ 12)      656     416   core_sys_select+0x1cc/0x2e0
+ 13)      240     112   SyS_select+0xab/0x100
+ 14)      128     128   system_call_fastpath+0x16/0x1b

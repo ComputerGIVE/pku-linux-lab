@@ -1,0 +1,10 @@
+[ 2764.352792] Opened file by 1001: /usr/lib/locale/locale-archive
+[ 2765.860284] Opened file by 1001: /etc/ld.so.cache
+[ 2765.860629] Opened file by 1001: /lib/x86_64-linux-gnu/libselinux.so.1
+[ 2765.861284] Opened file by 1001: /lib/x86_64-linux-gnu/libacl.so.1
+[ 2765.861750] Opened file by 1001: /lib/x86_64-linux-gnu/libc.so.6
+[ 2765.862336] Opened file by 1001: /lib/x86_64-linux-gnu/libpcre.so.3
+[ 2765.863149] Opened file by 1001: /lib/x86_64-linux-gnu/libdl.so.2
+[ 2765.863556] Opened file by 1001: /lib/x86_64-linux-gnu/libattr.so.1
+[ 2765.865475] Opened file by 1001: /proc/filesystems
+[ 2765.866028] Opened file by 1001: /usr/lib/locale/locale-archive

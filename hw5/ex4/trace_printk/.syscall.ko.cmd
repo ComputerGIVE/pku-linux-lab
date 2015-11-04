@@ -1,0 +1,1 @@
+cmd_/home/gnoliyil/osprac/hw5/ex4/trace_printk/syscall.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o /home/gnoliyil/osprac/hw5/ex4/trace_printk/syscall.ko /home/gnoliyil/osprac/hw5/ex4/trace_printk/syscall.o /home/gnoliyil/osprac/hw5/ex4/trace_printk/syscall.mod.o

@@ -1,0 +1,200 @@
+[340027.052240] rtc_cmos rtc_cmos: alarms up to one day, 114 bytes nvram
+[340027.053071] i2c /dev entries driver
+[340027.054163] device-mapper: uevent: version 1.0.3
+[340027.055568] device-mapper: ioctl: 4.29.0-ioctl (2014-10-28) initialised: dm-devel@redhat.com
+[340027.057109] sr 1:0:0:0: [sr0] scsi3-mmc drive: 32x/32x xa/form2 tray
+[340027.057118] cdrom: Uniform CD-ROM driver Revision: 3.20
+[340027.059686] ledtrig-cpu: registered to indicate activity on CPUs
+[340027.059922] sr 1:0:0:0: Attached scsi CD-ROM sr0
+[340027.061383] input: AT Translated Set 2 keyboard as /devices/platform/i8042/serio0/input/input2
+[340027.062961] TCP: cubic registered
+[340027.063961] sr 1:0:0:0: Attached scsi generic sg0 type 5
+[340027.065392] NET: Registered protocol family 10
+[340027.066938] NET: Registered protocol family 17
+[340027.067908] Key type dns_resolver registered
+[340027.069182] Loading compiled-in X.509 certificates
+[340027.081799] Loaded X.509 cert 'Magrathea: Glacier signing key: d3784506e0c245598887732e4ced659344b24c59'
+[340027.097376] registered taskstats version 1
+[340027.131380] Key type trusted registered
+[340027.158575] Key type encrypted registered
+[340027.165484] AppArmor: AppArmor sha1 policy hashing enabled
+[340027.166644] ima: No TPM chip found, activating TPM-bypass!
+[340027.167813] evm: HMAC attrs: 0x1
+[340027.203388]   Magic number: 7:787:983
+[340027.207096] rtc_cmos rtc_cmos: setting system clock to 2015-11-02 11:57:43 UTC (1446465463)
+[340027.213897] BIOS EDD facility v0.16 2004-Jun-25, 0 devices found
+[340027.215981] EDD information not available.
+[340027.217163] PM: Hibernation image not present or could not be loaded.
+[340027.222034] Freeing unused kernel memory: 1388K (ffffffff81d1f000 - ffffffff81e7a000)
+[340027.240104] Write protecting the kernel read-only data: 12288k
+[340027.248639] Freeing unused kernel memory: 624K (ffff880001764000 - ffff880001800000)
+[340027.254652] Freeing unused kernel memory: 568K (ffff880001b72000 - ffff880001c00000)
+[340027.348854] systemd-udevd[106]: starting version 204
+[340027.411786] usb 1-1: new full-speed USB device number 2 using ohci-pci
+[340027.567378] e1000: Intel(R) PRO/1000 Network Driver - version 7.3.21-k8-NAPI
+[340027.613156] e1000: Copyright (c) 1999-2006 Intel Corporation.
+[340027.819758] tsc: Refined TSC clocksource calibration: 2593.137 MHz
+[340027.838481] usb 1-1: New USB device found, idVendor=80ee, idProduct=0021
+[340027.840422] usb 1-1: New USB device strings: Mfr=1, Product=3, SerialNumber=0
+[340027.842346] usb 1-1: Product: USB Tablet
+[340027.843204] usb 1-1: Manufacturer: VirtualBox
+[340027.912329] input: ImExPS/2 Generic Explorer Mouse as /devices/platform/i8042/serio1/input/input4
+[340027.967218] hidraw: raw HID events driver (C) Jiri Kosina
+[340028.049810] usbcore: registered new interface driver usbhid
+[340028.056471] usbhid: USB HID core driver
+[340028.065279] input: VirtualBox USB Tablet as /devices/pci0000:00/0000:00:06.0/usb1/1-1/1-1:1.0/0003:80EE:0021.0001/input/input5
+[340028.071298] hid-generic 0003:80EE:0021.0001: input,hidraw0: USB HID v1.10 Mouse [VirtualBox USB Tablet] on usb-0000:00:06.0-1/input0
+[340028.595389] e1000 0000:00:03.0 eth0: (PCI:33MHz:32-bit) 08:00:27:04:d8:43
+[340028.597563] e1000 0000:00:03.0 eth0: Intel(R) PRO/1000 Network Connection
+[340028.598264] ahci 0000:00:0d.0: version 3.0
+[340028.599045] ahci 0000:00:0d.0: SSS flag set, parallel bus scan disabled
+[340028.612532] ahci 0000:00:0d.0: AHCI 0001.0100 32 slots 1 ports 3 Gbps 0x1 impl SATA mode
+[340028.659219] ahci 0000:00:0d.0: flags: 64bit ncq stag only ccc 
+[340028.711414] scsi host2: ahci
+[340028.716700] ata3: SATA max UDMA/133 abar m8192@0xf0806000 port 0xf0806100 irq 21
+[340029.037169] ata3: SATA link up 3.0 Gbps (SStatus 123 SControl 300)
+[340029.040878] ata3.00: ATA-6: VBOX HARDDISK, 1.0, max UDMA/133
+[340029.042048] ata3.00: 100663296 sectors, multi 128: LBA48 NCQ (depth 31/32)
+[340029.044066] ata3.00: configured for UDMA/133
+[340029.045884] scsi 2:0:0:0: Direct-Access     ATA      VBOX HARDDISK    1.0  PQ: 0 ANSI: 5
+[340029.046868] sd 2:0:0:0: [sda] 100663296 512-byte logical blocks: (51.5 GB/48.0 GiB)
+[340029.047655] sd 2:0:0:0: [sda] Write Protect is off
+[340029.047707] sd 2:0:0:0: Attached scsi generic sg1 type 0
+[340029.049083] sd 2:0:0:0: [sda] Mode Sense: 00 3a 00 00
+[340029.049118] sd 2:0:0:0: [sda] Write cache: enabled, read cache: enabled, doesn't support DPO or FUA
+[340029.071482]  sda: sda1 sda2 < sda5 >
+[340029.075007] sd 2:0:0:0: [sda] Attached SCSI disk
+[340029.338403] EXT4-fs (sda1): mounted filesystem with ordered data mode. Opts: (null)
+[340030.273009] random: init urandom read with 79 bits of entropy available
+[340030.961175] init: plymouth-upstart-bridge main process (162) terminated with status 1
+[340030.964089] init: plymouth-upstart-bridge main process ended, respawning
+[340030.988044] init: plymouth-upstart-bridge main process (173) terminated with status 1
+[340030.991422] init: plymouth-upstart-bridge main process ended, respawning
+[340030.996894] init: plymouth-upstart-bridge main process (175) terminated with status 1
+[340030.997616] init: plymouth-upstart-bridge main process ended, respawning
+[340031.002219] init: plymouth-upstart-bridge main process (177) terminated with status 1
+[340031.003441] init: plymouth-upstart-bridge main process ended, respawning
+[340031.034303] init: plymouth-upstart-bridge main process (179) terminated with status 1
+[340031.039500] init: plymouth-upstart-bridge main process ended, respawning
+[340031.077264] init: plymouth-upstart-bridge main process (181) terminated with status 1
+[340031.079541] init: plymouth-upstart-bridge main process ended, respawning
+[340031.084739] random: nonblocking pool is initialized
+[340031.088489] init: plymouth-upstart-bridge main process (183) terminated with status 1
+[340031.089036] init: plymouth-upstart-bridge main process ended, respawning
+[340031.123857] init: plymouth-upstart-bridge main process (186) terminated with status 1
+[340031.126249] init: plymouth-upstart-bridge main process ended, respawning
+[340032.223622] Adding 2966524k swap on /dev/sda5.  Priority:-1 extents:1 across:2966524k FS
+[340033.088500] systemd-udevd[296]: starting version 204
+[340033.778470] lp: driver loaded but no devices found
+[340034.051333] EXT4-fs (sda1): re-mounted. Opts: errors=remount-ro
+[340035.093120] vboxguest: module verification failed: signature and/or  required key missing - tainting kernel
+[340035.112450] piix4_smbus 0000:00:07.0: SMBus base address uninitialized - upgrade BIOS or use force_addr=0xaddr
+[340035.137959] ACPI: Video Device [GFX0] (multi-head: yes  rom: no  post: no)
+[340035.138216] input: Video Bus as /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A03:00/LNXVIDEO:00/input/input6
+[340035.151288] parport_pc 00:02: reported by Plug and Play ACPI
+[340035.162049] VbgdCommonInitDevExt: Setting up heartbeat to trigger every 2000 milliseconds
+[340035.187537] input: Unspecified device as /devices/pci0000:00/0000:00:04.0/input/input7
+[340035.187799] vboxguest: misc device minor 56, IRQ 20, I/O port d020, MMIO at 00000000f0400000 (size 0x400000)
+[340035.187803] vboxguest: Successfully loaded version 5.0.4 (interface 0x00010004)
+[340035.827313] ppdev: user-space parallel port driver
+[340036.269079] AVX version of gcm_enc/dec engaged.
+[340036.269083] AES CTR mode by8 optimization enabled
+[340036.580814] [drm] Initialized drm 1.1.0 20060810
+[340036.651095] [drm] Initialized vboxvideo 1.0.0 20090303 for 0000:00:02.0 on minor 0
+[340036.797952] snd_intel8x0 0000:00:05.0: disable (unknown or VT-d) VM optimization
+[340037.027062] audit: type=1400 audit(1446465473.316:2): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/sbin/dhclient" pid=364 comm="apparmor_parser"
+[340037.027068] audit: type=1400 audit(1446465473.316:3): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-client.action" pid=364 comm="apparmor_parser"
+[340037.027072] audit: type=1400 audit(1446465473.316:4): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/connman/scripts/dhclient-script" pid=364 comm="apparmor_parser"
+[340037.027496] audit: type=1400 audit(1446465473.316:5): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-client.action" pid=364 comm="apparmor_parser"
+[340037.027504] audit: type=1400 audit(1446465473.316:6): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/usr/lib/connman/scripts/dhclient-script" pid=364 comm="apparmor_parser"
+[340037.028118] audit: type=1400 audit(1446465473.320:7): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/usr/lib/connman/scripts/dhclient-script" pid=364 comm="apparmor_parser"
+[340037.029194] audit: type=1400 audit(1446465473.320:8): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/sbin/dhclient" pid=372 comm="apparmor_parser"
+[340037.029205] audit: type=1400 audit(1446465473.320:9): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-client.action" pid=372 comm="apparmor_parser"
+[340037.029210] audit: type=1400 audit(1446465473.320:10): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/usr/lib/connman/scripts/dhclient-script" pid=372 comm="apparmor_parser"
+[340037.029609] audit: type=1400 audit(1446465473.320:11): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-client.action" pid=372 comm="apparmor_parser"
+[340037.173254] snd_intel8x0 0000:00:05.0: white list rate for 1028:0177 is 48000
+[340038.827635] IPv6: ADDRCONF(NETDEV_UP): eth0: link is not ready
+[340038.844036] e1000: eth0 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX
+[340038.845057] IPv6: ADDRCONF(NETDEV_CHANGE): eth0: link becomes ready
+[340039.387861] init: failsafe main process (546) killed by TERM signal
+[340043.982572] vboxsf: Successfully loaded version 5.0.4 (interface 0x00010004)
+[340044.144019] VBoxService 5.0.4 r102546 (verbosity: 0) linux.amd64 (Sep  8 2015 09:05:09) release log
+[340044.144019] 00:00:00.000117 main     Log opened 2015-11-02T11:58:00.436685000Z
+[340044.144169] 00:00:00.000667 main     OS Product: Linux
+[340044.144211] 00:00:00.000719 main     OS Release: 3.19.8-ckt6-lyl2-cmdline-exported+
+[340044.144250] 00:00:00.000761 main     OS Version: #2 SMP Mon Nov 2 19:53:40 CST 2015
+[340044.144285] 00:00:00.000798 main     OS Service Pack: #2 SMP Mon Nov 2 19:53:40 CST 2015
+[340044.144334] 00:00:00.000833 main     Executable: /opt/VBoxGuestAdditions-5.0.4/sbin/VBoxService
+[340044.144334] 00:00:00.000835 main     Process ID: 955
+[340044.144334] 00:00:00.000836 main     Package type: LINUX_64BITS_GENERIC
+[340044.146041] 00:00:00.002392 main     5.0.4 r102546 started. Verbose level = 0
+[340044.906108] init: plymouth-upstart-bridge main process ended, respawning
+[340157.911059] hexdump: module license 'unspecified' taints kernel.
+[340157.911062] Disabling lock debugging due to kernel taint
+[340157.911725] print_hex_dump starts. 
+[340157.911727] print hexdump of boot_command_line_addr
+[340157.911730] boot: ffffffff81ddc900: ed 81 00 00 21 04 00 00 f6 f8 b6 4f 3b 52 f9 55  ....!......O;R.U
+[340157.911731] boot: ffffffff81ddc910: f6 f8 b6 4f 00 00 00 00 00 00 01 00 08 00 00 00  ...O............
+[340157.911732] boot: ffffffff81ddc920: 00 00 08 00 01 00 00 00 0a f3 01 00 04 00 00 00  ................
+[340157.911733] boot: ffffffff81ddc930: 00 00 00 00 00 00 00 00 01 00 00 00 fa 8c 60 00  ..............`.
+[340157.911734] boot: ffffffff81ddc940: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+[340157.911736] boot: ffffffff81ddc950: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+[340157.911737] boot: ffffffff81ddc960: 00 00 00 00 c9 9c 68 15 00 00 00 00 00 00 00 00  ......h.........
+[340157.911738] boot: ffffffff81ddc970: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+[340157.911739] boot: ffffffff81ddc980: 1c 00 00 00 00 64 64 32 00 00 00 00 00 00 00 00  .....dd2........
+[340157.911740] boot: ffffffff81ddc990: 3b 52 f9 55 00 40 70 31 00 00 00 00 00 00 00 00  ;R.U.@p1........
+[340157.911741] boot: ffffffff81ddc9a0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+[340157.911742] boot: ffffffff81ddc9b0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+[340157.911743] boot: ffffffff81ddc9c0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+[340157.911745] boot: ffffffff81ddc9d0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+[340157.911746] boot: ffffffff81ddc9e0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+[340157.911747] boot: ffffffff81ddc9f0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+[340157.911748] boot: ffffffff81ddca00: a4 81 00 00 93 00 00 00 03 1b 37 56 3b 52 f9 55  ..........7V;R.U
+[340157.911749] boot: ffffffff81ddca10: 2b 9b c1 55 00 00 00 00 00 00 01 00 08 00 00 00  +..U............
+[340157.911750] boot: ffffffff81ddca20: 00 00 08 00 01 00 00 00 0a f3 01 00 04 00 00 00  ................
+[340157.911751] boot: ffffffff81ddca30: 00 00 00 00 00 00 00 00 01 00 00 00 fb 8c 60 00  ..............`.
+[340157.911755] boot: ffffffff81ddca40: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+[340157.911759] boot: ffffffff81ddca50: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+[340157.911763] boot: ffffffff81ddca60: 00 00 00 00 ca 9c 68 15 00 00 00 00 00 00 00 00  ......h.........
+[340157.911767] boot: ffffffff81ddca70: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+[340157.911771] boot: ffffffff81ddca80: 1c 00 00 00 00 64 64 32 00 00 00 00 c0 fc e1 9c  .....dd2........
+[340157.911775] boot: ffffffff81ddca90: 3b 52 f9 55 00 64 64 32 00 00 00 00 00 00 00 00  ;R.U.dd2........
+[340157.911776] boot: ffffffff81ddcaa0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+[340157.911777] boot: ffffffff81ddcab0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+[340157.911778] boot: ffffffff81ddcac0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+[340157.911779] boot: ffffffff81ddcad0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+[340157.911780] boot: ffffffff81ddcae0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+[340157.911782] boot: ffffffff81ddcaf0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+[340157.911782] print hexdump of saved_command_line_addr
+[340157.911784] save: ffff88007ffb49c0: 42 4f 4f 54 5f 49 4d 41 47 45 3d 2f 62 6f 6f 74  BOOT_IMAGE=/boot
+[340157.911785] save: ffff88007ffb49d0: 2f 76 6d 6c 69 6e 75 7a 2d 33 2e 31 39 2e 38 2d  /vmlinuz-3.19.8-
+[340157.911786] save: ffff88007ffb49e0: 63 6b 74 36 2d 6c 79 6c 32 2d 63 6d 64 6c 69 6e  ckt6-lyl2-cmdlin
+[340157.911787] save: ffff88007ffb49f0: 65 2d 65 78 70 6f 72 74 65 64 2b 20 72 6f 6f 74  e-exported+ root
+[340157.911788] save: ffff88007ffb4a00: 3d 55 55 49 44 3d 34 63 61 35 62 33 62 34 2d 32  =UUID=4ca5b3b4-2
+[340157.911789] save: ffff88007ffb4a10: 66 34 63 2d 34 33 63 34 2d 62 34 32 37 2d 38 36  f4c-43c4-b427-86
+[340157.911790] save: ffff88007ffb4a20: 65 34 33 35 62 38 38 37 31 65 20 72 6f 00 00 00  e435b8871e ro...
+[340157.911791] save: ffff88007ffb4a30: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+[340157.911793] save: ffff88007ffb4a40: 50 40 c5 81 ff ff ff ff 80 4a fb 7f 00 88 ff ff  P@.......J......
+[340157.911794] save: ffff88007ffb4a50: 9f 00 00 00 00 00 00 00 00 01 00 00 00 00 00 00  ................
+[340157.911795] save: ffff88007ffb4a60: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+[340157.911796] save: ffff88007ffb4a70: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+[340157.911797] save: ffff88007ffb4a80: 40 4a fb 7f 00 88 ff ff 50 40 c5 81 ff ff ff ff  @J......P@......
+[340157.911798] save: ffff88007ffb4a90: 00 00 00 00 00 00 00 00 01 00 00 00 00 00 00 00  ................
+[340157.911799] save: ffff88007ffb4aa0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+[340157.911804] save: ffff88007ffb4ab0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+[340157.911808] save: ffff88007ffb4ac0: 00 00 fc ff 00 00 00 00 ff ff ff ff 00 00 00 00  ................
+[340157.911812] save: ffff88007ffb4ad0: 61 07 ac 81 ff ff ff ff d0 27 cd 81 ff ff ff ff  a........'......
+[340157.911816] save: ffff88007ffb4ae0: 58 4b fb 7f 00 88 ff ff e0 84 a0 7c 00 88 ff ff  XK.........|....
+[340157.911820] save: ffff88007ffb4af0: 40 f5 63 78 00 88 ff ff 70 4b fb 7f 00 88 ff ff  @.cx....pK......
+[340157.911823] save: ffff88007ffb4b00: 58 f5 63 78 00 88 ff ff 40 f5 63 78 00 88 ff ff  X.cx....@.cx....
+[340157.911824] save: ffff88007ffb4b10: e0 8c ce 81 ff ff ff ff c0 33 63 78 00 88 ff ff  .........3cx....
+[340157.911826] save: ffff88007ffb4b20: 01 00 00 00 03 00 00 00 00 00 00 00 00 00 00 00  ................
+[340157.911827] save: ffff88007ffb4b30: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+[340157.911828] save: ffff88007ffb4b40: 00 00 ff 7f 00 00 00 00 ff ff ff 7f 00 00 00 00  ................
+[340157.911829] save: ffff88007ffb4b50: 67 b6 a5 81 ff ff ff ff d8 4a fb 7f 00 88 ff ff  g........J......
+[340157.911830] save: ffff88007ffb4b60: d8 4b fb 7f 00 88 ff ff d0 84 a0 7c 00 88 ff ff  .K.........|....
+[340157.911831] save: ffff88007ffb4b70: f0 4a fb 7f 00 88 ff ff f0 4b fb 7f 00 88 ff ff  .J.......K......
+[340157.911833] save: ffff88007ffb4b80: 58 f5 63 78 00 88 ff ff 40 f5 63 78 00 88 ff ff  X.cx....@.cx....
+[340157.911834] save: ffff88007ffb4b90: e0 8c ce 81 ff ff ff ff e0 31 63 78 00 88 ff ff  .........1cx....
+[340157.911835] save: ffff88007ffb4ba0: 01 00 00 00 03 00 00 00 00 00 00 00 00 00 00 00  ................
+[340157.911836] save: ffff88007ffb4bb0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................

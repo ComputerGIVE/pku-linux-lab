@@ -1,0 +1,2069 @@
+[    0.000000] Initializing cgroup subsys cpuset
+[    0.000000] Initializing cgroup subsys cpu
+[    0.000000] Initializing cgroup subsys cpuacct
+[    0.000000] Linux version 3.19.8-ckt6-lyl2-cmdline-exported+ (gnoliyil@ubuntu) (gcc version 4.8.4 (Ubuntu 4.8.4-2ubuntu1~14.04) ) #4 SMP Mon Nov 2 20:24:13 CST 2015 (Ubuntu 3.19.0-25.26~14.04.1-generic 3.19.8-ckt2)
+[    0.000000] Command line: BOOT_IMAGE=/boot/vmlinuz-3.19.8-ckt6-lyl2-cmdline-exported+ root=UUID=4ca5b3b4-2f4c-43c4-b427-86e435b8871e ro
+[    0.000000] KERNEL supported cpus:
+[    0.000000]   Intel GenuineIntel
+[    0.000000]   AMD AuthenticAMD
+[    0.000000]   Centaur CentaurHauls
+[    0.000000] e820: BIOS-provided physical RAM map:
+[    0.000000] BIOS-e820: [mem 0x0000000000000000-0x000000000009fbff] usable
+[    0.000000] BIOS-e820: [mem 0x000000000009fc00-0x000000000009ffff] reserved
+[    0.000000] BIOS-e820: [mem 0x00000000000f0000-0x00000000000fffff] reserved
+[    0.000000] BIOS-e820: [mem 0x0000000000100000-0x000000007ffeffff] usable
+[    0.000000] BIOS-e820: [mem 0x000000007fff0000-0x000000007fffffff] ACPI data
+[    0.000000] BIOS-e820: [mem 0x00000000fffc0000-0x00000000ffffffff] reserved
+[    0.000000] NX (Execute Disable) protection: active
+[    0.000000] SMBIOS 2.5 present.
+[    0.000000] DMI: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+[    0.000000] Hypervisor detected: KVM
+[    0.000000] e820: update [mem 0x00000000-0x00000fff] usable ==> reserved
+[    0.000000] e820: remove [mem 0x000a0000-0x000fffff] usable
+[    0.000000] AGP: No AGP bridge found
+[    0.000000] e820: last_pfn = 0x7fff0 max_arch_pfn = 0x400000000
+[    0.000000] MTRR default type: uncachable
+[    0.000000] MTRR variable ranges disabled:
+[    0.000000] PAT configuration [0-7]: WB  WC  UC- UC  WB  WC  UC- UC  
+[    0.000000] CPU MTRRs all blank - virtualized system.
+[    0.000000] found SMP MP-table at [mem 0x0009fff0-0x0009ffff] mapped at [ffff88000009fff0]
+[    0.000000] Scanning 1 areas for low memory corruption
+[    0.000000] Base memory trampoline at [ffff880000099000] 99000 size 24576
+[    0.000000] init_memory_mapping: [mem 0x00000000-0x000fffff]
+[    0.000000]  [mem 0x00000000-0x000fffff] page 4k
+[    0.000000] BRK [0x01fc5000, 0x01fc5fff] PGTABLE
+[    0.000000] BRK [0x01fc6000, 0x01fc6fff] PGTABLE
+[    0.000000] BRK [0x01fc7000, 0x01fc7fff] PGTABLE
+[    0.000000] init_memory_mapping: [mem 0x7fc00000-0x7fdfffff]
+[    0.000000]  [mem 0x7fc00000-0x7fdfffff] page 2M
+[    0.000000] BRK [0x01fc8000, 0x01fc8fff] PGTABLE
+[    0.000000] init_memory_mapping: [mem 0x60000000-0x7fbfffff]
+[    0.000000]  [mem 0x60000000-0x7fbfffff] page 2M
+[    0.000000] init_memory_mapping: [mem 0x40000000-0x5fffffff]
+[    0.000000]  [mem 0x40000000-0x5fffffff] page 2M
+[    0.000000] init_memory_mapping: [mem 0x00100000-0x3fffffff]
+[    0.000000]  [mem 0x00100000-0x001fffff] page 4k
+[    0.000000]  [mem 0x00200000-0x3fffffff] page 2M
+[    0.000000] init_memory_mapping: [mem 0x7fe00000-0x7ffeffff]
+[    0.000000]  [mem 0x7fe00000-0x7ffeffff] page 4k
+[    0.000000] BRK [0x01fc9000, 0x01fc9fff] PGTABLE
+[    0.000000] RAMDISK: [mem 0x35a20000-0x36d07fff]
+[    0.000000] ACPI: Early table checksum verification disabled
+[    0.000000] ACPI: RSDP 0x00000000000E0000 000024 (v02 VBOX  )
+[    0.000000] ACPI: XSDT 0x000000007FFF0030 00003C (v01 VBOX   VBOXXSDT 00000001 ASL  00000061)
+[    0.000000] ACPI: FACP 0x000000007FFF00F0 0000F4 (v04 VBOX   VBOXFACP 00000001 ASL  00000061)
+[    0.000000] ACPI: DSDT 0x000000007FFF0470 001BF1 (v01 VBOX   VBOXBIOS 00000002 INTL 20100528)
+[    0.000000] ACPI: FACS 0x000000007FFF0200 000040
+[    0.000000] ACPI: FACS 0x000000007FFF0200 000040
+[    0.000000] ACPI: APIC 0x000000007FFF0240 00005C (v02 VBOX   VBOXAPIC 00000001 ASL  00000061)
+[    0.000000] ACPI: SSDT 0x000000007FFF02A0 0001CC (v01 VBOX   VBOXCPUT 00000002 INTL 20100528)
+[    0.000000] ACPI: Local APIC address 0xfee00000
+[    0.000000] No NUMA configuration found
+[    0.000000] Faking a node at [mem 0x0000000000000000-0x000000007ffeffff]
+[    0.000000] NODE_DATA(0) allocated [mem 0x7ffeb000-0x7ffeffff]
+[    0.000000] kvm-clock: Using msrs 4b564d01 and 4b564d00
+[    0.000000] kvm-clock: cpu 0, msr 0:7ffe7001, primary cpu clock
+[    0.000000]  [ffffea0000000000-ffffea0001ffffff] PMD -> [ffff88007d600000-ffff88007f5fffff] on node 0
+[    0.000000] Zone ranges:
+[    0.000000]   DMA      [mem 0x00001000-0x00ffffff]
+[    0.000000]   DMA32    [mem 0x01000000-0x7ffeffff]
+[    0.000000]   Normal   empty
+[    0.000000] Movable zone start for each node
+[    0.000000] Early memory node ranges
+[    0.000000]   node   0: [mem 0x00001000-0x0009efff]
+[    0.000000]   node   0: [mem 0x00100000-0x7ffeffff]
+[    0.000000] Initmem setup node 0 [mem 0x00001000-0x7ffeffff]
+[    0.000000] On node 0 totalpages: 524174
+[    0.000000]   DMA zone: 64 pages used for memmap
+[    0.000000]   DMA zone: 21 pages reserved
+[    0.000000]   DMA zone: 3998 pages, LIFO batch:0
+[    0.000000]   DMA32 zone: 8128 pages used for memmap
+[    0.000000]   DMA32 zone: 520176 pages, LIFO batch:31
+[    0.000000] ACPI: PM-Timer IO Port: 0x4008
+[    0.000000] ACPI: Local APIC address 0xfee00000
+[    0.000000] ACPI: LAPIC (acpi_id[0x00] lapic_id[0x00] enabled)
+[    0.000000] ACPI: LAPIC (acpi_id[0x01] lapic_id[0x01] enabled)
+[    0.000000] ACPI: IOAPIC (id[0x02] address[0xfec00000] gsi_base[0])
+[    0.000000] IOAPIC[0]: apic_id 2, version 17, address 0xfec00000, GSI 0-23
+[    0.000000] ACPI: INT_SRC_OVR (bus 0 bus_irq 0 global_irq 2 dfl dfl)
+[    0.000000] ACPI: INT_SRC_OVR (bus 0 bus_irq 9 global_irq 9 high level)
+[    0.000000] ACPI: IRQ0 used by override.
+[    0.000000] ACPI: IRQ9 used by override.
+[    0.000000] Using ACPI (MADT) for SMP configuration information
+[    0.000000] smpboot: Allowing 2 CPUs, 0 hotplug CPUs
+[    0.000000] PM: Registered nosave memory: [mem 0x00000000-0x00000fff]
+[    0.000000] PM: Registered nosave memory: [mem 0x0009f000-0x0009ffff]
+[    0.000000] PM: Registered nosave memory: [mem 0x000a0000-0x000effff]
+[    0.000000] PM: Registered nosave memory: [mem 0x000f0000-0x000fffff]
+[    0.000000] e820: [mem 0x80000000-0xfffbffff] available for PCI devices
+[    0.000000] Booting paravirtualized kernel on KVM
+[    0.000000] setup_percpu: NR_CPUS:256 nr_cpumask_bits:256 nr_cpu_ids:2 nr_node_ids:1
+[    0.000000] PERCPU: Embedded 30 pages/cpu @ffff88007fc00000 s86016 r8192 d28672 u1048576
+[    0.000000] pcpu-alloc: s86016 r8192 d28672 u1048576 alloc=1*2097152
+[    0.000000] pcpu-alloc: [0] 0 1 
+[    0.000000] Built 1 zonelists in Node order, mobility grouping on.  Total pages: 515961
+[    0.000000] Policy zone: DMA32
+[    0.000000] Kernel command line address: ffffffff81ddc900
+[    0.000000] boot: ffffffff81ddc900: 42 4f 4f 54 5f 49 4d 41 47 45 3d 2f 62 6f 6f 74  BOOT_IMAGE=/boot
+[    0.000000] boot: ffffffff81ddc910: 2f 76 6d 6c 69 6e 75 7a 2d 33 2e 31 39 2e 38 2d  /vmlinuz-3.19.8-
+[    0.000000] boot: ffffffff81ddc920: 63 6b 74 36 2d 6c 79 6c 32 2d 63 6d 64 6c 69 6e  ckt6-lyl2-cmdlin
+[    0.000000] boot: ffffffff81ddc930: 65 2d 65 78 70 6f 72 74 65 64 2b 20 72 6f 6f 74  e-exported+ root
+[    0.000000] boot: ffffffff81ddc940: 3d 55 55 49 44 3d 34 63 61 35 62 33 62 34 2d 32  =UUID=4ca5b3b4-2
+[    0.000000] boot: ffffffff81ddc950: 66 34 63 2d 34 33 63 34 2d 62 34 32 37 2d 38 36  f4c-43c4-b427-86
+[    0.000000] boot: ffffffff81ddc960: 65 34 33 35 62 38 38 37 31 65 20 72 6f 00 00 00  e435b8871e ro...
+[    0.000000] boot: ffffffff81ddc970: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+[    0.000000] boot: ffffffff81ddc980: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+[    0.000000] boot: ffffffff81ddc990: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+[    0.000000] boot: ffffffff81ddc9a0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+[    0.000000] boot: ffffffff81ddc9b0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+[    0.000000] boot: ffffffff81ddc9c0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+[    0.000000] boot: ffffffff81ddc9d0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+[    0.000000] boot: ffffffff81ddc9e0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+[    0.000000] boot: ffffffff81ddc9f0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+[    0.000000] boot: ffffffff81ddca00: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+[    0.000000] boot: ffffffff81ddca10: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+[    0.000000] boot: ffffffff81ddca20: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+[    0.000000] boot: ffffffff81ddca30: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+[    0.000000] boot: ffffffff81ddca40: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+[    0.000000] boot: ffffffff81ddca50: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+[    0.000000] boot: ffffffff81ddca60: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+[    0.000000] boot: ffffffff81ddca70: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+[    0.000000] boot: ffffffff81ddca80: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+[    0.000000] boot: ffffffff81ddca90: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+[    0.000000] boot: ffffffff81ddcaa0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+[    0.000000] boot: ffffffff81ddcab0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+[    0.000000] boot: ffffffff81ddcac0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+[    0.000000] boot: ffffffff81ddcad0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+[    0.000000] boot: ffffffff81ddcae0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+[    0.000000] boot: ffffffff81ddcaf0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+[    0.000000] Kernel command line: BOOT_IMAGE=/boot/vmlinuz-3.19.8-ckt6-lyl2-cmdline-exported+ root=UUID=4ca5b3b4-2f4c-43c4-b427-86e435b8871e ro
+[    0.000000] PID hash table entries: 4096 (order: 3, 32768 bytes)
+[    0.000000] xsave: enabled xstate_bv 0x7, cntxt size 0x340 using standard form
+[    0.000000] AGP: Checking aperture...
+[    0.000000] AGP: No AGP bridge found
+[    0.000000] Calgary: detecting Calgary via BIOS EBDA area
+[    0.000000] Calgary: Unable to locate Rio Grande table in EBDA - bailing!
+[    0.000000] Memory: 2027784K/2096696K available (7557K kernel code, 1142K rwdata, 3528K rodata, 1388K init, 1288K bss, 68912K reserved, 0K cma-reserved)
+[    0.000000] SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=2, Nodes=1
+[    0.000000] Hierarchical RCU implementation.
+[    0.000000] 	RCU dyntick-idle grace-period acceleration is enabled.
+[    0.000000] 	RCU restricting CPUs from NR_CPUS=256 to nr_cpu_ids=2.
+[    0.000000] RCU: Adjusting geometry for rcu_fanout_leaf=16, nr_cpu_ids=2
+[    0.000000] NR_IRQS:16640 nr_irqs:440 16
+[    0.000000] 	Offload RCU callbacks from all CPUs
+[    0.000000] 	Offload RCU callbacks from CPUs: 0-1.
+[    0.000000] Console: colour dummy device 80x25
+[    0.000000] console [tty0] enabled
+[    0.000000] tsc: Detected 2594.106 MHz processor
+[344311.910489] Calibrating delay loop (skipped) preset value.. 5188.21 BogoMIPS (lpj=10376424)
+[344311.910497] pid_max: default: 32768 minimum: 301
+[344311.910510] ACPI: Core revision 20141107
+[344311.911703] ACPI: All ACPI Tables successfully acquired
+[344311.911739] Security Framework initialized
+[344311.911758] AppArmor: AppArmor initialized
+[344311.911762] Yama: becoming mindful.
+[344311.912614] Dentry cache hash table entries: 262144 (order: 9, 2097152 bytes)
+[344311.913546] Inode-cache hash table entries: 131072 (order: 8, 1048576 bytes)
+[344311.915790] Mount-cache hash table entries: 4096 (order: 3, 32768 bytes)
+[344311.915801] Mountpoint-cache hash table entries: 4096 (order: 3, 32768 bytes)
+[344311.916236] Initializing cgroup subsys devices
+[344311.916241] Initializing cgroup subsys freezer
+[344311.916243] Initializing cgroup subsys net_cls
+[344311.916246] Initializing cgroup subsys blkio
+[344311.916248] Initializing cgroup subsys perf_event
+[344311.916331] CPU: Physical Processor ID: 0
+[344311.916332] CPU: Processor Core ID: 0
+[344311.916648] mce: CPU supports 0 MCE banks
+[344311.916675] Last level iTLB entries: 4KB 512, 2MB 8, 4MB 8
+[344311.916675] Last level dTLB entries: 4KB 512, 2MB 32, 4MB 32, 1GB 0
+[344311.917049] Freeing SMP alternatives memory: 28K (ffffffff81e7a000 - ffffffff81e81000)
+[344311.924150] ftrace: allocating 28933 entries in 114 pages
+[344311.988635] ..TIMER: vector=0x30 apic1=0 pin1=2 apic2=-1 pin2=-1
+[344311.988641] smpboot: CPU0: Intel(R) Core(TM) i5-3230M CPU @ 2.60GHz (fam: 06, model: 3a, stepping: 09)
+[344312.098730] APIC calibration not consistent with PM-Timer: 95ms instead of 100ms
+[344312.098737] APIC delta adjusted to PM-Timer: 6322669 (6056059)
+[344312.098874] Performance Events: unsupported p6 CPU model 58 no PMU driver, software events only.
+[344312.110047] KVM setup paravirtual spinlock
+[344312.110694] NMI watchdog: disabled (cpu0): hardware events not enabled
+[344312.110778] x86: Booting SMP configuration:
+[344312.110781] .... node  #0, CPUs:      #1
+[344312.125262] kvm-clock: cpu 1, msr 0:7ffe7041, secondary cpu clock
+[344312.125769] mce: CPU supports 0 MCE banks
+[344312.127953] x86: Booted up 1 node, 2 CPUs
+[344312.128170] smpboot: Total of 2 processors activated (10376.42 BogoMIPS)
+[344312.128889] devtmpfs: initialized
+[344312.131984] evm: security.selinux
+[344312.131989] evm: security.SMACK64
+[344312.131991] evm: security.ima
+[344312.131993] evm: security.capability
+[344312.132510] pinctrl core: initialized pinctrl subsystem
+[344312.132619] RTC time: 13:09:07, date: 11/02/15
+[344312.132684] NET: Registered protocol family 16
+[344312.139020] cpuidle: using governor ladder
+[344312.141245] cpuidle: using governor menu
+[344312.141322] ACPI: bus type PCI registered
+[344312.141325] acpiphp: ACPI Hot Plug PCI Controller Driver version: 0.5
+[344312.141793] PCI: Using configuration type 1 for base access
+[344312.149695] ACPI: Added _OSI(Module Device)
+[344312.149702] ACPI: Added _OSI(Processor Device)
+[344312.149705] ACPI: Added _OSI(3.0 _SCP Extensions)
+[344312.149707] ACPI: Added _OSI(Processor Aggregator Device)
+[344312.152802] ACPI: Executed 1 blocks of module-level executable AML code
+[344312.159058] ACPI: Interpreter enabled
+[344312.159067] ACPI Exception: AE_NOT_FOUND, While evaluating Sleep State [\_S1_] (20141107/hwxface-580)
+[344312.159072] ACPI Exception: AE_NOT_FOUND, While evaluating Sleep State [\_S2_] (20141107/hwxface-580)
+[344312.159076] ACPI Exception: AE_NOT_FOUND, While evaluating Sleep State [\_S3_] (20141107/hwxface-580)
+[344312.159080] ACPI Exception: AE_NOT_FOUND, While evaluating Sleep State [\_S4_] (20141107/hwxface-580)
+[344312.159086] ACPI: (supports S0 S5)
+[344312.159088] ACPI: Using IOAPIC for interrupt routing
+[344312.159289] PCI: Using host bridge windows from ACPI; if necessary, use "pci=nocrs" and report a bug
+[344312.183984] ACPI: PCI Root Bridge [PCI0] (domain 0000 [bus 00-ff])
+[344312.183997] acpi PNP0A03:00: _OSC: OS supports [ASPM ClockPM Segments MSI]
+[344312.184005] acpi PNP0A03:00: _OSC failed (AE_NOT_FOUND); disabling ASPM
+[344312.184461] acpi PNP0A03:00: fail to add MMCONFIG information, can't access extended PCI configuration space under this bridge.
+[344312.185242] PCI host bridge to bus 0000:00
+[344312.185252] pci_bus 0000:00: root bus resource [bus 00-ff]
+[344312.185255] pci_bus 0000:00: root bus resource [io  0x0000-0x0cf7]
+[344312.185257] pci_bus 0000:00: root bus resource [io  0x0d00-0xffff]
+[344312.185260] pci_bus 0000:00: root bus resource [mem 0x000a0000-0x000bffff]
+[344312.185262] pci_bus 0000:00: root bus resource [mem 0x80000000-0xffdfffff]
+[344312.185570] pci 0000:00:00.0: [8086:1237] type 00 class 0x060000
+[344312.186754] pci 0000:00:01.0: [8086:7000] type 00 class 0x060100
+[344312.187606] pci 0000:00:01.1: [8086:7111] type 00 class 0x01018a
+[344312.189999] pci 0000:00:01.1: reg 0x20: [io  0xd000-0xd00f]
+[344312.190781] pci 0000:00:01.1: legacy IDE quirk: reg 0x10: [io  0x01f0-0x01f7]
+[344312.190791] pci 0000:00:01.1: legacy IDE quirk: reg 0x14: [io  0x03f6]
+[344312.190795] pci 0000:00:01.1: legacy IDE quirk: reg 0x18: [io  0x0170-0x0177]
+[344312.190799] pci 0000:00:01.1: legacy IDE quirk: reg 0x1c: [io  0x0376]
+[344312.191994] pci 0000:00:02.0: [80ee:beef] type 00 class 0x030000
+[344312.194987] pci 0000:00:02.0: reg 0x10: [mem 0xe0000000-0xe0ffffff pref]
+[344312.217856] pci 0000:00:03.0: [8086:100e] type 00 class 0x020000
+[344312.219814] pci 0000:00:03.0: reg 0x10: [mem 0xf0000000-0xf001ffff]
+[344312.223647] pci 0000:00:03.0: reg 0x18: [io  0xd010-0xd017]
+[344312.248592] pci 0000:00:04.0: [80ee:cafe] type 00 class 0x088000
+[344312.251698] pci 0000:00:04.0: reg 0x10: [io  0xd020-0xd03f]
+[344312.254238] pci 0000:00:04.0: reg 0x14: [mem 0xf0400000-0xf07fffff]
+[344312.256421] pci 0000:00:04.0: reg 0x18: [mem 0xf0800000-0xf0803fff pref]
+[344312.274647] pci 0000:00:05.0: [8086:2415] type 00 class 0x040100
+[344312.274897] pci 0000:00:05.0: reg 0x10: [io  0xd100-0xd1ff]
+[344312.275889] pci 0000:00:05.0: reg 0x14: [io  0xd200-0xd23f]
+[344312.277461] pci 0000:00:06.0: [106b:003f] type 00 class 0x0c0310
+[344312.280361] pci 0000:00:06.0: reg 0x10: [mem 0xf0804000-0xf0804fff]
+[344312.299964] pci 0000:00:07.0: [8086:7113] type 00 class 0x068000
+[344312.301448] pci 0000:00:0d.0: [8086:2829] type 00 class 0x010601
+[344312.305067] pci 0000:00:0d.0: reg 0x10: [io  0xd240-0xd247]
+[344312.312195] pci 0000:00:0d.0: reg 0x18: [io  0xd250-0xd257]
+[344312.317831] pci 0000:00:0d.0: reg 0x20: [io  0xd260-0xd26f]
+[344312.322071] pci 0000:00:0d.0: reg 0x24: [mem 0xf0806000-0xf0807fff]
+[344312.331581] ACPI: PCI Interrupt Link [LNKA] (IRQs 5 9 10 *11)
+[344312.332644] ACPI: PCI Interrupt Link [LNKB] (IRQs 5 9 10 *11)
+[344312.332775] ACPI: PCI Interrupt Link [LNKC] (IRQs 5 9 *10 11)
+[344312.333265] ACPI: PCI Interrupt Link [LNKD] (IRQs 5 *9 10 11)
+[344312.333487] ACPI: Enabled 2 GPEs in block 00 to 07
+[344312.333653] vgaarb: setting as boot device: PCI:0000:00:02.0
+[344312.333659] vgaarb: device added: PCI:0000:00:02.0,decodes=io+mem,owns=io+mem,locks=none
+[344312.333666] vgaarb: loaded
+[344312.333669] vgaarb: bridge control possible 0000:00:02.0
+[344312.334016] SCSI subsystem initialized
+[344312.334376] libata version 3.00 loaded.
+[344312.334413] ACPI: bus type USB registered
+[344312.334441] usbcore: registered new interface driver usbfs
+[344312.334454] usbcore: registered new interface driver hub
+[344312.334487] usbcore: registered new device driver usb
+[344312.335002] PCI: Using ACPI for IRQ routing
+[344312.335007] PCI: pci_cache_line_size set to 64 bytes
+[344312.335523] e820: reserve RAM buffer [mem 0x0009fc00-0x0009ffff]
+[344312.335526] e820: reserve RAM buffer [mem 0x7fff0000-0x7fffffff]
+[344312.335684] NetLabel: Initializing
+[344312.335688] NetLabel:  domain hash size = 128
+[344312.335690] NetLabel:  protocols = UNLABELED CIPSOv4
+[344312.335708] NetLabel:  unlabeled traffic allowed by default
+[344312.335932] Switched to clocksource kvm-clock
+[344312.346029] AppArmor: AppArmor Filesystem Enabled
+[344312.346116] pnp: PnP ACPI init
+[344312.346214] pnp 00:00: Plug and Play ACPI device, IDs PNP0303 (active)
+[344312.346360] pnp 00:01: Plug and Play ACPI device, IDs PNP0f03 (active)
+[344312.346421] pnp 00:02: Plug and Play ACPI device, IDs PNP0400 (active)
+[344312.347049] pnp: PnP ACPI: found 3 devices
+[344312.353255] pci_bus 0000:00: resource 4 [io  0x0000-0x0cf7]
+[344312.353259] pci_bus 0000:00: resource 5 [io  0x0d00-0xffff]
+[344312.353261] pci_bus 0000:00: resource 6 [mem 0x000a0000-0x000bffff]
+[344312.353263] pci_bus 0000:00: resource 7 [mem 0x80000000-0xffdfffff]
+[344312.353285] NET: Registered protocol family 2
+[344312.353455] TCP established hash table entries: 16384 (order: 5, 131072 bytes)
+[344312.353489] TCP bind hash table entries: 16384 (order: 6, 262144 bytes)
+[344312.353528] TCP: Hash tables configured (established 16384 bind 16384)
+[344312.353547] TCP: reno registered
+[344312.353553] UDP hash table entries: 1024 (order: 3, 32768 bytes)
+[344312.353561] UDP-Lite hash table entries: 1024 (order: 3, 32768 bytes)
+[344312.353598] NET: Registered protocol family 1
+[344312.353610] pci 0000:00:00.0: Limiting direct PCI/PCI transfers
+[344312.353772] pci 0000:00:01.0: Activating ISA DMA hang workarounds
+[344312.353935] pci 0000:00:02.0: Video device with shadowed ROM
+[344312.356347] PCI: CLS 0 bytes, default 64
+[344312.356419] Trying to unpack rootfs image as initramfs...
+[344313.006205] Freeing initrd memory: 19360K (ffff880035a20000 - ffff880036d08000)
+[344313.007415] platform rtc_cmos: registered platform RTC device (no PNP device found)
+[344313.008698] RAPL PMU detected, hw unit 2^-0 Joules, API unit is 2^-32 Joules, 3 fixed counters 10737418240 ms ovfl timer
+[344313.008896] microcode: CPU0 sig=0x306a9, pf=0x2, revision=0x19
+[344313.008909] microcode: CPU1 sig=0x306a9, pf=0x2, revision=0x19
+[344313.009041] microcode: Microcode Update Driver: v2.00 <tigran@aivazian.fsnet.co.uk>, Peter Oruba
+[344313.009077] Scanning for low memory corruption every 60 seconds
+[344313.009996] futex hash table entries: 512 (order: 3, 32768 bytes)
+[344313.010023] Initialise system trusted keyring
+[344313.010065] audit: initializing netlink subsys (disabled)
+[344313.010087] audit: type=2000 audit(1446814061.095:1): initialized
+[344313.011013] HugeTLB registered 2 MB page size, pre-allocated 0 pages
+[344313.012572] zpool: loaded
+[344313.012579] zbud: loaded
+[344313.012865] VFS: Disk quotas dquot_6.5.2
+[344313.012898] VFS: Dquot-cache hash table entries: 512 (order 0, 4096 bytes)
+[344313.013406] fuse init (API version 7.23)
+[344313.013543] Key type big_key registered
+[344313.021513] Key type asymmetric registered
+[344313.021522] Asymmetric key parser 'x509' registered
+[344313.021590] Block layer SCSI generic (bsg) driver version 0.4 loaded (major 252)
+[344313.022231] io scheduler noop registered
+[344313.022241] io scheduler deadline registered (default)
+[344313.022384] io scheduler cfq registered
+[344313.022467] pci_hotplug: PCI Hot Plug PCI Core version: 0.5
+[344313.022481] pciehp: PCI Express Hot Plug Controller Driver version: 0.4
+[344313.022512] vesafb: mode is 800x600x32, linelength=3200, pages=0
+[344313.022514] vesafb: scrolling: redraw
+[344313.022516] vesafb: Truecolor: size=8:8:8:8, shift=24:16:8:0
+[344313.022524] mtrr: your processor doesn't support write-combining
+[344313.022535] vesafb: framebuffer at 0xe0000000, mapped to 0xffffc90000400000, using 1920k, total 1920k
+[344313.027607] Console: switching to colour frame buffer device 100x37
+[344313.030221] fb0: VESA VGA frame buffer device
+[344313.031679] intel_idle: does not run on family 6 model 58
+[344313.068973] ACPI: AC Adapter [AC] (on-line)
+[344313.070698] input: Power Button as /devices/LNXSYSTM:00/LNXPWRBN:00/input/input0
+[344313.072614] ACPI: Power Button [PWRF]
+[344313.073307] input: Sleep Button as /devices/LNXSYSTM:00/LNXSLPBN:00/input/input1
+[344313.073398] ACPI: Sleep Button [SLPF]
+[344313.075431] GHES: HEST is not enabled!
+[344313.075760] Serial: 8250/16550 driver, 32 ports, IRQ sharing enabled
+[344313.077192] ACPI: Battery Slot [BAT0] (battery present)
+[344313.079168] Linux agpgart interface v0.103
+[344313.081543] brd: module loaded
+[344313.082555] loop: module loaded
+[344313.085685] ata_piix 0000:00:01.1: version 2.13
+[344313.086888] scsi host0: ata_piix
+[344313.138676] scsi host1: ata_piix
+[344313.139732] ata1: PATA max UDMA/33 cmd 0x1f0 ctl 0x3f6 bmdma 0xd000 irq 14
+[344313.140730] ata2: PATA max UDMA/33 cmd 0x170 ctl 0x376 bmdma 0xd008 irq 15
+[344313.141450] libphy: Fixed MDIO Bus: probed
+[344313.142607] tun: Universal TUN/TAP device driver, 1.6
+[344313.143207] tun: (C) 1999-2004 Max Krasnyansky <maxk@qualcomm.com>
+[344313.144172] PPP generic driver version 2.4.2
+[344313.145132] ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+[344313.146004] ehci-pci: EHCI PCI platform driver
+[344313.146606] ehci-platform: EHCI generic platform driver
+[344313.147167] ohci_hcd: USB 1.1 'Open' Host Controller (OHCI) Driver
+[344313.147989] ohci-pci: OHCI PCI platform driver
+[344313.149929] ohci-pci 0000:00:06.0: OHCI PCI host controller
+[344313.150507] ohci-pci 0000:00:06.0: new USB bus registered, assigned bus number 1
+[344313.151272] ohci-pci 0000:00:06.0: irq 22, io mem 0xf0804000
+[344313.232245] usb usb1: New USB device found, idVendor=1d6b, idProduct=0001
+[344313.236359] usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[344313.237164] usb usb1: Product: OHCI PCI host controller
+[344313.237999] usb usb1: Manufacturer: Linux 3.19.8-ckt6-lyl2-cmdline-exported+ ohci_hcd
+[344313.239553] usb usb1: SerialNumber: 0000:00:06.0
+[344313.245838] hub 1-0:1.0: USB hub found
+[344313.261247] hub 1-0:1.0: 12 ports detected
+[344313.263188] ohci-platform: OHCI generic platform driver
+[344313.264202] uhci_hcd: USB Universal Host Controller Interface driver
+[344313.266123] i8042: PNP: PS/2 Controller [PNP0303:PS2K,PNP0f03:PS2M] at 0x60,0x64 irq 1,12
+[344313.267876] serio: i8042 KBD port at 0x60,0x64 irq 1
+[344313.268569] serio: i8042 AUX port at 0x60,0x64 irq 12
+[344313.270020] mousedev: PS/2 mouse device common for all mice
+[344313.315537] rtc_cmos rtc_cmos: rtc core: registered rtc_cmos as rtc0
+[344313.318725] rtc_cmos rtc_cmos: alarms up to one day, 114 bytes nvram
+[344313.319555] i2c /dev entries driver
+[344313.320566] device-mapper: uevent: version 1.0.3
+[344313.321585] ata2.00: ATAPI: VBOX CD-ROM, 1.0, max UDMA/133
+[344313.322943] ata2.00: configured for UDMA/33
+[344313.324589] device-mapper: ioctl: 4.29.0-ioctl (2014-10-28) initialised: dm-devel@redhat.com
+[344313.325703] ledtrig-cpu: registered to indicate activity on CPUs
+[344313.325752] scsi 1:0:0:0: CD-ROM            VBOX     CD-ROM           1.0  PQ: 0 ANSI: 5
+[344313.327359] input: AT Translated Set 2 keyboard as /devices/platform/i8042/serio0/input/input2
+[344313.350436] TCP: cubic registered
+[344313.355461] NET: Registered protocol family 10
+[344313.357211] sr 1:0:0:0: [sr0] scsi3-mmc drive: 32x/32x xa/form2 tray
+[344313.358086] cdrom: Uniform CD-ROM driver Revision: 3.20
+[344313.359217] sr 1:0:0:0: Attached scsi CD-ROM sr0
+[344313.359603] sr 1:0:0:0: Attached scsi generic sg0 type 5
+[344313.373830] NET: Registered protocol family 17
+[344313.376678] Key type dns_resolver registered
+[344313.387409] Loading compiled-in X.509 certificates
+[344313.415020] Loaded X.509 cert 'Magrathea: Glacier signing key: d3784506e0c245598887732e4ced659344b24c59'
+[344313.421566] registered taskstats version 1
+[344313.450911] Key type trusted registered
+[344313.484722] Key type encrypted registered
+[344313.488041] AppArmor: AppArmor sha1 policy hashing enabled
+[344313.489255] ima: No TPM chip found, activating TPM-bypass!
+[344313.490132] evm: HMAC attrs: 0x1
+[344313.493817]   Magic number: 7:175:179
+[344313.494664] rtc_cmos rtc_cmos: setting system clock to 2015-11-02 13:09:09 UTC (1446469749)
+[344313.506584] BIOS EDD facility v0.16 2004-Jun-25, 0 devices found
+[344313.515044] EDD information not available.
+[344313.516240] PM: Hibernation image not present or could not be loaded.
+[344313.517040] Freeing unused kernel memory: 1388K (ffffffff81d1f000 - ffffffff81e7a000)
+[344313.517894] Write protecting the kernel read-only data: 12288k
+[344313.520947] Freeing unused kernel memory: 624K (ffff880001764000 - ffff880001800000)
+[344313.521783] Freeing unused kernel memory: 568K (ffff880001b72000 - ffff880001c00000)
+[344313.593854] systemd-udevd[106]: starting version 204
+[344313.693184] usb 1-1: new full-speed USB device number 2 using ohci-pci
+[344313.825454] e1000: Intel(R) PRO/1000 Network Driver - version 7.3.21-k8-NAPI
+[344313.830900] e1000: Copyright (c) 1999-2006 Intel Corporation.
+[344314.475778] tsc: Refined TSC clocksource calibration: 2594.079 MHz
+[344314.525617] e1000 0000:00:03.0 eth0: (PCI:33MHz:32-bit) 08:00:27:04:d8:43
+[344314.530754] e1000 0000:00:03.0 eth0: Intel(R) PRO/1000 Network Connection
+[344314.532499] ahci 0000:00:0d.0: version 3.0
+[344314.567383] ahci 0000:00:0d.0: SSS flag set, parallel bus scan disabled
+[344314.571709] ahci 0000:00:0d.0: AHCI 0001.0100 32 slots 1 ports 3 Gbps 0x1 impl SATA mode
+[344314.572805] ahci 0000:00:0d.0: flags: 64bit ncq stag only ccc 
+[344314.574292] scsi host2: ahci
+[344314.575236] ata3: SATA max UDMA/133 abar m8192@0xf0806000 port 0xf0806100 irq 21
+[344314.580510] input: ImExPS/2 Generic Explorer Mouse as /devices/platform/i8042/serio1/input/input4
+[344314.622819] usb 1-1: New USB device found, idVendor=80ee, idProduct=0021
+[344314.625607] usb 1-1: New USB device strings: Mfr=1, Product=3, SerialNumber=0
+[344314.626430] usb 1-1: Product: USB Tablet
+[344314.627437] usb 1-1: Manufacturer: VirtualBox
+[344314.657863] hidraw: raw HID events driver (C) Jiri Kosina
+[344314.704601] usbcore: registered new interface driver usbhid
+[344314.714870] usbhid: USB HID core driver
+[344314.722852] input: VirtualBox USB Tablet as /devices/pci0000:00/0000:00:06.0/usb1/1-1/1-1:1.0/0003:80EE:0021.0001/input/input5
+[344314.727946] hid-generic 0003:80EE:0021.0001: input,hidraw0: USB HID v1.10 Mouse [VirtualBox USB Tablet] on usb-0000:00:06.0-1/input0
+[344314.912460] ata3: SATA link up 3.0 Gbps (SStatus 123 SControl 300)
+[344314.915526] ata3.00: ATA-6: VBOX HARDDISK, 1.0, max UDMA/133
+[344314.916580] ata3.00: 100663296 sectors, multi 128: LBA48 NCQ (depth 31/32)
+[344314.917725] ata3.00: configured for UDMA/133
+[344314.919619] scsi 2:0:0:0: Direct-Access     ATA      VBOX HARDDISK    1.0  PQ: 0 ANSI: 5
+[344314.921206] sd 2:0:0:0: [sda] 100663296 512-byte logical blocks: (51.5 GB/48.0 GiB)
+[344314.933609] sd 2:0:0:0: Attached scsi generic sg1 type 0
+[344314.935203] sd 2:0:0:0: [sda] Write Protect is off
+[344314.936712] sd 2:0:0:0: [sda] Mode Sense: 00 3a 00 00
+[344314.936837] sd 2:0:0:0: [sda] Write cache: enabled, read cache: enabled, doesn't support DPO or FUA
+[344314.991727]  sda: sda1 sda2 < sda5 >
+[344314.994936] sd 2:0:0:0: [sda] Attached SCSI disk
+[344315.206087] EXT4-fs (sda1): mounted filesystem with ordered data mode. Opts: (null)
+[344316.062519] random: init urandom read with 79 bits of entropy available
+[344316.683804] init: plymouth-upstart-bridge main process (161) terminated with status 1
+[344316.686394] init: plymouth-upstart-bridge main process ended, respawning
+[344316.690447] init: plymouth-upstart-bridge main process (172) terminated with status 1
+[344316.691148] init: plymouth-upstart-bridge main process ended, respawning
+[344316.696040] init: plymouth-upstart-bridge main process (174) terminated with status 1
+[344316.697109] init: plymouth-upstart-bridge main process ended, respawning
+[344316.721478] init: plymouth-upstart-bridge main process (176) terminated with status 1
+[344316.724400] init: plymouth-upstart-bridge main process ended, respawning
+[344316.735218] init: plymouth-upstart-bridge main process (178) terminated with status 1
+[344316.750892] init: plymouth-upstart-bridge main process ended, respawning
+[344316.843887] init: plymouth-upstart-bridge main process (180) terminated with status 1
+[344316.846134] init: plymouth-upstart-bridge main process ended, respawning
+[344316.873205] init: plymouth-upstart-bridge main process (183) terminated with status 1
+[344316.876194] init: plymouth-upstart-bridge main process ended, respawning
+[344317.058104] random: nonblocking pool is initialized
+[344323.390065] Adding 2966524k swap on /dev/sda5.  Priority:-1 extents:1 across:2966524k FS
+[344323.603122] systemd-udevd[291]: starting version 204
+[344323.806153] lp: driver loaded but no devices found
+[344323.915879] vboxguest: module verification failed: signature and/or  required key missing - tainting kernel
+[344323.990371] piix4_smbus 0000:00:07.0: SMBus base address uninitialized - upgrade BIOS or use force_addr=0xaddr
+[344323.991465] ACPI: Video Device [GFX0] (multi-head: yes  rom: no  post: no)
+[344323.991557] input: Video Bus as /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A03:00/LNXVIDEO:00/input/input6
+[344324.135544] VbgdCommonInitDevExt: Setting up heartbeat to trigger every 2000 milliseconds
+[344324.143433] parport_pc 00:02: reported by Plug and Play ACPI
+[344324.149037] input: Unspecified device as /devices/pci0000:00/0000:00:04.0/input/input7
+[344324.208880] [drm] Initialized drm 1.1.0 20060810
+[344324.210773] vboxguest: misc device minor 56, IRQ 20, I/O port d020, MMIO at 00000000f0400000 (size 0x400000)
+[344324.210798] vboxguest: Successfully loaded version 5.0.4 (interface 0x00010004)
+[344324.250383] [drm] Initialized vboxvideo 1.0.0 20090303 for 0000:00:02.0 on minor 0
+[344324.339634] audit: type=1400 audit(1446469760.340:2): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/sbin/dhclient" pid=335 comm="apparmor_parser"
+[344324.339643] audit: type=1400 audit(1446469760.340:3): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-client.action" pid=335 comm="apparmor_parser"
+[344324.339648] audit: type=1400 audit(1446469760.340:4): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/connman/scripts/dhclient-script" pid=335 comm="apparmor_parser"
+[344324.340101] audit: type=1400 audit(1446469760.340:5): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-client.action" pid=335 comm="apparmor_parser"
+[344324.340110] audit: type=1400 audit(1446469760.340:6): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/usr/lib/connman/scripts/dhclient-script" pid=335 comm="apparmor_parser"
+[344324.340289] audit: type=1400 audit(1446469760.340:7): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/usr/lib/connman/scripts/dhclient-script" pid=335 comm="apparmor_parser"
+[344324.356279] EXT4-fs (sda1): re-mounted. Opts: errors=remount-ro
+[344324.473178] snd_intel8x0 0000:00:05.0: disable (unknown or VT-d) VM optimization
+[344324.731821] IPv6: ADDRCONF(NETDEV_UP): eth0: link is not ready
+[344324.732789] e1000: eth0 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX
+[344324.733177] IPv6: ADDRCONF(NETDEV_CHANGE): eth0: link becomes ready
+[344324.873841] AVX version of gcm_enc/dec engaged.
+[344324.873842] AES CTR mode by8 optimization enabled
+[344324.900743] ppdev: user-space parallel port driver
+[344324.955054] snd_intel8x0 0000:00:05.0: white list rate for 1028:0177 is 48000
+[344325.790592] init: failsafe main process (655) killed by TERM signal
+[344326.287235] audit: type=1400 audit(1446469762.288:8): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/sbin/dhclient" pid=788 comm="apparmor_parser"
+[344326.287241] audit: type=1400 audit(1446469762.288:9): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-client.action" pid=788 comm="apparmor_parser"
+[344326.287246] audit: type=1400 audit(1446469762.288:10): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/usr/lib/connman/scripts/dhclient-script" pid=788 comm="apparmor_parser"
+[344326.287646] audit: type=1400 audit(1446469762.288:11): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-client.action" pid=788 comm="apparmor_parser"
+[344327.756117] vboxsf: Successfully loaded version 5.0.4 (interface 0x00010004)
+[344327.845615] VBoxService 5.0.4 r102546 (verbosity: 0) linux.amd64 (Sep  8 2015 09:05:09) release log
+[344327.845615] 00:00:00.000125 main     Log opened 2015-11-02T13:09:23.850886000Z
+[344327.845729] 00:00:00.000296 main     OS Product: Linux
+[344327.845768] 00:00:00.000383 main     OS Release: 3.19.8-ckt6-lyl2-cmdline-exported+
+[344327.845805] 00:00:00.000421 main     OS Version: #4 SMP Mon Nov 2 20:24:13 CST 2015
+[344327.845842] 00:00:00.000457 main     OS Service Pack: #4 SMP Mon Nov 2 20:24:13 CST 2015
+[344327.845917] 00:00:00.000496 main     Executable: /opt/VBoxGuestAdditions-5.0.4/sbin/VBoxService
+[344327.845917] 00:00:00.000497 main     Process ID: 996
+[344327.845917] 00:00:00.000498 main     Package type: LINUX_64BITS_GENERIC
+[344327.847406] 00:00:00.001985 main     5.0.4 r102546 started. Verbose level = 0
+[344328.104764] init: plymouth-upstart-bridge main process ended, respawning
+[344760.017030] atkbd_interrupt: 9 callbacks suppressed
+[344760.017065] atkbd serio0: Spurious NAK on isa0060/serio0. Some program might be trying to access hardware directly.
+[344794.551219] syscall: module license 'unspecified' taints kernel.
+[344794.551223] Disabling lock debugging due to kernel taint
+[344794.551858] CPU: 0 PID: 2674 Comm: insmod Tainted: P           OE  3.19.8-ckt6-lyl2-cmdline-exported+ #4
+[344794.551861] Hardware name: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+[344794.551863]  ffff88007b994cc0 ffff880036adfd28 ffffffff81754a5b 000000000001c2a4
+[344794.551867]  ffffffff81c1d020 ffff880036adfd48 ffffffffa02610c3 ffff88007b994cc0
+[344794.551870]  ffffffff81c1d020 ffff880036adfdb8 ffffffff8100212c ffff880036adfd68
+[344794.551873] Call Trace:
+[344794.551881]  [<ffffffff81754a5b>] dump_stack+0x45/0x57
+[344794.551884]  [<ffffffffa02610c3>] init_module+0x13/0xe0 [syscall]
+[344794.551888]  [<ffffffff8100212c>] do_one_initcall+0xbc/0x1f0
+[344794.551892]  [<ffffffff817582c7>] ? _cond_resched+0x27/0x40
+[344794.551897]  [<ffffffff811be765>] ? kmem_cache_alloc_trace+0x35/0x150
+[344794.551900]  [<ffffffff810f276e>] load_module+0x218e/0x2970
+[344794.551904]  [<ffffffff810ee170>] ? store_uevent+0x40/0x40
+[344794.551907]  [<ffffffff810f30c6>] SyS_finit_module+0x86/0xb0
+[344794.551911]  [<ffffffff8175c1cd>] system_call_fastpath+0x16/0x1b
+[344794.551912] I'm dangerous. I hope you did a 
+[344794.551937] sync before you insmod'ed me.
+[344794.553018] My counterpart, cleanup_module(), is even
+[344794.553034] more dangerous. If
+[344794.567698] you value your file system, it will 
+[344794.567725] be "sync; rmmod" 
+[344794.574256] when you remove this module.
+[344794.578016] Spying on UID:1001
+[344802.136457] CPU: 0 PID: 2676 Comm: ls Tainted: P           OE  3.19.8-ckt6-lyl2-cmdline-exported+ #4
+[344802.136461] Hardware name: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+[344802.136463]  0000000000080000 ffff88007a173f38 ffffffff81754a5b 0000000000000001
+[344802.136467]  00007f706e94ee47 ffff88007a173f78 ffffffffa0261059 00007fff5eadddc0
+[344802.136470]  0000000000400f19 00007f706eb560f0 0000000000000001 0000000000000000
+[344802.136473] Call Trace:
+[344802.136480]  [<ffffffff81754a5b>] dump_stack+0x45/0x57
+[344802.136485]  [<ffffffffa0261059>] our_sys_open+0x59/0xb0 [syscall]
+[344802.136490]  [<ffffffff8175c1cd>] system_call_fastpath+0x16/0x1b
+[344802.136492] Opened file by 1001: /etc/ld.so.cache
+[344802.136516] CPU: 0 PID: 2676 Comm: ls Tainted: P           OE  3.19.8-ckt6-lyl2-cmdline-exported+ #4
+[344802.136518] Hardware name: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+[344802.136520]  0000000000080000 ffff88007a173f38 ffffffff81754a5b 00007f706eb561c8
+[344802.136523]  00007f706eb4db65 ffff88007a173f78 ffffffffa0261059 0000000000400f19
+[344802.136526]  00007fff5eadd7a8 00007f706eb561c8 00007fff5eadd790 00007f706eb55060
+[344802.136529] Call Trace:
+[344802.136533]  [<ffffffff81754a5b>] dump_stack+0x45/0x57
+[344802.136535]  [<ffffffffa0261059>] our_sys_open+0x59/0xb0 [syscall]
+[344802.136538]  [<ffffffff8175c1cd>] system_call_fastpath+0x16/0x1b
+[344802.136540] Opened file by 1001: /lib/x86_64-linux-gnu/libselinux.so.1
+[344802.136591] CPU: 0 PID: 2676 Comm: ls Tainted: P           OE  3.19.8-ckt6-lyl2-cmdline-exported+ #4
+[344802.136593] Hardware name: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+[344802.136594]  0000000000080000 ffff88007a173f38 ffffffff81754a5b 00007f706eb561c8
+[344802.136597]  00007f706eb5141c ffff88007a173f78 ffffffffa0261059 00007fff5eadd720
+[344802.136599]  00007fff5eadd778 00007f706eb561c8 00007fff5eadd760 00007f706eb55060
+[344802.136601] Call Trace:
+[344802.136603]  [<ffffffff81754a5b>] dump_stack+0x45/0x57
+[344802.136606]  [<ffffffffa0261059>] our_sys_open+0x59/0xb0 [syscall]
+[344802.136610]  [<ffffffff8175c1cd>] system_call_fastpath+0x16/0x1b
+[344802.136611] Opened file by 1001: /lib/x86_64-linux-gnu/libacl.so.1
+[344802.136657] CPU: 0 PID: 2676 Comm: ls Tainted: P           OE  3.19.8-ckt6-lyl2-cmdline-exported+ #4
+[344802.136659] Hardware name: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+[344802.136661]  0000000000080000 ffff88007a173f38 ffffffff81754a5b 00007f706eb561c8
+[344802.136664]  00007f706eb50ed6 ffff88007a173f78 ffffffffa0261059 00007fff5eadd6f0
+[344802.136667]  00007fff5eadd748 00007f706eb561c8 00007fff5eadd730 00007f706eb55060
+[344802.136670] Call Trace:
+[344802.136673]  [<ffffffff81754a5b>] dump_stack+0x45/0x57
+[344802.136675]  [<ffffffffa0261059>] our_sys_open+0x59/0xb0 [syscall]
+[344802.136677]  [<ffffffff8175c1cd>] system_call_fastpath+0x16/0x1b
+[344802.136679] Opened file by 1001: /lib/x86_64-linux-gnu/libc.so.6
+[344802.136735] CPU: 0 PID: 2676 Comm: ls Tainted: P           OE  3.19.8-ckt6-lyl2-cmdline-exported+ #4
+[344802.136736] Hardware name: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+[344802.136738]  0000000000080000 ffff88007a173f38 ffffffff81754a5b 00007f706eb534c8
+[344802.136901]  00007f706eb4e656 ffff88007a173f78 ffffffffa0261059 0000000000000000
+[344802.136903]  00007fff5eadd608 00007f706eb534c8 00007fff5eadd5f0 00007f706eb55060
+[344802.136907] Call Trace:
+[344802.136911]  [<ffffffff81754a5b>] dump_stack+0x45/0x57
+[344802.136914]  [<ffffffffa0261059>] our_sys_open+0x59/0xb0 [syscall]
+[344802.136917]  [<ffffffff8175c1cd>] system_call_fastpath+0x16/0x1b
+[344802.136918] Opened file by 1001: /lib/x86_64-linux-gnu/libpcre.so.3
+[344802.136965] CPU: 0 PID: 2676 Comm: ls Tainted: P           OE  3.19.8-ckt6-lyl2-cmdline-exported+ #4
+[344802.136967] Hardware name: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+[344802.136967]  0000000000080000 ffff88007a173f38 ffffffff81754a5b 00007f706eb534c8
+[344802.136969]  00007f706eb5077f ffff88007a173f78 ffffffffa0261059 00007fff5eadd580
+[344802.136971]  00007fff5eadd5d8 00007f706eb534c8 00007fff5eadd5c0 00007f706eb55060
+[344802.136973] Call Trace:
+[344802.136976]  [<ffffffff81754a5b>] dump_stack+0x45/0x57
+[344802.136978]  [<ffffffffa0261059>] our_sys_open+0x59/0xb0 [syscall]
+[344802.136981]  [<ffffffff8175c1cd>] system_call_fastpath+0x16/0x1b
+[344802.136982] Opened file by 1001: /lib/x86_64-linux-gnu/libdl.so.2
+[344802.137015] CPU: 0 PID: 2676 Comm: ls Tainted: P           OE  3.19.8-ckt6-lyl2-cmdline-exported+ #4
+[344802.137016] Hardware name: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+[344802.137017]  0000000000080000 ffff88007a173f38 ffffffff81754a5b 00007f706eb539b8
+[344802.137019]  00007f706eb5115c ffff88007a173f78 ffffffffa0261059 00007fff5eadd550
+[344802.137021]  00007fff5eadd578 00007f706eb539b8 00007fff5eadd560 00007f706eb55060
+[344802.137023] Call Trace:
+[344802.137026]  [<ffffffff81754a5b>] dump_stack+0x45/0x57
+[344802.137028]  [<ffffffffa0261059>] our_sys_open+0x59/0xb0 [syscall]
+[344802.137030]  [<ffffffff8175c1cd>] system_call_fastpath+0x16/0x1b
+[344802.137031] Opened file by 1001: /lib/x86_64-linux-gnu/libattr.so.1
+[344802.137365] CPU: 0 PID: 2676 Comm: ls Tainted: P           OE  3.19.8-ckt6-lyl2-cmdline-exported+ #4
+[344802.137368] Hardware name: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+[344802.137369]  0000000000000000 ffff88007a173f38 ffffffff81754a5b 00000000000001b6
+[344802.137373]  00007f706e727137 ffff88007a173f78 ffffffffa0261059 0000000000000240
+[344802.137376]  00007f706e726fa8 0000000001efe010 0000000000000008 00007f706e92ecf0
+[344802.137379] Call Trace:
+[344802.137383]  [<ffffffff81754a5b>] dump_stack+0x45/0x57
+[344802.137386]  [<ffffffffa0261059>] our_sys_open+0x59/0xb0 [syscall]
+[344802.137389]  [<ffffffff8175c1cd>] system_call_fastpath+0x16/0x1b
+[344802.137391] Opened file by 1001: /proc/filesystems
+[344802.137466] CPU: 0 PID: 2676 Comm: ls Tainted: P           OE  3.19.8-ckt6-lyl2-cmdline-exported+ #4
+[344802.137468] Hardware name: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+[344802.137469]  0000000000080000 ffff88007a173f38 ffffffff81754a5b 00007f706e500768
+[344802.137472]  00007f706e2c7250 ffff88007a173f78 ffffffffa0261059 00007fff5eadd9d0
+[344802.137475]  00007fff5eadd7b0 0000000001efe010 00007fff5eadef22 00007fff5eadd7b0
+[344802.137478] Call Trace:
+[344802.137482]  [<ffffffff81754a5b>] dump_stack+0x45/0x57
+[344802.137485]  [<ffffffffa0261059>] our_sys_open+0x59/0xb0 [syscall]
+[344802.137488]  [<ffffffff8175c1cd>] system_call_fastpath+0x16/0x1b
+[344802.137490] Opened file by 1001: /usr/lib/locale/locale-archive
+[344820.839450] CPU: 1 PID: 2678 Comm: command-not-fou Tainted: P           OE  3.19.8-ckt6-lyl2-cmdline-exported+ #4
+[344820.839453] Hardware name: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+[344820.839455]  0000000000080000 ffff88007c8b3f38 ffffffff81754a5b 0000000000000001
+[344820.839458]  00007fc844a72e47 ffff88007c8b3f78 ffffffffa0261059 00007ffee1856c20
+[344820.839460]  000000000040f619 00007fc844c7a0f0 0000000000000001 0000000000000000
+[344820.839462] Call Trace:
+[344820.839469]  [<ffffffff81754a5b>] dump_stack+0x45/0x57
+[344820.839472]  [<ffffffffa0261059>] our_sys_open+0x59/0xb0 [syscall]
+[344820.839476]  [<ffffffff8175c1cd>] system_call_fastpath+0x16/0x1b
+[344820.839477] Opened file by 1001: /etc/ld.so.cache
+[344820.839496] CPU: 1 PID: 2678 Comm: command-not-fou Tainted: P           OE  3.19.8-ckt6-lyl2-cmdline-exported+ #4
+[344820.839497] Hardware name: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+[344820.839498]  0000000000080000 ffff88007c8b3f38 ffffffff81754a5b 00007fc844c7a1c8
+[344820.839500]  00007fc844c721d9 ffff88007c8b3f78 ffffffffa0261059 000000000040f619
+[344820.839502]  00007ffee1856608 00007fc844c7a1c8 00007ffee18565f0 00007fc844c79060
+[344820.839504] Call Trace:
+[344820.839506]  [<ffffffff81754a5b>] dump_stack+0x45/0x57
+[344820.839508]  [<ffffffffa0261059>] our_sys_open+0x59/0xb0 [syscall]
+[344820.839511]  [<ffffffff8175c1cd>] system_call_fastpath+0x16/0x1b
+[344820.839512] Opened file by 1001: /lib/x86_64-linux-gnu/libpthread.so.0
+[344820.839552] CPU: 1 PID: 2678 Comm: command-not-fou Tainted: P           OE  3.19.8-ckt6-lyl2-cmdline-exported+ #4
+[344820.839553] Hardware name: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+[344820.839554]  0000000000080000 ffff88007c8b3f38 ffffffff81754a5b 00007fc844c7a1c8
+[344820.839556]  00007fc844c74ed6 ffff88007c8b3f78 ffffffffa0261059 00007ffee1856580
+[344820.839558]  00007ffee18565d8 00007fc844c7a1c8 00007ffee18565c0 00007fc844c79060
+[344820.839560] Call Trace:
+[344820.839562]  [<ffffffff81754a5b>] dump_stack+0x45/0x57
+[344820.839564]  [<ffffffffa0261059>] our_sys_open+0x59/0xb0 [syscall]
+[344820.839567]  [<ffffffff8175c1cd>] system_call_fastpath+0x16/0x1b
+[344820.839568] Opened file by 1001: /lib/x86_64-linux-gnu/libc.so.6
+[344820.839602] CPU: 1 PID: 2678 Comm: command-not-fou Tainted: P           OE  3.19.8-ckt6-lyl2-cmdline-exported+ #4
+[344820.839603] Hardware name: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+[344820.839604]  0000000000080000 ffff88007c8b3f38 ffffffff81754a5b 00007fc844c7a1c8
+[344820.839606]  00007fc844c7477f ffff88007c8b3f78 ffffffffa0261059 0000000000000000
+[344820.839608]  00007ffee18565a8 00007fc844c7a1c8 00007ffee1856590 00007fc844c79060
+[344820.839610] Call Trace:
+[344820.839612]  [<ffffffff81754a5b>] dump_stack+0x45/0x57
+[344820.839614]  [<ffffffffa0261059>] our_sys_open+0x59/0xb0 [syscall]
+[344820.839617]  [<ffffffff8175c1cd>] system_call_fastpath+0x16/0x1b
+[344820.839618] Opened file by 1001: /lib/x86_64-linux-gnu/libdl.so.2
+[344820.839648] CPU: 1 PID: 2678 Comm: command-not-fou Tainted: P           OE  3.19.8-ckt6-lyl2-cmdline-exported+ #4
+[344820.839649] Hardware name: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+[344820.839650]  0000000000080000 ffff88007c8b3f38 ffffffff81754a5b 00007fc844c7a1c8
+[344820.839652]  00007fc844c712e2 ffff88007c8b3f78 ffffffffa0261059 00007ffee1856520
+[344820.839654]  00007ffee1856578 00007fc844c7a1c8 00007ffee1856560 00007fc844c79060
+[344820.839656] Call Trace:
+[344820.839659]  [<ffffffff81754a5b>] dump_stack+0x45/0x57
+[344820.839661]  [<ffffffffa0261059>] our_sys_open+0x59/0xb0 [syscall]
+[344820.839663]  [<ffffffff8175c1cd>] system_call_fastpath+0x16/0x1b
+[344820.839664] Opened file by 1001: /lib/x86_64-linux-gnu/libutil.so.1
+[344820.839692] CPU: 1 PID: 2678 Comm: command-not-fou Tainted: P           OE  3.19.8-ckt6-lyl2-cmdline-exported+ #4
+[344820.839693] Hardware name: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+[344820.839694]  0000000000080000 ffff88007c8b3f38 ffffffff81754a5b 00007fc844c7a1c8
+[344820.839696]  00007fc844c745a7 ffff88007c8b3f78 ffffffffa0261059 00007ffee18564f0
+[344820.839698]  00007ffee1856548 00007fc844c7a1c8 00007ffee1856530 00007fc844c79060
+[344820.839700] Call Trace:
+[344820.839702]  [<ffffffff81754a5b>] dump_stack+0x45/0x57
+[344820.839704]  [<ffffffffa0261059>] our_sys_open+0x59/0xb0 [syscall]
+[344820.839707]  [<ffffffff8175c1cd>] system_call_fastpath+0x16/0x1b
+[344820.839708] Opened file by 1001: /lib/x86_64-linux-gnu/libexpat.so.1
+[344820.839781] CPU: 1 PID: 2678 Comm: command-not-fou Tainted: P           OE  3.19.8-ckt6-lyl2-cmdline-exported+ #4
+[344820.839783] Hardware name: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+[344820.839784]  0000000000080000 ffff88007c8b3f38 ffffffff81754a5b 00007fc844c7a1c8
+[344820.839787]  00007fc844c710aa ffff88007c8b3f78 ffffffffa0261059 00007ffee18564c0
+[344820.839790]  00007ffee1856518 00007fc844c7a1c8 00007ffee1856500 00007fc844c79060
+[344820.839793] Call Trace:
+[344820.839797]  [<ffffffff81754a5b>] dump_stack+0x45/0x57
+[344820.839800]  [<ffffffffa0261059>] our_sys_open+0x59/0xb0 [syscall]
+[344820.839803]  [<ffffffff8175c1cd>] system_call_fastpath+0x16/0x1b
+[344820.839804] Opened file by 1001: /lib/x86_64-linux-gnu/libz.so.1
+[344820.839849] CPU: 1 PID: 2678 Comm: command-not-fou Tainted: P           OE  3.19.8-ckt6-lyl2-cmdline-exported+ #4
+[344820.839850] Hardware name: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+[344820.839851]  0000000000080000 ffff88007c8b3f38 ffffffff81754a5b 00007fc844c7a1c8
+[344820.839853]  00007fc844c733a7 ffff88007c8b3f78 ffffffffa0261059 00007ffee1856490
+[344820.839855]  00007ffee18564e8 00007fc844c7a1c8 00007ffee18564d0 00007fc844c79060
+[344820.839857] Call Trace:
+[344820.839860]  [<ffffffff81754a5b>] dump_stack+0x45/0x57
+[344820.839862]  [<ffffffffa0261059>] our_sys_open+0x59/0xb0 [syscall]
+[344820.839865]  [<ffffffff8175c1cd>] system_call_fastpath+0x16/0x1b
+[344820.839866] Opened file by 1001: /lib/x86_64-linux-gnu/libm.so.6
+[344820.840180] CPU: 1 PID: 2678 Comm: command-not-fou Tainted: P           OE  3.19.8-ckt6-lyl2-cmdline-exported+ #4
+[344820.840182] Hardware name: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+[344820.840184]  0000000000080000 ffff88007c8b3f38 ffffffff81754a5b 00007fc844831768
+[344820.840187]  00007fc8445f8250 ffff88007c8b3f78 ffffffffa0261059 00007ffee1856ad0
+[344820.840190]  00007ffee1856980 000000000108e090 00007ffee1857ef3 00007ffee1856980
+[344820.840193] Call Trace:
+[344820.840196]  [<ffffffff81754a5b>] dump_stack+0x45/0x57
+[344820.840198]  [<ffffffffa0261059>] our_sys_open+0x59/0xb0 [syscall]
+[344820.840201]  [<ffffffff8175c1cd>] system_call_fastpath+0x16/0x1b
+[344820.840203] Opened file by 1001: /usr/lib/locale/locale-archive
+[344820.840267] CPU: 1 PID: 2678 Comm: command-not-fou Tainted: P           OE  3.19.8-ckt6-lyl2-cmdline-exported+ #4
+[344820.840269] Hardware name: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+[344820.840270]  0000000000000000 ffff88007c8b3f38 ffffffff81754a5b 0000000000000000
+[344820.840273]  00007fc8445f3368 ffff88007c8b3f78 ffffffffa0261059 00007ffee1857870
+[344820.840275]  00007fc8445ef726 00007ffee1856a80 00007ffee1856a70 0000000000000000
+[344820.840278] Call Trace:
+[344820.840282]  [<ffffffff81754a5b>] dump_stack+0x45/0x57
+[344820.840285]  [<ffffffffa0261059>] our_sys_open+0x59/0xb0 [syscall]
+[344820.840289]  [<ffffffff8175c1cd>] system_call_fastpath+0x16/0x1b
+[344820.840290] Opened file by 1001: /usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache
+[344820.840342] CPU: 1 PID: 2678 Comm: command-not-fou Tainted: P           OE  3.19.8-ckt6-lyl2-cmdline-exported+ #4
+[344820.840343] Hardware name: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+[344820.840344]  0000000000080000 ffff88007c8b3f38 ffffffff81754a5b 0000000000004000
+[344820.840346]  0000000000614052 ffff88007c8b3f78 ffffffffa0261059 000000000108e040
+[344820.840348]  0000000000000000 00000000009a55d0 0000000000000000 0000000000000004
+[344820.840350] Call Trace:
+[344820.840352]  [<ffffffff81754a5b>] dump_stack+0x45/0x57
+[344820.840355]  [<ffffffffa0261059>] our_sys_open+0x59/0xb0 [syscall]
+[344820.840357]  [<ffffffff8175c1cd>] system_call_fastpath+0x16/0x1b
+[344820.840358] Opened file by 1001: /dev/urandom
+[344820.842077] CPU: 1 PID: 2678 Comm: command-not-fou Tainted: P           OE  3.19.8-ckt6-lyl2-cmdline-exported+ #4
+[344820.842080] Hardware name: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+[344820.842082]  0000000000000000 ffff88007c8b3f38 ffffffff81754a5b 00000000000001b6
+[344820.842085]  0000000001095ab0 ffff88007c8b3f78 ffffffffa0261059 0000000000000009
+[344820.842088]  00007ffee1844a20 00000000010a4430 0000000000000008 000000000109d160
+[344820.842091] Call Trace:
+[344820.842098]  [<ffffffff81754a5b>] dump_stack+0x45/0x57
+[344820.842102]  [<ffffffffa0261059>] our_sys_open+0x59/0xb0 [syscall]
+[344820.842106]  [<ffffffff8175c1cd>] system_call_fastpath+0x16/0x1b
+[344820.842108] Opened file by 1001: /usr/bin/pyvenv.cfg
+[344820.842127] CPU: 1 PID: 2678 Comm: command-not-fou Tainted: P           OE  3.19.8-ckt6-lyl2-cmdline-exported+ #4
+[344820.842128] Hardware name: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+[344820.842129]  0000000000000000 ffff88007c8b3f38 ffffffff81754a5b 00000000000001b6
+[344820.842132]  000000000109e2a0 ffff88007c8b3f78 ffffffffa0261059 0000000000000009
+[344820.842135]  00007ffee1844a20 00000000010a4430 0000000000000008 000000000109d160
+[344820.842137] Call Trace:
+[344820.842141]  [<ffffffff81754a5b>] dump_stack+0x45/0x57
+[344820.842143]  [<ffffffffa0261059>] our_sys_open+0x59/0xb0 [syscall]
+[344820.842147]  [<ffffffff8175c1cd>] system_call_fastpath+0x16/0x1b
+[344820.842148] Opened file by 1001: /usr/pyvenv.cfg
+[344820.844256] CPU: 1 PID: 2678 Comm: command-not-fou Tainted: P           OE  3.19.8-ckt6-lyl2-cmdline-exported+ #4
+[344820.844259] Hardware name: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+[344820.844261]  0000000000080000 ffff88007c8b3f38 ffffffff81754a5b 00000000000001b6
+[344820.844264]  00007fc8445f1ab0 ffff88007c8b3f78 ffffffffa0261059 00007ffee1855c50
+[344820.844266]  00007fc8445ef670 00000000010d3fa0 0000000000000008 0000000000944040
+[344820.844268] Call Trace:
+[344820.844275]  [<ffffffff81754a5b>] dump_stack+0x45/0x57
+[344820.844278]  [<ffffffffa0261059>] our_sys_open+0x59/0xb0 [syscall]
+[344820.844281]  [<ffffffff8175c1cd>] system_call_fastpath+0x16/0x1b
+[344820.844282] Opened file by 1001: /proc/meminfo
+[344820.845449] CPU: 1 PID: 2678 Comm: command-not-fou Tainted: P           OE  3.19.8-ckt6-lyl2-cmdline-exported+ #4
+[344820.845451] Hardware name: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+[344820.845453]  0000000000080000 ffff88007c8b3f38 ffffffff81754a5b 00000000000001b6
+[344820.845455]  00007fc844c624c8 ffff88007c8b3f78 ffffffffa0261059 00000000009143c0
+[344820.845457]  00007fc844bd6048 00007fc844c624c8 0000000000080000 000000000108f4c0
+[344820.845460] Call Trace:
+[344820.845465]  [<ffffffff81754a5b>] dump_stack+0x45/0x57
+[344820.845468]  [<ffffffffa0261059>] our_sys_open+0x59/0xb0 [syscall]
+[344820.845471]  [<ffffffff8175c1cd>] system_call_fastpath+0x16/0x1b
+[344820.845472] Opened file by 1001: /usr/lib/python3.4/encodings/__pycache__/__init__.cpython-34.pyc
+[344820.846302] CPU: 1 PID: 2678 Comm: command-not-fou Tainted: P           OE  3.19.8-ckt6-lyl2-cmdline-exported+ #4
+[344820.846309] Hardware name: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+[344820.846312]  0000000000080000 ffff88007c8b3f38 ffffffff81754a5b 00000000000001b6
+[344820.846317]  00007fc844c12ec0 ffff88007c8b3f78 ffffffffa0261059 0000000000001000
+[344820.846319]  00007fc844bd6848 00007fc844c12ec0 0000000000080000 000000000108f4c0
+[344820.846322] Call Trace:
+[344820.846344]  [<ffffffff81754a5b>] dump_stack+0x45/0x57
+[344820.846348]  [<ffffffffa0261059>] our_sys_open+0x59/0xb0 [syscall]
+[344820.846352]  [<ffffffff8175c1cd>] system_call_fastpath+0x16/0x1b
+[344820.846353] Opened file by 1001: /usr/lib/python3.4/__pycache__/codecs.cpython-34.pyc
+[344820.847469] CPU: 1 PID: 2678 Comm: command-not-fou Tainted: P           OE  3.19.8-ckt6-lyl2-cmdline-exported+ #4
+[344820.847471] Hardware name: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+[344820.847473]  0000000000080000 ffff88007c8b3f38 ffffffff81754a5b 00000000000001b6
+[344820.847475]  00007fc844bda350 ffff88007c8b3f78 ffffffffa0261059 0000000000001000
+[344820.847477]  00007fc844b6e148 00007fc844bda350 0000000000080000 000000000108f4c0
+[344820.847479] Call Trace:
+[344820.847484]  [<ffffffff81754a5b>] dump_stack+0x45/0x57
+[344820.847487]  [<ffffffffa0261059>] our_sys_open+0x59/0xb0 [syscall]
+[344820.847490]  [<ffffffff8175c1cd>] system_call_fastpath+0x16/0x1b
+[344820.847491] Opened file by 1001: /usr/lib/python3.4/encodings/__pycache__/aliases.cpython-34.pyc
+[344820.848055] CPU: 1 PID: 2678 Comm: command-not-fou Tainted: P           OE  3.19.8-ckt6-lyl2-cmdline-exported+ #4
+[344820.848057] Hardware name: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+[344820.848058]  0000000000080000 ffff88007c8b3f38 ffffffff81754a5b 00000000000001b6
+[344820.848061]  00007fc844bda350 ffff88007c8b3f78 ffffffffa0261059 0000000000001000
+[344820.848063]  00007fc844b744c8 00007fc844bda350 0000000000080000 000000000108f4c0
+[344820.848065] Call Trace:
+[344820.848069]  [<ffffffff81754a5b>] dump_stack+0x45/0x57
+[344820.848072]  [<ffffffffa0261059>] our_sys_open+0x59/0xb0 [syscall]
+[344820.848075]  [<ffffffff8175c1cd>] system_call_fastpath+0x16/0x1b
+[344820.848076] Opened file by 1001: /usr/lib/python3.4/encodings/__pycache__/utf_8.cpython-34.pyc
+[344820.848457] CPU: 1 PID: 2678 Comm: command-not-fou Tainted: P           OE  3.19.8-ckt6-lyl2-cmdline-exported+ #4
+[344820.848458] Hardware name: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+[344820.848459]  0000000000080000 ffff88007c8b3f38 ffffffff81754a5b 00000000000001b6
+[344820.848462]  00007fc844bda4d0 ffff88007c8b3f78 ffffffffa0261059 0000000000001000
+[344820.848464]  00007fc844b76408 00007fc844bda4d0 0000000000080000 000000000108f4c0
+[344820.848466] Call Trace:
+[344820.848469]  [<ffffffff81754a5b>] dump_stack+0x45/0x57
+[344820.848472]  [<ffffffffa0261059>] our_sys_open+0x59/0xb0 [syscall]
+[344820.848474]  [<ffffffff8175c1cd>] system_call_fastpath+0x16/0x1b
+[344820.848475] Opened file by 1001: /usr/lib/python3.4/encodings/__pycache__/latin_1.cpython-34.pyc
+[344820.848847] CPU: 1 PID: 2678 Comm: command-not-fou Tainted: P           OE  3.19.8-ckt6-lyl2-cmdline-exported+ #4
+[344820.848849] Hardware name: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+[344820.848850]  0000000000080000 ffff88007c8b3f38 ffffffff81754a5b 00000000000001b6
+[344820.848852]  00007fc844bd88e8 ffff88007c8b3f78 ffffffffa0261059 0000000000001000
+[344820.848854]  00007fc844b76408 00007fc844bd88e8 0000000000080000 000000000108f4c0
+[344820.848856] Call Trace:
+[344820.848860]  [<ffffffff81754a5b>] dump_stack+0x45/0x57
+[344820.848862]  [<ffffffffa0261059>] our_sys_open+0x59/0xb0 [syscall]
+[344820.848865]  [<ffffffff8175c1cd>] system_call_fastpath+0x16/0x1b
+[344820.848866] Opened file by 1001: /usr/lib/python3.4/__pycache__/io.cpython-34.pyc
+[344820.849015] CPU: 1 PID: 2678 Comm: command-not-fou Tainted: P           OE  3.19.8-ckt6-lyl2-cmdline-exported+ #4
+[344820.849016] Hardware name: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+[344820.849017]  0000000000080000 ffff88007c8b3f38 ffffffff81754a5b 00000000000001b6
+[344820.849019]  00007fc844bd8940 ffff88007c8b3f78 ffffffffa0261059 0000000000001000
+[344820.849021]  00007fc844b76f88 00007fc844bd8940 0000000000080000 000000000108f4c0
+[344820.849023] Call Trace:
+[344820.849026]  [<ffffffff81754a5b>] dump_stack+0x45/0x57
+[344820.849028]  [<ffffffffa0261059>] our_sys_open+0x59/0xb0 [syscall]
+[344820.849031]  [<ffffffff8175c1cd>] system_call_fastpath+0x16/0x1b
+[344820.849032] Opened file by 1001: /usr/lib/python3.4/__pycache__/abc.cpython-34.pyc
+[344820.849204] CPU: 1 PID: 2678 Comm: command-not-fou Tainted: P           OE  3.19.8-ckt6-lyl2-cmdline-exported+ #4
+[344820.849206] Hardware name: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+[344820.849207]  0000000000080000 ffff88007c8b3f38 ffffffff81754a5b 00000000000001b6
+[344820.849209]  00007fc844bda710 ffff88007c8b3f78 ffffffffa0261059 0000000000001000
+[344820.849211]  00007fc844b7b9c8 00007fc844bda710 0000000000080000 000000000108f4c0
+[344820.849213] Call Trace:
+[344820.849216]  [<ffffffff81754a5b>] dump_stack+0x45/0x57
+[344820.849218]  [<ffffffffa0261059>] our_sys_open+0x59/0xb0 [syscall]
+[344820.849220]  [<ffffffff8175c1cd>] system_call_fastpath+0x16/0x1b
+[344820.849221] Opened file by 1001: /usr/lib/python3.4/__pycache__/_weakrefset.cpython-34.pyc
+[344820.850435] CPU: 1 PID: 2678 Comm: command-not-fou Tainted: P           OE  3.19.8-ckt6-lyl2-cmdline-exported+ #4
+[344820.850438] Hardware name: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+[344820.850439]  0000000000080000 ffff88007c8b3f38 ffffffff81754a5b 00000000000001b6
+[344820.850442]  00007fc844bd88e8 ffff88007c8b3f78 ffffffffa0261059 0000000000001000
+[344820.850444]  00007fc844b879c8 00007fc844bd88e8 0000000000080000 000000000108f4c0
+[344820.850446] Call Trace:
+[344820.850452]  [<ffffffff81754a5b>] dump_stack+0x45/0x57
+[344820.850454]  [<ffffffffa0261059>] our_sys_open+0x59/0xb0 [syscall]
+[344820.850457]  [<ffffffff8175c1cd>] system_call_fastpath+0x16/0x1b
+[344820.850459] Opened file by 1001: /usr/lib/python3.4/__pycache__/site.cpython-34.pyc
+[344820.850880] CPU: 1 PID: 2678 Comm: command-not-fou Tainted: P           OE  3.19.8-ckt6-lyl2-cmdline-exported+ #4
+[344820.850882] Hardware name: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+[344820.850884]  0000000000080000 ffff88007c8b3f38 ffffffff81754a5b 00000000000001b6
+[344820.850886]  00007fc844b7f998 ffff88007c8b3f78 ffffffffa0261059 0000000000001000
+[344820.850888]  00007fc844b900c8 00007fc844b7f998 0000000000080000 000000000108f4c0
+[344820.850890] Call Trace:
+[344820.850894]  [<ffffffff81754a5b>] dump_stack+0x45/0x57
+[344820.850897]  [<ffffffffa0261059>] our_sys_open+0x59/0xb0 [syscall]
+[344820.850900]  [<ffffffff8175c1cd>] system_call_fastpath+0x16/0x1b
+[344820.850901] Opened file by 1001: /usr/lib/python3.4/__pycache__/os.cpython-34.pyc
+[344820.851290] CPU: 1 PID: 2678 Comm: command-not-fou Tainted: P           OE  3.19.8-ckt6-lyl2-cmdline-exported+ #4
+[344820.851291] Hardware name: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+[344820.851292]  0000000000080000 ffff88007c8b3f38 ffffffff81754a5b 00000000000001b6
+[344820.851294]  00007fc844b9f050 ffff88007c8b3f78 ffffffffa0261059 0000000000001000
+[344820.851296]  00007fc844b9e288 00007fc844b9f050 0000000000080000 000000000108f4c0
+[344820.851299] Call Trace:
+[344820.851302]  [<ffffffff81754a5b>] dump_stack+0x45/0x57
+[344820.851304]  [<ffffffffa0261059>] our_sys_open+0x59/0xb0 [syscall]
+[344820.851307]  [<ffffffff8175c1cd>] system_call_fastpath+0x16/0x1b
+[344820.851308] Opened file by 1001: /usr/lib/python3.4/__pycache__/stat.cpython-34.pyc
+[344820.851796] CPU: 1 PID: 2678 Comm: command-not-fou Tainted: P           OE  3.19.8-ckt6-lyl2-cmdline-exported+ #4
+[344820.851798] Hardware name: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+[344820.851800]  0000000000080000 ffff88007c8b3f38 ffffffff81754a5b 00000000000001b6
+[344820.851802]  00007fc844ba1050 ffff88007c8b3f78 ffffffffa0261059 0000000000001000
+[344820.851805]  00007fc844ba26c8 00007fc844ba1050 0000000000080000 000000000108f4c0
+[344820.851808] Call Trace:
+[344820.851813]  [<ffffffff81754a5b>] dump_stack+0x45/0x57
+[344820.851817]  [<ffffffffa0261059>] our_sys_open+0x59/0xb0 [syscall]
+[344820.851821]  [<ffffffff8175c1cd>] system_call_fastpath+0x16/0x1b
+[344820.851823] Opened file by 1001: /usr/lib/python3.4/__pycache__/posixpath.cpython-34.pyc
+[344820.852183] CPU: 1 PID: 2678 Comm: command-not-fou Tainted: P           OE  3.19.8-ckt6-lyl2-cmdline-exported+ #4
+[344820.852185] Hardware name: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+[344820.852186]  0000000000080000 ffff88007c8b3f38 ffffffff81754a5b 00000000000001b6
+[344820.852190]  00007fc844ba8050 ffff88007c8b3f78 ffffffffa0261059 0000000000000016
+[344820.852193]  00007fc844ba6308 00007fc844ba8050 0000000000080000 000000000108f4c0
+[344820.852196] Call Trace:
+[344820.852201]  [<ffffffff81754a5b>] dump_stack+0x45/0x57
+[344820.852204]  [<ffffffffa0261059>] our_sys_open+0x59/0xb0 [syscall]
+[344820.852208]  [<ffffffff8175c1cd>] system_call_fastpath+0x16/0x1b
+[344820.852209] Opened file by 1001: /usr/lib/python3.4/__pycache__/genericpath.cpython-34.pyc
+[344820.852854] CPU: 1 PID: 2678 Comm: command-not-fou Tainted: P           OE  3.19.8-ckt6-lyl2-cmdline-exported+ #4
+[344820.852856] Hardware name: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+[344820.852858]  0000000000080000 ffff88007c8b3f38 ffffffff81754a5b 00000000000001b6
+[344820.852860]  00007fc844ba8110 ffff88007c8b3f78 ffffffffa0261059 0000000000001000
+[344820.852862]  00007fc844ba6688 00007fc844ba8110 0000000000080000 000000000108f4c0
+[344820.852864] Call Trace:
+[344820.852869]  [<ffffffff81754a5b>] dump_stack+0x45/0x57
+[344820.852871]  [<ffffffffa0261059>] our_sys_open+0x59/0xb0 [syscall]
+[344820.852874]  [<ffffffff8175c1cd>] system_call_fastpath+0x16/0x1b
+[344820.852876] Opened file by 1001: /usr/lib/python3.4/__pycache__/_collections_abc.cpython-34.pyc
+[344820.855112] CPU: 1 PID: 2678 Comm: command-not-fou Tainted: P           OE  3.19.8-ckt6-lyl2-cmdline-exported+ #4
+[344820.855115] Hardware name: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+[344820.855116]  0000000000080000 ffff88007c8b3f38 ffffffff81754a5b 00000000000001b6
+[344820.855119]  00007fc844ba81d0 ffff88007c8b3f78 ffffffffa0261059 0000000000001000
+[344820.855121]  00007fc844b902c8 00007fc844ba81d0 0000000000080000 000000000108f4c0
+[344820.855123] Call Trace:
+[344820.855129]  [<ffffffff81754a5b>] dump_stack+0x45/0x57
+[344820.855132]  [<ffffffffa0261059>] our_sys_open+0x59/0xb0 [syscall]
+[344820.855135]  [<ffffffff8175c1cd>] system_call_fastpath+0x16/0x1b
+[344820.855137] Opened file by 1001: /usr/lib/python3.4/__pycache__/_sitebuiltins.cpython-34.pyc
+[344820.855999] CPU: 1 PID: 2678 Comm: command-not-fou Tainted: P           OE  3.19.8-ckt6-lyl2-cmdline-exported+ #4
+[344820.856001] Hardware name: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+[344820.856002]  0000000000080000 ffff88007c8b3f38 ffffffff81754a5b 00000000000001b6
+[344820.856004]  00007fc844b7f9f0 ffff88007c8b3f78 ffffffffa0261059 0000000000001000
+[344820.856006]  00007fc844b579c8 00007fc844b7f9f0 0000000000080000 000000000108f4c0
+[344820.856008] Call Trace:
+[344820.856013]  [<ffffffff81754a5b>] dump_stack+0x45/0x57
+[344820.856015]  [<ffffffffa0261059>] our_sys_open+0x59/0xb0 [syscall]
+[344820.856018]  [<ffffffff8175c1cd>] system_call_fastpath+0x16/0x1b
+[344820.856019] Opened file by 1001: /usr/lib/python3.4/__pycache__/sysconfig.cpython-34.pyc
+[344820.856707] CPU: 1 PID: 2678 Comm: command-not-fou Tainted: P           OE  3.19.8-ckt6-lyl2-cmdline-exported+ #4
+[344820.856709] Hardware name: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+[344820.856710]  0000000000080000 ffff88007c8b3f38 ffffffff81754a5b 00000000000001b6
+[344820.856712]  00007fc844ba8f50 ffff88007c8b3f78 ffffffffa0261059 0000000000001000
+[344820.856714]  00007fc844b5f408 00007fc844ba8f50 0000000000080000 000000000108f4c0
+[344820.856716] Call Trace:
+[344820.856720]  [<ffffffff81754a5b>] dump_stack+0x45/0x57
+[344820.856723]  [<ffffffffa0261059>] our_sys_open+0x59/0xb0 [syscall]
+[344820.856726]  [<ffffffff8175c1cd>] system_call_fastpath+0x16/0x1b
+[344820.856727] Opened file by 1001: /usr/lib/python3.4/__pycache__/_sysconfigdata.cpython-34.pyc
+[344820.856921] CPU: 1 PID: 2678 Comm: command-not-fou Tainted: P           OE  3.19.8-ckt6-lyl2-cmdline-exported+ #4
+[344820.856922] Hardware name: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+[344820.856923]  0000000000080000 ffff88007c8b3f38 ffffffff81754a5b 00000000000001b6
+[344820.856925]  00007fc844b81f50 ffff88007c8b3f78 ffffffffa0261059 0000000000001000
+[344820.856927]  00007fc844b5fc08 00007fc844b81f50 0000000000080000 000000000108f4c0
+[344820.856929] Call Trace:
+[344820.856932]  [<ffffffff81754a5b>] dump_stack+0x45/0x57
+[344820.856934]  [<ffffffffa0261059>] our_sys_open+0x59/0xb0 [syscall]
+[344820.856937]  [<ffffffff8175c1cd>] system_call_fastpath+0x16/0x1b
+[344820.856938] Opened file by 1001: /usr/lib/python3.4/plat-x86_64-linux-gnu/__pycache__/_sysconfigdata_m.cpython-34.pyc
+[344820.858597] CPU: 1 PID: 2678 Comm: command-not-fou Tainted: P           OE  3.19.8-ckt6-lyl2-cmdline-exported+ #4
+[344820.858601] Hardware name: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+[344820.858603]  0000000000080000 ffff88007c8b3f38 ffffffff81754a5b 00000000000001b6
+[344820.858606]  00007fc844abd170 ffff88007c8b3f78 ffffffffa0261059 0000000000001000
+[344820.858609]  00007fc844abe4c8 00007fc844abd170 0000000000080000 000000000108f4c0
+[344820.858621] Call Trace:
+[344820.858628]  [<ffffffff81754a5b>] dump_stack+0x45/0x57
+[344820.858632]  [<ffffffffa0261059>] our_sys_open+0x59/0xb0 [syscall]
+[344820.858636]  [<ffffffff8175c1cd>] system_call_fastpath+0x16/0x1b
+[344820.858638] Opened file by 1001: /usr/lib/python3.4/__pycache__/sitecustomize.cpython-34.pyc
+[344820.859226] CPU: 1 PID: 2678 Comm: command-not-fou Tainted: P           OE  3.19.8-ckt6-lyl2-cmdline-exported+ #4
+[344820.859228] Hardware name: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+[344820.859229]  0000000000080000 ffff88007c8b3f38 ffffffff81754a5b 00000000000001b6
+[344820.859231]  00007fc844b35c20 ffff88007c8b3f78 ffffffffa0261059 0000000000001000
+[344820.859233]  00007fc844abef08 00007fc844b35c20 0000000000080000 000000000108f4c0
+[344820.859235] Call Trace:
+[344820.859239]  [<ffffffff81754a5b>] dump_stack+0x45/0x57
+[344820.859241]  [<ffffffffa0261059>] our_sys_open+0x59/0xb0 [syscall]
+[344820.859244]  [<ffffffff8175c1cd>] system_call_fastpath+0x16/0x1b
+[344820.859245] Opened file by 1001: /usr/lib/python3/dist-packages/__pycache__/apport_python_hook.cpython-34.pyc
+[344820.859716] CPU: 1 PID: 2678 Comm: command-not-fou Tainted: P           OE  3.19.8-ckt6-lyl2-cmdline-exported+ #4
+[344820.859718] Hardware name: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+[344820.859719]  0000000000000000 ffff88007c8b3f38 ffffffff81754a5b 00000000000001b6
+[344820.859722]  00007fc844ac5850 ffff88007c8b3f78 ffffffffa0261059 0000000000001000
+[344820.859724]  00000000005c67b5 00000000010f1360 0000000000000008 0000000000000000
+[344820.859726] Call Trace:
+[344820.859730]  [<ffffffff81754a5b>] dump_stack+0x45/0x57
+[344820.859733]  [<ffffffffa0261059>] our_sys_open+0x59/0xb0 [syscall]
+[344820.859736]  [<ffffffff8175c1cd>] system_call_fastpath+0x16/0x1b
+[344820.859737] Opened file by 1001: /usr/lib/command-not-found
+[344820.859794] CPU: 1 PID: 2678 Comm: command-not-fou Tainted: P           OE  3.19.8-ckt6-lyl2-cmdline-exported+ #4
+[344820.859795] Hardware name: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+[344820.859796]  0000000000000000 ffff88007c8b3f38 ffffffff81754a5b 00000000000001b6
+[344820.859798]  00000000010f3d80 ffff88007c8b3f78 ffffffffa0261059 0000000000001000
+[344820.859800]  00007ffee1856bf0 00000000010f1360 0000000000000008 00000000ffffffff
+[344820.859802] Call Trace:
+[344820.859805]  [<ffffffff81754a5b>] dump_stack+0x45/0x57
+[344820.859807]  [<ffffffffa0261059>] our_sys_open+0x59/0xb0 [syscall]
+[344820.859810]  [<ffffffff8175c1cd>] system_call_fastpath+0x16/0x1b
+[344820.859811] Opened file by 1001: /usr/lib/command-not-found
+[344820.860953] CPU: 1 PID: 2678 Comm: command-not-fou Tainted: P           OE  3.19.8-ckt6-lyl2-cmdline-exported+ #4
+[344820.860956] Hardware name: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+[344820.860957]  0000000000080000 ffff88007c8b3f38 ffffffff81754a5b 00000000000001b6
+[344820.860959]  00007fc844abda70 ffff88007c8b3f78 ffffffffa0261059 0000000000001000
+[344820.860961]  00007fc844aca608 00007fc844abda70 0000000000080000 000000000108f4c0
+[344820.860964] Call Trace:
+[344820.860968]  [<ffffffff81754a5b>] dump_stack+0x45/0x57
+[344820.860971]  [<ffffffffa0261059>] our_sys_open+0x59/0xb0 [syscall]
+[344820.860974]  [<ffffffff8175c1cd>] system_call_fastpath+0x16/0x1b
+[344820.860975] Opened file by 1001: /usr/lib/python3.4/__pycache__/__future__.cpython-34.pyc
+[344820.861181] CPU: 1 PID: 2678 Comm: command-not-fou Tainted: P           OE  3.19.8-ckt6-lyl2-cmdline-exported+ #4
+[344820.861182] Hardware name: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+[344820.861183]  0000000000080000 ffff88007c8b3f38 ffffffff81754a5b 00000000000001b6
+[344820.861186]  00007fc844ac2e10 ffff88007c8b3f78 ffffffffa0261059 0000000000001000
+[344820.861188]  00007fc844aca908 00007fc844ac2e10 0000000000080000 000000000108f4c0
+[344820.861190] Call Trace:
+[344820.861193]  [<ffffffff81754a5b>] dump_stack+0x45/0x57
+[344820.861195]  [<ffffffffa0261059>] our_sys_open+0x59/0xb0 [syscall]
+[344820.861198]  [<ffffffff8175c1cd>] system_call_fastpath+0x16/0x1b
+[344820.861199] Opened file by 1001: /usr/lib/python3.4/__pycache__/gettext.cpython-34.pyc
+[344820.861602] CPU: 1 PID: 2678 Comm: command-not-fou Tainted: P           OE  3.19.8-ckt6-lyl2-cmdline-exported+ #4
+[344820.861604] Hardware name: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+[344820.861605]  0000000000080000 ffff88007c8b3f38 ffffffff81754a5b 00000000000001b6
+[344820.861607]  00007fc844ad2418 ffff88007c8b3f78 ffffffffa0261059 0000000000001000
+[344820.861610]  00007fc844ad1748 00007fc844ad2418 0000000000080000 000000000108f4c0
+[344820.861613] Call Trace:
+[344820.861619]  [<ffffffff81754a5b>] dump_stack+0x45/0x57
+[344820.861623]  [<ffffffffa0261059>] our_sys_open+0x59/0xb0 [syscall]
+[344820.861627]  [<ffffffff8175c1cd>] system_call_fastpath+0x16/0x1b
+[344820.861629] Opened file by 1001: /usr/lib/python3.4/__pycache__/locale.cpython-34.pyc
+[344820.862516] CPU: 1 PID: 2678 Comm: command-not-fou Tainted: P           OE  3.19.8-ckt6-lyl2-cmdline-exported+ #4
+[344820.862518] Hardware name: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+[344820.862519]  0000000000080000 ffff88007c8b3f38 ffffffff81754a5b 00000000000001b6
+[344820.862522]  00007fc844ad2998 ffff88007c8b3f78 ffffffffa0261059 0000000000001000
+[344820.862524]  00007fc844aef188 00007fc844ad2998 0000000000080000 000000000108f4c0
+[344820.862526] Call Trace:
+[344820.862531]  [<ffffffff81754a5b>] dump_stack+0x45/0x57
+[344820.862534]  [<ffffffffa0261059>] our_sys_open+0x59/0xb0 [syscall]
+[344820.862537]  [<ffffffff8175c1cd>] system_call_fastpath+0x16/0x1b
+[344820.862538] Opened file by 1001: /usr/lib/python3.4/__pycache__/re.cpython-34.pyc
+[344820.862732] CPU: 1 PID: 2678 Comm: command-not-fou Tainted: P           OE  3.19.8-ckt6-lyl2-cmdline-exported+ #4
+[344820.862733] Hardware name: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+[344820.862734]  0000000000080000 ffff88007c8b3f38 ffffffff81754a5b 00000000000001b6
+[344820.862736]  00007fc844af5050 ffff88007c8b3f78 ffffffffa0261059 0000000000001000
+[344820.862738]  00007fc844aefbc8 00007fc844af5050 0000000000080000 000000000108f4c0
+[344820.862740] Call Trace:
+[344820.862743]  [<ffffffff81754a5b>] dump_stack+0x45/0x57
+[344820.862745]  [<ffffffffa0261059>] our_sys_open+0x59/0xb0 [syscall]
+[344820.862747]  [<ffffffff8175c1cd>] system_call_fastpath+0x16/0x1b
+[344820.862748] Opened file by 1001: /usr/lib/python3.4/__pycache__/sre_compile.cpython-34.pyc
+[344820.863042] CPU: 1 PID: 2678 Comm: command-not-fou Tainted: P           OE  3.19.8-ckt6-lyl2-cmdline-exported+ #4
+[344820.863044] Hardware name: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+[344820.863045]  0000000000080000 ffff88007c8b3f38 ffffffff81754a5b 00000000000001b6
+[344820.863047]  00007fc844ad2e68 ffff88007c8b3f78 ffffffffa0261059 0000000000001000
+[344820.863049]  00007fc84361d488 00007fc844ad2e68 0000000000080000 000000000108f4c0
+[344820.863051] Call Trace:
+[344820.863054]  [<ffffffff81754a5b>] dump_stack+0x45/0x57
+[344820.863056]  [<ffffffffa0261059>] our_sys_open+0x59/0xb0 [syscall]
+[344820.863058]  [<ffffffff8175c1cd>] system_call_fastpath+0x16/0x1b
+[344820.863059] Opened file by 1001: /usr/lib/python3.4/__pycache__/sre_parse.cpython-34.pyc
+[344820.863598] CPU: 1 PID: 2678 Comm: command-not-fou Tainted: P           OE  3.19.8-ckt6-lyl2-cmdline-exported+ #4
+[344820.863601] Hardware name: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+[344820.863603]  0000000000080000 ffff88007c8b3f38 ffffffff81754a5b 00000000000001b6
+[344820.863607]  00007fc844af6830 ffff88007c8b3f78 ffffffffa0261059 0000000000001000
+[344820.863609]  00007fc843624d48 00007fc844af6830 0000000000080000 000000000108f4c0
+[344820.863612] Call Trace:
+[344820.863621]  [<ffffffff81754a5b>] dump_stack+0x45/0x57
+[344820.863625]  [<ffffffffa0261059>] our_sys_open+0x59/0xb0 [syscall]
+[344820.863630]  [<ffffffff8175c1cd>] system_call_fastpath+0x16/0x1b
+[344820.863632] Opened file by 1001: /usr/lib/python3.4/__pycache__/sre_constants.cpython-34.pyc
+[344820.864849] CPU: 1 PID: 2678 Comm: command-not-fou Tainted: P           OE  3.19.8-ckt6-lyl2-cmdline-exported+ #4
+[344820.864853] Hardware name: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+[344820.864855]  0000000000080000 ffff88007c8b3f38 ffffffff81754a5b 00000000000001b6
+[344820.864859]  00007fc8436235d0 ffff88007c8b3f78 ffffffffa0261059 0000000000001000
+[344820.864862]  00007fc84362f508 00007fc8436235d0 0000000000080000 000000000108f4c0
+[344820.864866] Call Trace:
+[344820.864874]  [<ffffffff81754a5b>] dump_stack+0x45/0x57
+[344820.864878]  [<ffffffffa0261059>] our_sys_open+0x59/0xb0 [syscall]
+[344820.864883]  [<ffffffff8175c1cd>] system_call_fastpath+0x16/0x1b
+[344820.864884] Opened file by 1001: /usr/lib/python3.4/__pycache__/copyreg.cpython-34.pyc
+[344820.866729] CPU: 1 PID: 2678 Comm: command-not-fou Tainted: P           OE  3.19.8-ckt6-lyl2-cmdline-exported+ #4
+[344820.866732] Hardware name: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+[344820.866734]  0000000000080000 ffff88007c8b3f38 ffffffff81754a5b 00000000000001b6
+[344820.866737]  00007fc844ac3a78 ffff88007c8b3f78 ffffffffa0261059 0000000000001000
+[344820.866740]  00007fc84362fcc8 00007fc844ac3a78 0000000000080000 000000000108f4c0
+[344820.866742] Call Trace:
+[344820.866750]  [<ffffffff81754a5b>] dump_stack+0x45/0x57
+[344820.866754]  [<ffffffffa0261059>] our_sys_open+0x59/0xb0 [syscall]
+[344820.866758]  [<ffffffff8175c1cd>] system_call_fastpath+0x16/0x1b
+[344820.866760] Opened file by 1001: /usr/lib/python3.4/collections/__pycache__/__init__.cpython-34.pyc
+[344820.869683] CPU: 1 PID: 2678 Comm: command-not-fou Tainted: P           OE  3.19.8-ckt6-lyl2-cmdline-exported+ #4
+[344820.869687] Hardware name: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+[344820.869689]  0000000000080000 ffff88007c8b3f38 ffffffff81754a5b 00000000000001b6
+[344820.869691]  00007fc843643470 ffff88007c8b3f78 ffffffffa0261059 0000000000001000
+[344820.869693]  00007fc843650688 00007fc843643470 0000000000080000 000000000108f4c0
+[344820.869695] Call Trace:
+[344820.869702]  [<ffffffff81754a5b>] dump_stack+0x45/0x57
+[344820.869705]  [<ffffffffa0261059>] our_sys_open+0x59/0xb0 [syscall]
+[344820.869709]  [<ffffffff8175c1cd>] system_call_fastpath+0x16/0x1b
+[344820.869710] Opened file by 1001: /usr/lib/python3.4/__pycache__/operator.cpython-34.pyc
+[344820.870454] CPU: 1 PID: 2678 Comm: command-not-fou Tainted: P           OE  3.19.8-ckt6-lyl2-cmdline-exported+ #4
+[344820.870456] Hardware name: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+[344820.870458]  0000000000080000 ffff88007c8b3f38 ffffffff81754a5b 00000000000001b6
+[344820.870460]  00007fc843643470 ffff88007c8b3f78 ffffffffa0261059 0000000000001000
+[344820.870462]  00007fc8436508c8 00007fc843643470 0000000000080000 000000000108f4c0
+[344820.870464] Call Trace:
+[344820.870469]  [<ffffffff81754a5b>] dump_stack+0x45/0x57
+[344820.870471]  [<ffffffffa0261059>] our_sys_open+0x59/0xb0 [syscall]
+[344820.870474]  [<ffffffff8175c1cd>] system_call_fastpath+0x16/0x1b
+[344820.870475] Opened file by 1001: /usr/lib/python3.4/__pycache__/keyword.cpython-34.pyc
+[344820.870639] CPU: 1 PID: 2678 Comm: command-not-fou Tainted: P           OE  3.19.8-ckt6-lyl2-cmdline-exported+ #4
+[344820.870641] Hardware name: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+[344820.870642]  0000000000080000 ffff88007c8b3f38 ffffffff81754a5b 00000000000001b6
+[344820.870644]  00007fc843643578 ffff88007c8b3f78 ffffffffa0261059 0000000000001000
+[344820.870646]  00007fc843650c48 00007fc843643578 0000000000080000 000000000108f4c0
+[344820.870648] Call Trace:
+[344820.870651]  [<ffffffff81754a5b>] dump_stack+0x45/0x57
+[344820.870653]  [<ffffffffa0261059>] our_sys_open+0x59/0xb0 [syscall]
+[344820.870655]  [<ffffffff8175c1cd>] system_call_fastpath+0x16/0x1b
+[344820.870656] Opened file by 1001: /usr/lib/python3.4/__pycache__/heapq.cpython-34.pyc
+[344820.871224] CPU: 1 PID: 2678 Comm: command-not-fou Tainted: P           OE  3.19.8-ckt6-lyl2-cmdline-exported+ #4
+[344820.871226] Hardware name: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+[344820.871228]  0000000000080000 ffff88007c8b3f38 ffffffff81754a5b 00000000000001b6
+[344820.871231]  00007fc843643838 ffff88007c8b3f78 ffffffffa0261059 0000000000001000
+[344820.871234]  00007fc843650f48 00007fc843643838 0000000000080000 000000000108f4c0
+[344820.871237] Call Trace:
+[344820.871242]  [<ffffffff81754a5b>] dump_stack+0x45/0x57
+[344820.871245]  [<ffffffffa0261059>] our_sys_open+0x59/0xb0 [syscall]
+[344820.871249]  [<ffffffff8175c1cd>] system_call_fastpath+0x16/0x1b
+[344820.871250] Opened file by 1001: /usr/lib/python3.4/__pycache__/reprlib.cpython-34.pyc
+[344820.871849] CPU: 1 PID: 2678 Comm: command-not-fou Tainted: P           OE  3.19.8-ckt6-lyl2-cmdline-exported+ #4
+[344820.871850] Hardware name: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+[344820.871851]  0000000000080000 ffff88007c8b3f38 ffffffff81754a5b 00000000000001b6
+[344820.871853]  00007fc8436239f0 ffff88007c8b3f78 ffffffffa0261059 0000000000001000
+[344820.871855]  00007fc8435e8708 00007fc8436239f0 0000000000080000 000000000108f4c0
+[344820.871857] Call Trace:
+[344820.871861]  [<ffffffff81754a5b>] dump_stack+0x45/0x57
+[344820.871863]  [<ffffffffa0261059>] our_sys_open+0x59/0xb0 [syscall]
+[344820.871865]  [<ffffffff8175c1cd>] system_call_fastpath+0x16/0x1b
+[344820.871866] Opened file by 1001: /usr/lib/python3.4/__pycache__/functools.cpython-34.pyc
+[344820.872395] CPU: 1 PID: 2678 Comm: command-not-fou Tainted: P           OE  3.19.8-ckt6-lyl2-cmdline-exported+ #4
+[344820.872397] Hardware name: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+[344820.872398]  0000000000080000 ffff88007c8b3f38 ffffffff81754a5b 00000000000001b6
+[344820.872401]  00007fc8435fb100 ffff88007c8b3f78 ffffffffa0261059 0000000000001000
+[344820.872403]  00007fc8435fc308 00007fc8435fb100 0000000000080000 000000000108f4c0
+[344820.872405] Call Trace:
+[344820.872409]  [<ffffffff81754a5b>] dump_stack+0x45/0x57
+[344820.872412]  [<ffffffffa0261059>] our_sys_open+0x59/0xb0 [syscall]
+[344820.872415]  [<ffffffff8175c1cd>] system_call_fastpath+0x16/0x1b
+[344820.872416] Opened file by 1001: /usr/lib/python3.4/__pycache__/types.cpython-34.pyc
+[344820.872651] CPU: 1 PID: 2678 Comm: command-not-fou Tainted: P           OE  3.19.8-ckt6-lyl2-cmdline-exported+ #4
+[344820.872652] Hardware name: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+[344820.872653]  0000000000080000 ffff88007c8b3f38 ffffffff81754a5b 00000000000001b6
+[344820.872655]  00007fc8435fb520 ffff88007c8b3f78 ffffffffa0261059 0000000000001000
+[344820.872657]  00007fc8435fcc08 00007fc8435fb520 0000000000080000 000000000108f4c0
+[344820.872660] Call Trace:
+[344820.872663]  [<ffffffff81754a5b>] dump_stack+0x45/0x57
+[344820.872665]  [<ffffffffa0261059>] our_sys_open+0x59/0xb0 [syscall]
+[344820.872668]  [<ffffffff8175c1cd>] system_call_fastpath+0x16/0x1b
+[344820.872669] Opened file by 1001: /usr/lib/python3.4/__pycache__/weakref.cpython-34.pyc
+[344820.876878] CPU: 1 PID: 2678 Comm: command-not-fou Tainted: P           OE  3.19.8-ckt6-lyl2-cmdline-exported+ #4
+[344820.877021] Hardware name: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+[344820.877023]  0000000000080000 ffff88007c8b3f38 ffffffff81754a5b 00000000000001b6
+[344820.877027]  00007fc8436436d8 ffff88007c8b3f78 ffffffffa0261059 0000000000001000
+[344820.877030]  00007fc844ad1e88 00007fc8436436d8 0000000000080000 000000000108f4c0
+[344820.877034] Call Trace:
+[344820.877044]  [<ffffffff81754a5b>] dump_stack+0x45/0x57
+[344820.877048]  [<ffffffffa0261059>] our_sys_open+0x59/0xb0 [syscall]
+[344820.877053]  [<ffffffff8175c1cd>] system_call_fastpath+0x16/0x1b
+[344820.877055] Opened file by 1001: /usr/lib/python3.4/__pycache__/copy.cpython-34.pyc
+[344820.881330] CPU: 1 PID: 2678 Comm: command-not-fou Tainted: P           OE  3.19.8-ckt6-lyl2-cmdline-exported+ #4
+[344820.881333] Hardware name: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+[344820.881334]  0000000000080000 ffff88007c8b3f38 ffffffff81754a5b 00000000000001b6
+[344820.881337]  00007fc8435fbfc8 ffff88007c8b3f78 ffffffffa0261059 0000000000001000
+[344820.881339]  00007fc843613bc8 00007fc8435fbfc8 0000000000080000 000000000108f4c0
+[344820.881342] Call Trace:
+[344820.881348]  [<ffffffff81754a5b>] dump_stack+0x45/0x57
+[344820.881352]  [<ffffffffa0261059>] our_sys_open+0x59/0xb0 [syscall]
+[344820.881355]  [<ffffffff8175c1cd>] system_call_fastpath+0x16/0x1b
+[344820.881356] Opened file by 1001: /usr/lib/python3.4/__pycache__/struct.cpython-34.pyc
+[344820.882135] CPU: 1 PID: 2678 Comm: command-not-fou Tainted: P           OE  3.19.8-ckt6-lyl2-cmdline-exported+ #4
+[344820.882137] Hardware name: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+[344820.882139]  0000000000080000 ffff88007c8b3f38 ffffffff81754a5b 00000000000001b6
+[344820.882141]  00007fc8435fbfc8 ffff88007c8b3f78 ffffffffa0261059 0000000000001000
+[344820.882143]  00007fc844acaf08 00007fc8435fbfc8 0000000000080000 000000000108f4c0
+[344820.882146] Call Trace:
+[344820.882151]  [<ffffffff81754a5b>] dump_stack+0x45/0x57
+[344820.882154]  [<ffffffffa0261059>] our_sys_open+0x59/0xb0 [syscall]
+[344820.882157]  [<ffffffff8175c1cd>] system_call_fastpath+0x16/0x1b
+[344820.882159] Opened file by 1001: /usr/lib/python3.4/__pycache__/optparse.cpython-34.pyc
+[344820.883233] CPU: 1 PID: 2678 Comm: command-not-fou Tainted: P           OE  3.19.8-ckt6-lyl2-cmdline-exported+ #4
+[344820.883236] Hardware name: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+[344820.883237]  0000000000080000 ffff88007c8b3f38 ffffffff81754a5b 00000000000001b6
+[344820.883240]  00007fc8435a96d8 ffff88007c8b3f78 ffffffffa0261059 0000000000001000
+[344820.883242]  00007fc8435a8dc8 00007fc8435a96d8 0000000000080000 000000000108f4c0
+[344820.883244] Call Trace:
+[344820.883250]  [<ffffffff81754a5b>] dump_stack+0x45/0x57
+[344820.883253]  [<ffffffffa0261059>] our_sys_open+0x59/0xb0 [syscall]
+[344820.883256]  [<ffffffff8175c1cd>] system_call_fastpath+0x16/0x1b
+[344820.883257] Opened file by 1001: /usr/lib/python3.4/__pycache__/textwrap.cpython-34.pyc
+[344820.885323] CPU: 1 PID: 2678 Comm: command-not-fou Tainted: P           OE  3.19.8-ckt6-lyl2-cmdline-exported+ #4
+[344820.885326] Hardware name: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+[344820.885327]  0000000000080000 ffff88007c8b3f38 ffffffff81754a5b 00000000000001b6
+[344820.885330]  00007fc843615aa0 ffff88007c8b3f78 ffffffffa0261059 0000000000001000
+[344820.885331]  00007fc8435b6e48 00007fc843615aa0 0000000000080000 000000000108f4c0
+[344820.885334] Call Trace:
+[344820.885338]  [<ffffffff81754a5b>] dump_stack+0x45/0x57
+[344820.885341]  [<ffffffffa0261059>] our_sys_open+0x59/0xb0 [syscall]
+[344820.885344]  [<ffffffff8175c1cd>] system_call_fastpath+0x16/0x1b
+[344820.885345] Opened file by 1001: /usr/lib/python3/dist-packages/CommandNotFound/__pycache__/__init__.cpython-34.pyc
+[344820.885620] CPU: 1 PID: 2678 Comm: command-not-fou Tainted: P           OE  3.19.8-ckt6-lyl2-cmdline-exported+ #4
+[344820.885622] Hardware name: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+[344820.885623]  0000000000080000 ffff88007c8b3f38 ffffffff81754a5b 00000000000001b6
+[344820.885625]  00007fc843607750 ffff88007c8b3f78 ffffffffa0261059 0000000000001000
+[344820.885627]  00007fc8435ba188 00007fc843607750 0000000000080000 000000000108f4c0
+[344820.885629] Call Trace:
+[344820.885632]  [<ffffffff81754a5b>] dump_stack+0x45/0x57
+[344820.885634]  [<ffffffffa0261059>] our_sys_open+0x59/0xb0 [syscall]
+[344820.885637]  [<ffffffff8175c1cd>] system_call_fastpath+0x16/0x1b
+[344820.885638] Opened file by 1001: /usr/lib/python3/dist-packages/CommandNotFound/__pycache__/CommandNotFound.cpython-34.pyc
+[344820.886488] CPU: 1 PID: 2678 Comm: command-not-fou Tainted: P           OE  3.19.8-ckt6-lyl2-cmdline-exported+ #4
+[344820.886490] Hardware name: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+[344820.886492]  0000000000080000 ffff88007c8b3f38 ffffffff81754a5b 00000000000001b6
+[344820.886495]  00007fc8435a5e90 ffff88007c8b3f78 ffffffffa0261059 0000000000000002
+[344820.886497]  00007fc8435c6208 00007fc8435a5e90 0000000000080000 000000000108f4c0
+[344820.886500] Call Trace:
+[344820.886505]  [<ffffffff81754a5b>] dump_stack+0x45/0x57
+[344820.886513]  [<ffffffffa0261059>] our_sys_open+0x59/0xb0 [syscall]
+[344820.886522]  [<ffffffff8175c1cd>] system_call_fastpath+0x16/0x1b
+[344820.886526] Opened file by 1001: /usr/lib/python3.4/dbm/__pycache__/__init__.cpython-34.pyc
+[344820.886962] CPU: 1 PID: 2678 Comm: command-not-fou Tainted: P           OE  3.19.8-ckt6-lyl2-cmdline-exported+ #4
+[344820.886964] Hardware name: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+[344820.886966]  0000000000080000 ffff88007c8b3f38 ffffffff81754a5b 00000000000001b6
+[344820.886968]  00007fc8435c2310 ffff88007c8b3f78 ffffffffa0261059 0000000000001000
+[344820.886970]  00007fc8435c68c8 00007fc8435c2310 0000000000080000 000000000108f4c0
+[344820.886972] Call Trace:
+[344820.886976]  [<ffffffff81754a5b>] dump_stack+0x45/0x57
+[344820.886978]  [<ffffffffa0261059>] our_sys_open+0x59/0xb0 [syscall]
+[344820.886981]  [<ffffffff8175c1cd>] system_call_fastpath+0x16/0x1b
+[344820.886982] Opened file by 1001: /usr/lib/python3.4/dbm/__pycache__/ndbm.cpython-34.pyc
+[344820.887134] CPU: 1 PID: 2678 Comm: command-not-fou Tainted: P           OE  3.19.8-ckt6-lyl2-cmdline-exported+ #4
+[344820.887135] Hardware name: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+[344820.887136]  0000000000080000 ffff88007c8b3f38 ffffffff81754a5b 00007fc844c7a1c8
+[344820.887138]  000000000119e8a0 ffff88007c8b3f78 ffffffffa0261059 0000000000001000
+[344820.887140]  00007ffee18504f8 00007fc844c7a1c8 00007ffee18504e0 00007fc844c79060
+[344820.887142] Call Trace:
+[344820.887145]  [<ffffffff81754a5b>] dump_stack+0x45/0x57
+[344820.887147]  [<ffffffffa0261059>] our_sys_open+0x59/0xb0 [syscall]
+[344820.887149]  [<ffffffff8175c1cd>] system_call_fastpath+0x16/0x1b
+[344820.887150] Opened file by 1001: /usr/lib/python3.4/lib-dynload/_dbm.cpython-34m-x86_64-linux-gnu.so
+[344820.887202] CPU: 1 PID: 2678 Comm: command-not-fou Tainted: P           OE  3.19.8-ckt6-lyl2-cmdline-exported+ #4
+[344820.887203] Hardware name: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+[344820.887204]  0000000000080000 ffff88007c8b3f38 ffffffff81754a5b 0000000000000001
+[344820.887206]  00007fc844a72e47 ffff88007c8b3f78 ffffffffa0261059 00007ffee1850470
+[344820.887208]  00007fc843335705 00007fc844c7a0f0 0000000000000001 0000000000000000
+[344820.887209] Call Trace:
+[344820.887212]  [<ffffffff81754a5b>] dump_stack+0x45/0x57
+[344820.887214]  [<ffffffffa0261059>] our_sys_open+0x59/0xb0 [syscall]
+[344820.887216]  [<ffffffff8175c1cd>] system_call_fastpath+0x16/0x1b
+[344820.887217] Opened file by 1001: /etc/ld.so.cache
+[344820.887234] CPU: 1 PID: 2678 Comm: command-not-fou Tainted: P           OE  3.19.8-ckt6-lyl2-cmdline-exported+ #4
+[344820.887235] Hardware name: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+[344820.887236]  0000000000080000 ffff88007c8b3f38 ffffffff81754a5b 00000000011bf560
+[344820.887238]  00007fc844b27a42 ffff88007c8b3f78 ffffffffa0261059 00007fc843335705
+[344820.887239]  00007ffee18501f8 00000000011bf560 00007ffee18501e0 00007fc844c79060
+[344820.887241] Call Trace:
+[344820.887244]  [<ffffffff81754a5b>] dump_stack+0x45/0x57
+[344820.887245]  [<ffffffffa0261059>] our_sys_open+0x59/0xb0 [syscall]
+[344820.887248]  [<ffffffff8175c1cd>] system_call_fastpath+0x16/0x1b
+[344820.887249] Opened file by 1001: /usr/lib/x86_64-linux-gnu/libdb-5.3.so
+[344820.887580] CPU: 1 PID: 2678 Comm: command-not-fou Tainted: P           OE  3.19.8-ckt6-lyl2-cmdline-exported+ #4
+[344820.887581] Hardware name: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+[344820.887582]  0000000000080000 ffff88007c8b3f38 ffffffff81754a5b 00000000000001b6
+[344820.887584]  00007fc8435c23c0 ffff88007c8b3f78 ffffffffa0261059 0000000000001000
+[344820.887586]  00007fc8435c6dc8 00007fc8435c23c0 0000000000080000 000000000108f4c0
+[344820.887588] Call Trace:
+[344820.887591]  [<ffffffff81754a5b>] dump_stack+0x45/0x57
+[344820.887593]  [<ffffffffa0261059>] our_sys_open+0x59/0xb0 [syscall]
+[344820.887595]  [<ffffffff8175c1cd>] system_call_fastpath+0x16/0x1b
+[344820.887597] Opened file by 1001: /usr/lib/python3.4/dbm/__pycache__/gnu.cpython-34.pyc
+[344820.887918] CPU: 1 PID: 2678 Comm: command-not-fou Tainted: P           OE  3.19.8-ckt6-lyl2-cmdline-exported+ #4
+[344820.887920] Hardware name: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+[344820.887921]  0000000000080000 ffff88007c8b3f38 ffffffff81754a5b 00007fc844c7a1c8
+[344820.887924]  0000000001130b80 ffff88007c8b3f78 ffffffffa0261059 0000000000001000
+[344820.887926]  00007ffee1852008 00007fc844c7a1c8 00007ffee1851ff0 00007fc844c79060
+[344820.887929] Call Trace:
+[344820.887934]  [<ffffffff81754a5b>] dump_stack+0x45/0x57
+[344820.887937]  [<ffffffffa0261059>] our_sys_open+0x59/0xb0 [syscall]
+[344820.887941]  [<ffffffff8175c1cd>] system_call_fastpath+0x16/0x1b
+[344820.887943] Opened file by 1001: /usr/lib/python3.4/lib-dynload/_gdbm.cpython-34m-x86_64-linux-gnu.so
+[344820.888010] CPU: 1 PID: 2678 Comm: command-not-fou Tainted: P           OE  3.19.8-ckt6-lyl2-cmdline-exported+ #4
+[344820.888012] Hardware name: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+[344820.888013]  0000000000080000 ffff88007c8b3f38 ffffffff81754a5b 0000000000000001
+[344820.888015]  00007fc844a72e47 ffff88007c8b3f78 ffffffffa0261059 00007ffee1851f80
+[344820.888018]  00007fc842d8ea97 00007fc844c7a0f0 0000000000000001 0000000000000000
+[344820.888020] Call Trace:
+[344820.888024]  [<ffffffff81754a5b>] dump_stack+0x45/0x57
+[344820.888027]  [<ffffffffa0261059>] our_sys_open+0x59/0xb0 [syscall]
+[344820.888030]  [<ffffffff8175c1cd>] system_call_fastpath+0x16/0x1b
+[344820.888031] Opened file by 1001: /etc/ld.so.cache
+[344820.888052] CPU: 1 PID: 2678 Comm: command-not-fou Tainted: P           OE  3.19.8-ckt6-lyl2-cmdline-exported+ #4
+[344820.888054] Hardware name: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+[344820.888055]  0000000000080000 ffff88007c8b3f38 ffffffff81754a5b 00000000011c1700
+[344820.888057]  00007fc844b2700a ffff88007c8b3f78 ffffffffa0261059 00007fc842d8ea97
+[344820.888060]  00007ffee1851d68 00000000011c1700 00007ffee1851d50 00007fc844c79060
+[344820.888062] Call Trace:
+[344820.888066]  [<ffffffff81754a5b>] dump_stack+0x45/0x57
+[344820.888068]  [<ffffffffa0261059>] our_sys_open+0x59/0xb0 [syscall]
+[344820.888072]  [<ffffffff8175c1cd>] system_call_fastpath+0x16/0x1b
+[344820.888073] Opened file by 1001: /usr/lib/x86_64-linux-gnu/libgdbm.so.3
+[344820.888537] CPU: 1 PID: 2678 Comm: command-not-fou Tainted: P           OE  3.19.8-ckt6-lyl2-cmdline-exported+ #4
+[344820.888539] Hardware name: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+[344820.888540]  0000000000080000 ffff88007c8b3f38 ffffffff81754a5b 00000000000001b6
+[344820.888543]  00007fc8435cb050 ffff88007c8b3f78 ffffffffa0261059 0000000000001000
+[344820.888545]  00007fc8435c6f88 00007fc8435cb050 0000000000080000 000000000108f4c0
+[344820.888547] Call Trace:
+[344820.888551]  [<ffffffff81754a5b>] dump_stack+0x45/0x57
+[344820.888553]  [<ffffffffa0261059>] our_sys_open+0x59/0xb0 [syscall]
+[344820.888556]  [<ffffffff8175c1cd>] system_call_fastpath+0x16/0x1b
+[344820.888558] Opened file by 1001: /usr/lib/python3.4/__pycache__/subprocess.cpython-34.pyc
+[344820.889271] CPU: 1 PID: 2678 Comm: command-not-fou Tainted: P           OE  3.19.8-ckt6-lyl2-cmdline-exported+ #4
+[344820.889273] Hardware name: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+[344820.889275]  0000000000080000 ffff88007c8b3f38 ffffffff81754a5b 00000000000001b6
+[344820.889277]  00007fc8445f11f0 ffff88007c8b3f78 ffffffffa0261059 000000000000000e
+[344820.889279]  00007fc8445ef670 00000000011c4c90 0000000000000008 000000000108f4c0
+[344820.889281] Call Trace:
+[344820.889286]  [<ffffffff81754a5b>] dump_stack+0x45/0x57
+[344820.889289]  [<ffffffffa0261059>] our_sys_open+0x59/0xb0 [syscall]
+[344820.889292]  [<ffffffff8175c1cd>] system_call_fastpath+0x16/0x1b
+[344820.889293] Opened file by 1001: /etc/localtime
+[344820.889484] CPU: 1 PID: 2678 Comm: command-not-fou Tainted: P           OE  3.19.8-ckt6-lyl2-cmdline-exported+ #4
+[344820.889486] Hardware name: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+[344820.889487]  0000000000080000 ffff88007c8b3f38 ffffffff81754a5b 00000000000001b6
+[344820.889489]  00007fc8435c2c00 ffff88007c8b3f78 ffffffffa0261059 0000000000001000
+[344820.889491]  00007fc8435d6588 00007fc8435c2c00 0000000000080000 000000000108f4c0
+[344820.889493] Call Trace:
+[344820.889496]  [<ffffffff81754a5b>] dump_stack+0x45/0x57
+[344820.889498]  [<ffffffffa0261059>] our_sys_open+0x59/0xb0 [syscall]
+[344820.889500]  [<ffffffff8175c1cd>] system_call_fastpath+0x16/0x1b
+[344820.889501] Opened file by 1001: /usr/lib/python3.4/__pycache__/warnings.cpython-34.pyc
+[344820.890295] CPU: 1 PID: 2678 Comm: command-not-fou Tainted: P           OE  3.19.8-ckt6-lyl2-cmdline-exported+ #4
+[344820.890297] Hardware name: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+[344820.890298]  0000000000080000 ffff88007c8b3f38 ffffffff81754a5b 00000000000001b6
+[344820.890301]  00007fc842b49100 ffff88007c8b3f78 ffffffffa0261059 0000000000001000
+[344820.890302]  00007fc842b48c08 00007fc842b49100 0000000000080000 000000000108f4c0
+[344820.890305] Call Trace:
+[344820.890309]  [<ffffffff81754a5b>] dump_stack+0x45/0x57
+[344820.890311]  [<ffffffffa0261059>] our_sys_open+0x59/0xb0 [syscall]
+[344820.890314]  [<ffffffff8175c1cd>] system_call_fastpath+0x16/0x1b
+[344820.890315] Opened file by 1001: /usr/lib/python3.4/__pycache__/selectors.cpython-34.pyc
+[344820.891824] CPU: 1 PID: 2678 Comm: command-not-fou Tainted: P           OE  3.19.8-ckt6-lyl2-cmdline-exported+ #4
+[344820.891826] Hardware name: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+[344820.891828]  0000000000080000 ffff88007c8b3f38 ffffffff81754a5b 00000000000001b6
+[344820.891831]  00007fc842b495d0 ffff88007c8b3f78 ffffffffa0261059 0000000000001000
+[344820.891833]  00007fc842b4c748 00007fc842b495d0 0000000000080000 000000000108f4c0
+[344820.891835] Call Trace:
+[344820.891841]  [<ffffffff81754a5b>] dump_stack+0x45/0x57
+[344820.891844]  [<ffffffffa0261059>] our_sys_open+0x59/0xb0 [syscall]
+[344820.891847]  [<ffffffff8175c1cd>] system_call_fastpath+0x16/0x1b
+[344820.891848] Opened file by 1001: /usr/lib/python3.4/__pycache__/threading.cpython-34.pyc
+[344820.892254] CPU: 1 PID: 2678 Comm: command-not-fou Tainted: P           OE  3.19.8-ckt6-lyl2-cmdline-exported+ #4
+[344820.892256] Hardware name: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+[344820.892257]  0000000000080000 ffff88007c8b3f38 ffffffff81754a5b 00000000000001b6
+[344820.892259]  00007fc842b6c4c8 ffff88007c8b3f78 ffffffffa0261059 0000000000001000
+[344820.892261]  00007fc842b6f348 00007fc842b6c4c8 0000000000080000 000000000108f4c0
+[344820.892263] Call Trace:
+[344820.892266]  [<ffffffff81754a5b>] dump_stack+0x45/0x57
+[344820.892269]  [<ffffffffa0261059>] our_sys_open+0x59/0xb0 [syscall]
+[344820.892271]  [<ffffffff8175c1cd>] system_call_fastpath+0x16/0x1b
+[344820.892272] Opened file by 1001: /usr/lib/python3.4/__pycache__/traceback.cpython-34.pyc
+[344820.892473] CPU: 1 PID: 2678 Comm: command-not-fou Tainted: P           OE  3.19.8-ckt6-lyl2-cmdline-exported+ #4
+[344820.892474] Hardware name: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+[344820.892475]  0000000000080000 ffff88007c8b3f38 ffffffff81754a5b 00000000000001b6
+[344820.892477]  00007fc842b6c7e0 ffff88007c8b3f78 ffffffffa0261059 0000000000001000
+[344820.892479]  00007fc842b75248 00007fc842b6c7e0 0000000000080000 000000000108f4c0
+[344820.892481] Call Trace:
+[344820.892484]  [<ffffffff81754a5b>] dump_stack+0x45/0x57
+[344820.892486]  [<ffffffffa0261059>] our_sys_open+0x59/0xb0 [syscall]
+[344820.892489]  [<ffffffff8175c1cd>] system_call_fastpath+0x16/0x1b
+[344820.892490] Opened file by 1001: /usr/lib/python3.4/__pycache__/linecache.cpython-34.pyc
+[344820.892773] CPU: 1 PID: 2678 Comm: command-not-fou Tainted: P           OE  3.19.8-ckt6-lyl2-cmdline-exported+ #4
+[344820.892775] Hardware name: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+[344820.892776]  0000000000080000 ffff88007c8b3f38 ffffffff81754a5b 00000000000001b6
+[344820.892778]  00007fc842b6c838 ffff88007c8b3f78 ffffffffa0261059 0000000000001000
+[344820.892780]  00007fc842b75848 00007fc842b6c838 0000000000080000 000000000108f4c0
+[344820.892782] Call Trace:
+[344820.892785]  [<ffffffff81754a5b>] dump_stack+0x45/0x57
+[344820.892787]  [<ffffffffa0261059>] our_sys_open+0x59/0xb0 [syscall]
+[344820.892790]  [<ffffffff8175c1cd>] system_call_fastpath+0x16/0x1b
+[344820.892791] Opened file by 1001: /usr/lib/python3.4/__pycache__/tokenize.cpython-34.pyc
+[344820.893061] CPU: 1 PID: 2678 Comm: command-not-fou Tainted: P           OE  3.19.8-ckt6-lyl2-cmdline-exported+ #4
+[344820.893062] Hardware name: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+[344820.893063]  0000000000080000 ffff88007c8b3f38 ffffffff81754a5b 00000000000001b6
+[344820.893065]  00007fc842b6cdb8 ffff88007c8b3f78 ffffffffa0261059 0000000000001000
+[344820.893067]  00007fc842b7ca48 00007fc842b6cdb8 0000000000080000 000000000108f4c0
+[344820.893069] Call Trace:
+[344820.893072]  [<ffffffff81754a5b>] dump_stack+0x45/0x57
+[344820.893074]  [<ffffffffa0261059>] our_sys_open+0x59/0xb0 [syscall]
+[344820.893077]  [<ffffffff8175c1cd>] system_call_fastpath+0x16/0x1b
+[344820.893078] Opened file by 1001: /usr/lib/python3.4/__pycache__/token.cpython-34.pyc
+[344820.895848] CPU: 1 PID: 2678 Comm: command-not-fou Tainted: P           OE  3.19.8-ckt6-lyl2-cmdline-exported+ #4
+[344820.895852] Hardware name: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+[344820.895853]  0000000000080000 ffff88007c8b3f38 ffffffff81754a5b 00000000000001b6
+[344820.895856]  00007fc8435efc20 ffff88007c8b3f78 ffffffffa0261059 0000000000001000
+[344820.895858]  00007fc8435ba188 00007fc8435efc20 0000000000080000 000000000108f4c0
+[344820.895860] Call Trace:
+[344820.895866]  [<ffffffff81754a5b>] dump_stack+0x45/0x57
+[344820.895869]  [<ffffffffa0261059>] our_sys_open+0x59/0xb0 [syscall]
+[344820.895872]  [<ffffffff8175c1cd>] system_call_fastpath+0x16/0x1b
+[344820.895874] Opened file by 1001: /usr/lib/python3/dist-packages/CommandNotFound/__pycache__/util.cpython-34.pyc
+[344820.896259] CPU: 1 PID: 2678 Comm: command-not-fou Tainted: P           OE  3.19.8-ckt6-lyl2-cmdline-exported+ #4
+[344820.896260] Hardware name: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+[344820.896261]  0000000000080000 ffff88007c8b3f38 ffffffff81754a5b 00000000000001b6
+[344820.896263]  00007ffee18552d0 ffff88007c8b3f78 ffffffffa0261059 000000000108f4c0
+[344820.896265]  00007fc8445ef670 0000000001160ae0 0000000000000008 0000000000000000
+[344820.896267] Call Trace:
+[344820.896270]  [<ffffffff81754a5b>] dump_stack+0x45/0x57
+[344820.896273]  [<ffffffffa0261059>] our_sys_open+0x59/0xb0 [syscall]
+[344820.896275]  [<ffffffff8175c1cd>] system_call_fastpath+0x16/0x1b
+[344820.896276] Opened file by 1001: /usr/share/locale/locale.alias
+[344820.896337] CPU: 1 PID: 2678 Comm: command-not-fou Tainted: P           OE  3.19.8-ckt6-lyl2-cmdline-exported+ #4
+[344820.896338] Hardware name: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+[344820.896339]  0000000000000000 ffff88007c8b3f38 ffffffff81754a5b 0000000000000000
+[344820.896341]  000000000115fd30 ffff88007c8b3f78 ffffffffa0261059 00007ffee1855350
+[344820.896343]  00000000011c4f70 00007fc8445f8290 0000000000000004 0000000000000000
+[344820.896345] Call Trace:
+[344820.896347]  [<ffffffff81754a5b>] dump_stack+0x45/0x57
+[344820.896349]  [<ffffffffa0261059>] our_sys_open+0x59/0xb0 [syscall]
+[344820.896352]  [<ffffffff8175c1cd>] system_call_fastpath+0x16/0x1b
+[344820.896353] Opened file by 1001: /usr/share/locale/en_US/LC_MESSAGES/libc.mo
+[344820.896366] CPU: 1 PID: 2678 Comm: command-not-fou Tainted: P           OE  3.19.8-ckt6-lyl2-cmdline-exported+ #4
+[344820.896367] Hardware name: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+[344820.896368]  0000000000000000 ffff88007c8b3f38 ffffffff81754a5b 0000000000000000
+[344820.896370]  00000000011b6000 ffff88007c8b3f78 ffffffffa0261059 00007ffee1855350
+[344820.896372]  00000000011bbb40 0000000000000000 0000000000000004 0000000000000000
+[344820.896373] Call Trace:
+[344820.896376]  [<ffffffff81754a5b>] dump_stack+0x45/0x57
+[344820.896377]  [<ffffffffa0261059>] our_sys_open+0x59/0xb0 [syscall]
+[344820.896380]  [<ffffffff8175c1cd>] system_call_fastpath+0x16/0x1b
+[344820.896380] Opened file by 1001: /usr/share/locale/en/LC_MESSAGES/libc.mo
+[344820.896394] CPU: 1 PID: 2678 Comm: command-not-fou Tainted: P           OE  3.19.8-ckt6-lyl2-cmdline-exported+ #4
+[344820.896394] Hardware name: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+[344820.896395]  0000000000000000 ffff88007c8b3f38 ffffffff81754a5b 0000000000000000
+[344820.896397]  000000000117d4e0 ffff88007c8b3f78 ffffffffa0261059 00007ffee1855350
+[344820.896399]  00000000011d8d60 0000000000000001 0000000000000004 0000000000000000
+[344820.896401] Call Trace:
+[344820.896403]  [<ffffffff81754a5b>] dump_stack+0x45/0x57
+[344820.896404]  [<ffffffffa0261059>] our_sys_open+0x59/0xb0 [syscall]
+[344820.896407]  [<ffffffff8175c1cd>] system_call_fastpath+0x16/0x1b
+[344820.896408] Opened file by 1001: /usr/share/locale-langpack/en_US/LC_MESSAGES/libc.mo
+[344820.896422] CPU: 1 PID: 2678 Comm: command-not-fou Tainted: P           OE  3.19.8-ckt6-lyl2-cmdline-exported+ #4
+[344820.896423] Hardware name: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+[344820.896424]  0000000000000000 ffff88007c8b3f38 ffffffff81754a5b 0000000000000000
+[344820.896426]  00000000011dace0 ffff88007c8b3f78 ffffffffa0261059 00007ffee1855350
+[344820.896428]  00000000011da6a0 0000000000000002 0000000000000004 0000000000000000
+[344820.896429] Call Trace:
+[344820.896431]  [<ffffffff81754a5b>] dump_stack+0x45/0x57
+[344820.896434]  [<ffffffffa0261059>] our_sys_open+0x59/0xb0 [syscall]
+[344820.896507]  [<ffffffff8175c1cd>] system_call_fastpath+0x16/0x1b
+[344820.896510] Opened file by 1001: /usr/share/locale-langpack/en/LC_MESSAGES/libc.mo
+[344820.896846] CPU: 1 PID: 2678 Comm: command-not-fou Tainted: P           OE  3.19.8-ckt6-lyl2-cmdline-exported+ #4
+[344820.896847] Hardware name: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+[344820.896848]  0000000000080000 ffff88007c8b3f38 ffffffff81754a5b 00000000000001b6
+[344820.896851]  00007fc8435b4a00 ffff88007c8b3f78 ffffffffa0261059 0000000000001000
+[344820.896852]  00007fc8435ba188 00007fc8435b4a00 0000000000080000 0000000000000000
+[344820.896854] Call Trace:
+[344820.896857]  [<ffffffff81754a5b>] dump_stack+0x45/0x57
+[344820.896860]  [<ffffffffa0261059>] our_sys_open+0x59/0xb0 [syscall]
+[344820.896862]  [<ffffffff8175c1cd>] system_call_fastpath+0x16/0x1b
+[344820.896863] Opened file by 1001: /usr/share/command-not-found/priority.txt
+[344820.896995] CPU: 1 PID: 2678 Comm: command-not-fou Tainted: P           OE  3.19.8-ckt6-lyl2-cmdline-exported+ #4
+[344820.896997] Hardware name: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+[344820.896998]  0000000000080000 ffff88007c8b3f38 ffffffff81754a5b 00000000000001b6
+[344820.897000]  00007fc8435cc530 ffff88007c8b3f78 ffffffffa0261059 0000000000001000
+[344820.897001]  00007fc8435d1408 00007fc8435cc530 0000000000080000 000000000108f4c0
+[344820.897003] Call Trace:
+[344820.897006]  [<ffffffff81754a5b>] dump_stack+0x45/0x57
+[344820.897008]  [<ffffffffa0261059>] our_sys_open+0x59/0xb0 [syscall]
+[344820.897010]  [<ffffffff8175c1cd>] system_call_fastpath+0x16/0x1b
+[344820.897012] Opened file by 1001: /usr/lib/python3.4/__pycache__/_bootlocale.cpython-34.pyc
+[344820.897269] CPU: 1 PID: 2678 Comm: command-not-fou Tainted: P           OE  3.19.8-ckt6-lyl2-cmdline-exported+ #4
+[344820.897271] Hardware name: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+[344820.897272]  0000000000080000 ffff88007c8b3f38 ffffffff81754a5b 00007fc844c7a1c8
+[344820.897274]  0000000001166ce0 ffff88007c8b3f78 ffffffffa0261059 0000000000001000
+[344820.897276]  00007ffee1854998 00007fc844c7a1c8 00007ffee1854980 00007fc844c79060
+[344820.897277] Call Trace:
+[344820.897280]  [<ffffffff81754a5b>] dump_stack+0x45/0x57
+[344820.897282]  [<ffffffffa0261059>] our_sys_open+0x59/0xb0 [syscall]
+[344820.897285]  [<ffffffff8175c1cd>] system_call_fastpath+0x16/0x1b
+[344820.897286] Opened file by 1001: /usr/lib/python3/dist-packages/apt_pkg.cpython-34m-x86_64-linux-gnu.so
+[344820.897338] CPU: 1 PID: 2678 Comm: command-not-fou Tainted: P           OE  3.19.8-ckt6-lyl2-cmdline-exported+ #4
+[344820.897339] Hardware name: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+[344820.897340]  0000000000080000 ffff88007c8b3f38 ffffffff81754a5b 0000000000000001
+[344820.897342]  00007fc844a72e47 ffff88007c8b3f78 ffffffffa0261059 00007ffee1854910
+[344820.897344]  00007fc8428c4d92 00007fc844c7a0f0 0000000000000001 0000000000000000
+[344820.897346] Call Trace:
+[344820.897348]  [<ffffffff81754a5b>] dump_stack+0x45/0x57
+[344820.897350]  [<ffffffffa0261059>] our_sys_open+0x59/0xb0 [syscall]
+[344820.897352]  [<ffffffff8175c1cd>] system_call_fastpath+0x16/0x1b
+[344820.897353] Opened file by 1001: /etc/ld.so.cache
+[344820.897370] CPU: 1 PID: 2678 Comm: command-not-fou Tainted: P           OE  3.19.8-ckt6-lyl2-cmdline-exported+ #4
+[344820.897371] Hardware name: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+[344820.897371]  0000000000080000 ffff88007c8b3f38 ffffffff81754a5b 00000000011eed00
+[344820.897373]  00007fc844b282ec ffff88007c8b3f78 ffffffffa0261059 00007fc8428c4d92
+[344820.897375]  00007ffee18546f8 00000000011eed00 00007ffee18546e0 00007fc844c79060
+[344820.897377] Call Trace:
+[344820.897379]  [<ffffffff81754a5b>] dump_stack+0x45/0x57
+[344820.897381]  [<ffffffffa0261059>] our_sys_open+0x59/0xb0 [syscall]
+[344820.897383]  [<ffffffff8175c1cd>] system_call_fastpath+0x16/0x1b
+[344820.897384] Opened file by 1001: /usr/lib/x86_64-linux-gnu/libapt-pkg.so.4.12
+[344820.897755] CPU: 1 PID: 2678 Comm: command-not-fou Tainted: P           OE  3.19.8-ckt6-lyl2-cmdline-exported+ #4
+[344820.897758] Hardware name: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+[344820.897759]  0000000000080000 ffff88007c8b3f38 ffffffff81754a5b 00000000011eed00
+[344820.897763]  00007fc844b2481e ffff88007c8b3f78 ffffffffa0261059 0000000000000000
+[344820.897765]  00007ffee18546c8 00000000011eed00 00007ffee18546b0 00007fc844c79060
+[344820.897768] Call Trace:
+[344820.897774]  [<ffffffff81754a5b>] dump_stack+0x45/0x57
+[344820.897778]  [<ffffffffa0261059>] our_sys_open+0x59/0xb0 [syscall]
+[344820.897782]  [<ffffffff8175c1cd>] system_call_fastpath+0x16/0x1b
+[344820.897784] Opened file by 1001: /usr/lib/x86_64-linux-gnu/libstdc++.so.6
+[344820.897857] CPU: 1 PID: 2678 Comm: command-not-fou Tainted: P           OE  3.19.8-ckt6-lyl2-cmdline-exported+ #4
+[344820.897863] Hardware name: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+[344820.897868]  0000000000080000 ffff88007c8b3f38 ffffffff81754a5b 00000000011eed00
+[344820.897887]  00007fc844b27151 ffff88007c8b3f78 ffffffffa0261059 0000000000000000
+[344820.897897]  00007ffee1854698 00000000011eed00 00007ffee1854680 00007fc844c79060
+[344820.897899] Call Trace:
+[344820.897903]  [<ffffffff81754a5b>] dump_stack+0x45/0x57
+[344820.897905]  [<ffffffffa0261059>] our_sys_open+0x59/0xb0 [syscall]
+[344820.897909]  [<ffffffff8175c1cd>] system_call_fastpath+0x16/0x1b
+[344820.897910] Opened file by 1001: /lib/x86_64-linux-gnu/libgcc_s.so.1
+[344820.897956] CPU: 1 PID: 2678 Comm: command-not-fou Tainted: P           OE  3.19.8-ckt6-lyl2-cmdline-exported+ #4
+[344820.897962] Hardware name: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+[344820.897967]  0000000000080000 ffff88007c8b3f38 ffffffff81754a5b 00000000011ef1e0
+[344820.897978]  00007fc844b27f1f ffff88007c8b3f78 ffffffffa0261059 00007ffee1854610
+[344820.897981]  00007ffee1854448 00000000011ef1e0 00007ffee1854430 00007fc844c79060
+[344820.897986] Call Trace:
+[344820.897990]  [<ffffffff81754a5b>] dump_stack+0x45/0x57
+[344820.897996]  [<ffffffffa0261059>] our_sys_open+0x59/0xb0 [syscall]
+[344820.897999]  [<ffffffff8175c1cd>] system_call_fastpath+0x16/0x1b
+[344820.898002] Opened file by 1001: /lib/x86_64-linux-gnu/libbz2.so.1.0
+[344820.898048] CPU: 1 PID: 2678 Comm: command-not-fou Tainted: P           OE  3.19.8-ckt6-lyl2-cmdline-exported+ #4
+[344820.898050] Hardware name: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+[344820.898051]  0000000000080000 ffff88007c8b3f38 ffffffff81754a5b 00000000011ef1e0
+[344820.898054]  00007fc844b26419 ffff88007c8b3f78 ffffffffa0261059 00007ffee18543c0
+[344820.898057]  00007ffee1854418 00000000011ef1e0 00007ffee1854400 00007fc844c79060
+[344820.898059] Call Trace:
+[344820.898063]  [<ffffffff81754a5b>] dump_stack+0x45/0x57
+[344820.898066]  [<ffffffffa0261059>] our_sys_open+0x59/0xb0 [syscall]
+[344820.898070]  [<ffffffff8175c1cd>] system_call_fastpath+0x16/0x1b
+[344820.898072] Opened file by 1001: /lib/x86_64-linux-gnu/liblzma.so.5
+[344820.900181] CPU: 1 PID: 2678 Comm: command-not-fou Tainted: P           OE  3.19.8-ckt6-lyl2-cmdline-exported+ #4
+[344820.900184] Hardware name: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+[344820.900185]  0000000000080000 ffff88007c8b3f38 ffffffff81754a5b 00000000000001b6
+[344820.900188]  00007fc842b60ad0 ffff88007c8b3f78 ffffffffa0261059 0000000000001000
+[344820.900190]  00007fc842b1ef08 00007fc842b60ad0 0000000000080000 000000000108f4c0
+[344820.900192] Call Trace:
+[344820.900198]  [<ffffffff81754a5b>] dump_stack+0x45/0x57
+[344820.900200]  [<ffffffffa0261059>] our_sys_open+0x59/0xb0 [syscall]
+[344820.900203]  [<ffffffff8175c1cd>] system_call_fastpath+0x16/0x1b
+[344820.900205] Opened file by 1001: /usr/lib/python3/dist-packages/aptsources/__pycache__/__init__.cpython-34.pyc
+[344820.900513] CPU: 1 PID: 2678 Comm: command-not-fou Tainted: P           OE  3.19.8-ckt6-lyl2-cmdline-exported+ #4
+[344820.900515] Hardware name: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+[344820.900516]  0000000000000000 ffff88007c8b3f38 ffffffff81754a5b 00000000000001b6
+[344820.900519]  00000000012008b8 ffff88007c8b3f78 ffffffffa0261059 00007fc84256e3c0
+[344820.900522]  00007fc84232bcfd 00000000011fff50 0000000000000008 00007fc84256e3c0
+[344820.900525] Call Trace:
+[344820.900530]  [<ffffffff81754a5b>] dump_stack+0x45/0x57
+[344820.900533]  [<ffffffffa0261059>] our_sys_open+0x59/0xb0 [syscall]
+[344820.900538]  [<ffffffff8175c1cd>] system_call_fastpath+0x16/0x1b
+[344820.900540] Opened file by 1001: /etc/apt/apt.conf.d/00CDMountPoint
+[344820.900598] CPU: 1 PID: 2678 Comm: command-not-fou Tainted: P           OE  3.19.8-ckt6-lyl2-cmdline-exported+ #4
+[344820.900599] Hardware name: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+[344820.900601]  0000000000000000 ffff88007c8b3f38 ffffffff81754a5b 00000000000001b6
+[344820.900603]  0000000001200738 ffff88007c8b3f78 ffffffffa0261059 0000000000000000
+[344820.900606]  00007fc84232bcfd 00000000012002a0 0000000000000008 00007fc84256e3c0
+[344820.900609] Call Trace:
+[344820.900613]  [<ffffffff81754a5b>] dump_stack+0x45/0x57
+[344820.900615]  [<ffffffffa0261059>] our_sys_open+0x59/0xb0 [syscall]
+[344820.900619]  [<ffffffff8175c1cd>] system_call_fastpath+0x16/0x1b
+[344820.900620] Opened file by 1001: /etc/apt/apt.conf.d/00aptitude
+[344820.900645] CPU: 1 PID: 2678 Comm: command-not-fou Tainted: P           OE  3.19.8-ckt6-lyl2-cmdline-exported+ #4
+[344820.900647] Hardware name: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+[344820.900647]  0000000000000000 ffff88007c8b3f38 ffffffff81754a5b 00000000000001b6
+[344820.900649]  00000000011f6838 ffff88007c8b3f78 ffffffffa0261059 0000000000000000
+[344820.900651]  00007fc84232bcfd 00000000012002a0 0000000000000008 00007fc84256e3c0
+[344820.900653] Call Trace:
+[344820.900656]  [<ffffffff81754a5b>] dump_stack+0x45/0x57
+[344820.900658]  [<ffffffffa0261059>] our_sys_open+0x59/0xb0 [syscall]
+[344820.900661]  [<ffffffff8175c1cd>] system_call_fastpath+0x16/0x1b
+[344820.900663] Opened file by 1001: /etc/apt/apt.conf.d/00trustcdrom
+[344820.900693] CPU: 1 PID: 2678 Comm: command-not-fou Tainted: P           OE  3.19.8-ckt6-lyl2-cmdline-exported+ #4
+[344820.900694] Hardware name: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+[344820.900695]  0000000000000000 ffff88007c8b3f38 ffffffff81754a5b 00000000000001b6
+[344820.900697]  0000000001200268 ffff88007c8b3f78 ffffffffa0261059 0000000000000000
+[344820.900699]  00007fc84232bcfd 00000000012002a0 0000000000000008 00007fc84256e3c0
+[344820.900701] Call Trace:
+[344820.900703]  [<ffffffff81754a5b>] dump_stack+0x45/0x57
+[344820.900705]  [<ffffffffa0261059>] our_sys_open+0x59/0xb0 [syscall]
+[344820.900708]  [<ffffffff8175c1cd>] system_call_fastpath+0x16/0x1b
+[344820.900709] Opened file by 1001: /etc/apt/apt.conf.d/01autoremove
+[344820.900840] CPU: 1 PID: 2678 Comm: command-not-fou Tainted: P           OE  3.19.8-ckt6-lyl2-cmdline-exported+ #4
+[344820.900841] Hardware name: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+[344820.900842]  0000000000000000 ffff88007c8b3f38 ffffffff81754a5b 00000000000001b6
+[344820.900844]  0000000001200e38 ffff88007c8b3f78 ffffffffa0261059 0000000000000000
+[344820.900846]  00007fc84232bcfd 00000000012002a0 0000000000000008 00007fc84256e3c0
+[344820.900848] Call Trace:
+[344820.900850]  [<ffffffff81754a5b>] dump_stack+0x45/0x57
+[344820.900853]  [<ffffffffa0261059>] our_sys_open+0x59/0xb0 [syscall]
+[344820.900855]  [<ffffffff8175c1cd>] system_call_fastpath+0x16/0x1b
+[344820.900856] Opened file by 1001: /etc/apt/apt.conf.d/01autoremove-kernels
+[344820.901028] CPU: 1 PID: 2678 Comm: command-not-fou Tainted: P           OE  3.19.8-ckt6-lyl2-cmdline-exported+ #4
+[344820.901029] Hardware name: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+[344820.901030]  0000000000000000 ffff88007c8b3f38 ffffffff81754a5b 00000000000001b6
+[344820.901032]  00000000012006e8 ffff88007c8b3f78 ffffffffa0261059 0000000000000000
+[344820.901034]  00007fc84232bcfd 00000000012002a0 0000000000000008 00007fc84256e3c0
+[344820.901036] Call Trace:
+[344820.901039]  [<ffffffff81754a5b>] dump_stack+0x45/0x57
+[344820.901040]  [<ffffffffa0261059>] our_sys_open+0x59/0xb0 [syscall]
+[344820.901043]  [<ffffffff8175c1cd>] system_call_fastpath+0x16/0x1b
+[344820.901044] Opened file by 1001: /etc/apt/apt.conf.d/10periodic
+[344820.901075] CPU: 1 PID: 2678 Comm: command-not-fou Tainted: P           OE  3.19.8-ckt6-lyl2-cmdline-exported+ #4
+[344820.901076] Hardware name: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+[344820.901077]  0000000000000000 ffff88007c8b3f38 ffffffff81754a5b 00000000000001b6
+[344820.901079]  0000000001200698 ffff88007c8b3f78 ffffffffa0261059 0000000000000000
+[344820.901081]  00007fc84232bcfd 00000000012002a0 0000000000000008 00007fc84256e3c0
+[344820.901083] Call Trace:
+[344820.901085]  [<ffffffff81754a5b>] dump_stack+0x45/0x57
+[344820.901087]  [<ffffffffa0261059>] our_sys_open+0x59/0xb0 [syscall]
+[344820.901090]  [<ffffffff8175c1cd>] system_call_fastpath+0x16/0x1b
+[344820.901091] Opened file by 1001: /etc/apt/apt.conf.d/15update-stamp
+[344820.901117] CPU: 1 PID: 2678 Comm: command-not-fou Tainted: P           OE  3.19.8-ckt6-lyl2-cmdline-exported+ #4
+[344820.901118] Hardware name: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+[344820.901118]  0000000000000000 ffff88007c8b3f38 ffffffff81754a5b 00000000000001b6
+[344820.901120]  0000000001200908 ffff88007c8b3f78 ffffffffa0261059 0000000000000000
+[344820.901122]  00007fc84232bcfd 00000000012002a0 0000000000000008 00007fc84256e3c0
+[344820.901124] Call Trace:
+[344820.901126]  [<ffffffff81754a5b>] dump_stack+0x45/0x57
+[344820.901128]  [<ffffffffa0261059>] our_sys_open+0x59/0xb0 [syscall]
+[344820.901131]  [<ffffffff8175c1cd>] system_call_fastpath+0x16/0x1b
+[344820.901132] Opened file by 1001: /etc/apt/apt.conf.d/20archive
+[344820.901159] CPU: 1 PID: 2678 Comm: command-not-fou Tainted: P           OE  3.19.8-ckt6-lyl2-cmdline-exported+ #4
+[344820.901160] Hardware name: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+[344820.901161]  0000000000000000 ffff88007c8b3f38 ffffffff81754a5b 00000000000001b6
+[344820.901163]  0000000001200648 ffff88007c8b3f78 ffffffffa0261059 0000000000000000
+[344820.901165]  00007fc84232bcfd 00000000012002a0 0000000000000008 00007fc84256e3c0
+[344820.901167] Call Trace:
+[344820.901169]  [<ffffffff81754a5b>] dump_stack+0x45/0x57
+[344820.901171]  [<ffffffffa0261059>] our_sys_open+0x59/0xb0 [syscall]
+[344820.901173]  [<ffffffff8175c1cd>] system_call_fastpath+0x16/0x1b
+[344820.901174] Opened file by 1001: /etc/apt/apt.conf.d/20changelog
+[344820.901205] CPU: 1 PID: 2678 Comm: command-not-fou Tainted: P           OE  3.19.8-ckt6-lyl2-cmdline-exported+ #4
+[344820.901206] Hardware name: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+[344820.901207]  0000000000000000 ffff88007c8b3f38 ffffffff81754a5b 00000000000001b6
+[344820.901209]  00000000011fe638 ffff88007c8b3f78 ffffffffa0261059 0000000000000000
+[344820.901211]  00007fc84232bcfd 00000000012002a0 0000000000000008 00007fc84256e3c0
+[344820.901213] Call Trace:
+[344820.901215]  [<ffffffff81754a5b>] dump_stack+0x45/0x57
+[344820.901217]  [<ffffffffa0261059>] our_sys_open+0x59/0xb0 [syscall]
+[344820.901219]  [<ffffffff8175c1cd>] system_call_fastpath+0x16/0x1b
+[344820.901220] Opened file by 1001: /etc/apt/apt.conf.d/50unattended-upgrades
+[344820.901487] CPU: 1 PID: 2678 Comm: command-not-fou Tainted: P           OE  3.19.8-ckt6-lyl2-cmdline-exported+ #4
+[344820.901490] Hardware name: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+[344820.901492]  0000000000000000 ffff88007c8b3f38 ffffffff81754a5b 00000000000001b6
+[344820.901495]  00000000012007d8 ffff88007c8b3f78 ffffffffa0261059 0000000000000000
+[344820.901499]  00007fc84232bcfd 00000000012002a0 0000000000000008 00007fc84256e3c0
+[344820.901502] Call Trace:
+[344820.901505]  [<ffffffff81754a5b>] dump_stack+0x45/0x57
+[344820.901508]  [<ffffffffa0261059>] our_sys_open+0x59/0xb0 [syscall]
+[344820.901511]  [<ffffffff8175c1cd>] system_call_fastpath+0x16/0x1b
+[344820.901513] Opened file by 1001: /etc/apt/apt.conf.d/70debconf
+[344820.901557] CPU: 1 PID: 2678 Comm: command-not-fou Tainted: P           OE  3.19.8-ckt6-lyl2-cmdline-exported+ #4
+[344820.901559] Hardware name: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+[344820.901559]  0000000000000000 ffff88007c8b3f38 ffffffff81754a5b 00000000000001b6
+[344820.901561]  0000000001200788 ffff88007c8b3f78 ffffffffa0261059 0000000000000000
+[344820.901563]  00007fc84232bcfd 00000000012002a0 0000000000000008 00007fc84256e3c0
+[344820.901565] Call Trace:
+[344820.901568]  [<ffffffff81754a5b>] dump_stack+0x45/0x57
+[344820.901570]  [<ffffffffa0261059>] our_sys_open+0x59/0xb0 [syscall]
+[344820.901573]  [<ffffffff8175c1cd>] system_call_fastpath+0x16/0x1b
+[344820.901574] Opened file by 1001: /etc/apt/apt.conf.d/99update-notifier
+[344820.901817] CPU: 1 PID: 2678 Comm: command-not-fou Tainted: P           OE  3.19.8-ckt6-lyl2-cmdline-exported+ #4
+[344820.901819] Hardware name: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+[344820.901820]  0000000000080000 ffff88007c8b3f38 ffffffff81754a5b 00000000000001b6
+[344820.901822]  00007fc842b7a320 ffff88007c8b3f78 ffffffffa0261059 0000000000001000
+[344820.901823]  00007fc842b21148 00007fc842b7a320 0000000000080000 000000000108f4c0
+[344820.901825] Call Trace:
+[344820.901828]  [<ffffffff81754a5b>] dump_stack+0x45/0x57
+[344820.901830]  [<ffffffffa0261059>] our_sys_open+0x59/0xb0 [syscall]
+[344820.901833]  [<ffffffff8175c1cd>] system_call_fastpath+0x16/0x1b
+[344820.901834] Opened file by 1001: /usr/lib/python3/dist-packages/aptsources/__pycache__/sourceslist.cpython-34.pyc
+[344820.902597] CPU: 1 PID: 2678 Comm: command-not-fou Tainted: P           OE  3.19.8-ckt6-lyl2-cmdline-exported+ #4
+[344820.902600] Hardware name: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+[344820.902601]  0000000000080000 ffff88007c8b3f38 ffffffff81754a5b 00000000000001b6
+[344820.902612]  00007fc842b243c0 ffff88007c8b3f78 ffffffffa0261059 0000000000001000
+[344820.902615]  00007fc842b21f08 00007fc842b243c0 0000000000080000 000000000108f4c0
+[344820.902618] Call Trace:
+[344820.902625]  [<ffffffff81754a5b>] dump_stack+0x45/0x57
+[344820.902628]  [<ffffffffa0261059>] our_sys_open+0x59/0xb0 [syscall]
+[344820.902631]  [<ffffffff8175c1cd>] system_call_fastpath+0x16/0x1b
+[344820.902632] Opened file by 1001: /usr/lib/python3.4/__pycache__/glob.cpython-34.pyc
+[344820.902829] CPU: 1 PID: 2678 Comm: command-not-fou Tainted: P           OE  3.19.8-ckt6-lyl2-cmdline-exported+ #4
+[344820.902830] Hardware name: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+[344820.902831]  0000000000080000 ffff88007c8b3f38 ffffffff81754a5b 00000000000001b6
+[344820.902833]  00007fc842b24520 ffff88007c8b3f78 ffffffffa0261059 0000000000000017
+[344820.902835]  00007fc842b282c8 00007fc842b24520 0000000000080000 000000000108f4c0
+[344820.902837] Call Trace:
+[344820.902840]  [<ffffffff81754a5b>] dump_stack+0x45/0x57
+[344820.902842]  [<ffffffffa0261059>] our_sys_open+0x59/0xb0 [syscall]
+[344820.902844]  [<ffffffff8175c1cd>] system_call_fastpath+0x16/0x1b
+[344820.902845] Opened file by 1001: /usr/lib/python3.4/__pycache__/fnmatch.cpython-34.pyc
+[344820.903539] CPU: 1 PID: 2678 Comm: command-not-fou Tainted: P           OE  3.19.8-ckt6-lyl2-cmdline-exported+ #4
+[344820.903540] Hardware name: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+[344820.903542]  0000000000080000 ffff88007c8b3f38 ffffffff81754a5b 00000000000001b6
+[344820.903544]  00007fc842b2b1d0 ffff88007c8b3f78 ffffffffa0261059 0000000000001000
+[344820.903546]  00007fc842b28988 00007fc842b2b1d0 0000000000080000 000000000108f4c0
+[344820.903556] Call Trace:
+[344820.903560]  [<ffffffff81754a5b>] dump_stack+0x45/0x57
+[344820.903562]  [<ffffffffa0261059>] our_sys_open+0x59/0xb0 [syscall]
+[344820.903565]  [<ffffffff8175c1cd>] system_call_fastpath+0x16/0x1b
+[344820.903566] Opened file by 1001: /usr/lib/python3.4/logging/__pycache__/__init__.cpython-34.pyc
+[344820.904018] CPU: 1 PID: 2678 Comm: command-not-fou Tainted: P           OE  3.19.8-ckt6-lyl2-cmdline-exported+ #4
+[344820.904020] Hardware name: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+[344820.904021]  0000000000080000 ffff88007c8b3f38 ffffffff81754a5b 00000000000001b6
+[344820.904023]  00007fc842b456d8 ffff88007c8b3f78 ffffffffa0261059 0000000000000004
+[344820.904025]  00007fc841be9108 00007fc842b456d8 0000000000080000 000000000108f4c0
+[344820.904027] Call Trace:
+[344820.904030]  [<ffffffff81754a5b>] dump_stack+0x45/0x57
+[344820.904032]  [<ffffffffa0261059>] our_sys_open+0x59/0xb0 [syscall]
+[344820.904035]  [<ffffffff8175c1cd>] system_call_fastpath+0x16/0x1b
+[344820.904036] Opened file by 1001: /usr/lib/python3.4/__pycache__/string.cpython-34.pyc
+[344820.917437] CPU: 1 PID: 2678 Comm: command-not-fou Tainted: P           OE  3.19.8-ckt6-lyl2-cmdline-exported+ #4
+[344820.917441] Hardware name: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+[344820.917443]  0000000000080000 ffff88007c8b3f38 ffffffff81754a5b 00000000000001b6
+[344820.917447]  00007fc842b24730 ffff88007c8b3f78 ffffffffa0261059 0000000000001000
+[344820.917450]  00007fc841be49c8 00007fc842b24730 0000000000080000 000000000108f4c0
+[344820.917454] Call Trace:
+[344820.917463]  [<ffffffff81754a5b>] dump_stack+0x45/0x57
+[344820.917467]  [<ffffffffa0261059>] our_sys_open+0x59/0xb0 [syscall]
+[344820.917472]  [<ffffffff8175c1cd>] system_call_fastpath+0x16/0x1b
+[344820.917474] Opened file by 1001: /usr/lib/python3.4/__pycache__/shutil.cpython-34.pyc
+[344820.918701] CPU: 1 PID: 2678 Comm: command-not-fou Tainted: P           OE  3.19.8-ckt6-lyl2-cmdline-exported+ #4
+[344820.918705] Hardware name: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+[344820.918707]  0000000000080000 ffff88007c8b3f38 ffffffff81754a5b 00000000000001b6
+[344820.918711]  00007fc841c02470 ffff88007c8b3f78 ffffffffa0261059 0000000000001000
+[344820.918714]  00007fc841bfdfc8 00007fc841c02470 0000000000080000 000000000108f4c0
+[344820.918718] Call Trace:
+[344820.918726]  [<ffffffff81754a5b>] dump_stack+0x45/0x57
+[344820.918730]  [<ffffffffa0261059>] our_sys_open+0x59/0xb0 [syscall]
+[344820.918735]  [<ffffffff8175c1cd>] system_call_fastpath+0x16/0x1b
+[344820.918737] Opened file by 1001: /usr/lib/python3.4/__pycache__/tarfile.cpython-34.pyc
+[344820.921223] CPU: 1 PID: 2678 Comm: command-not-fou Tainted: P           OE  3.19.8-ckt6-lyl2-cmdline-exported+ #4
+[344820.921227] Hardware name: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+[344820.921228]  0000000000080000 ffff88007c8b3f38 ffffffff81754a5b 00000000000001b6
+[344820.921231]  00007fc841c18ba8 ffff88007c8b3f78 ffffffffa0261059 0000000000001000
+[344820.921233]  00007fc841baa448 00007fc841c18ba8 0000000000080000 000000000108f4c0
+[344820.921236] Call Trace:
+[344820.921243]  [<ffffffff81754a5b>] dump_stack+0x45/0x57
+[344820.921246]  [<ffffffffa0261059>] our_sys_open+0x59/0xb0 [syscall]
+[344820.921250]  [<ffffffff8175c1cd>] system_call_fastpath+0x16/0x1b
+[344820.921251] Opened file by 1001: /usr/lib/python3.4/__pycache__/bz2.cpython-34.pyc
+[344820.921571] CPU: 1 PID: 2678 Comm: command-not-fou Tainted: P           OE  3.19.8-ckt6-lyl2-cmdline-exported+ #4
+[344820.921573] Hardware name: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+[344820.921574]  0000000000080000 ffff88007c8b3f38 ffffffff81754a5b 00007fc844c7a1c8
+[344820.921576]  0000000001220140 ffff88007c8b3f78 ffffffffa0261059 0000000000001000
+[344820.921578]  00007ffee18520e8 00007fc844c7a1c8 00007ffee18520d0 00007fc844c79060
+[344820.921581] Call Trace:
+[344820.921585]  [<ffffffff81754a5b>] dump_stack+0x45/0x57
+[344820.921588]  [<ffffffffa0261059>] our_sys_open+0x59/0xb0 [syscall]
+[344820.921591]  [<ffffffff8175c1cd>] system_call_fastpath+0x16/0x1b
+[344820.921592] Opened file by 1001: /usr/lib/python3.4/lib-dynload/_bz2.cpython-34m-x86_64-linux-gnu.so
+[344820.924234] CPU: 1 PID: 2678 Comm: command-not-fou Tainted: P           OE  3.19.8-ckt6-lyl2-cmdline-exported+ #4
+[344820.924239] Hardware name: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+[344820.924242]  0000000000080000 ffff88007c8b3f38 ffffffff81754a5b 00000000000001b6
+[344820.924246]  00007fc841c15d00 ffff88007c8b3f78 ffffffffa0261059 0000000000001000
+[344820.924249]  00007fc841bbaa88 00007fc841c15d00 0000000000080000 000000000108f4c0
+[344820.924253] Call Trace:
+[344820.924262]  [<ffffffff81754a5b>] dump_stack+0x45/0x57
+[344820.924266]  [<ffffffffa0261059>] our_sys_open+0x59/0xb0 [syscall]
+[344820.924271]  [<ffffffff8175c1cd>] system_call_fastpath+0x16/0x1b
+[344820.924273] Opened file by 1001: /usr/lib/python3/dist-packages/aptsources/__pycache__/distinfo.cpython-34.pyc
+[344820.925754] CPU: 1 PID: 2678 Comm: command-not-fou Tainted: P           OE  3.19.8-ckt6-lyl2-cmdline-exported+ #4
+[344820.925853] Hardware name: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+[344820.925856]  0000000000000000 ffff88007c8b3f38 ffffffff81754a5b 00000000000001b6
+[344820.925861]  0000000001236118 ffff88007c8b3f78 ffffffffa0261059 00007fc84256e3c0
+[344820.925864]  00007fc84232bcfd 00000000012326a0 0000000000000008 00007fc84256e3c0
+[344820.925867] Call Trace:
+[344820.925876]  [<ffffffff81754a5b>] dump_stack+0x45/0x57
+[344820.925882]  [<ffffffffa0261059>] our_sys_open+0x59/0xb0 [syscall]
+[344820.925888]  [<ffffffff8175c1cd>] system_call_fastpath+0x16/0x1b
+[344820.925890] Opened file by 1001: /etc/apt/apt.conf.d/00CDMountPoint
+[344820.925991] CPU: 1 PID: 2678 Comm: command-not-fou Tainted: P           OE  3.19.8-ckt6-lyl2-cmdline-exported+ #4
+[344820.925994] Hardware name: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+[344820.925996]  0000000000000000 ffff88007c8b3f38 ffffffff81754a5b 00000000000001b6
+[344820.925999]  0000000001235f98 ffff88007c8b3f78 ffffffffa0261059 0000000000000000
+[344820.926002]  00007fc84232bcfd 0000000001226f50 0000000000000008 00007fc84256e3c0
+[344820.926009] Call Trace:
+[344820.926014]  [<ffffffff81754a5b>] dump_stack+0x45/0x57
+[344820.926018]  [<ffffffffa0261059>] our_sys_open+0x59/0xb0 [syscall]
+[344820.926022]  [<ffffffff8175c1cd>] system_call_fastpath+0x16/0x1b
+[344820.926025] Opened file by 1001: /etc/apt/apt.conf.d/00aptitude
+[344820.926070] CPU: 1 PID: 2678 Comm: command-not-fou Tainted: P           OE  3.19.8-ckt6-lyl2-cmdline-exported+ #4
+[344820.926072] Hardware name: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+[344820.926073]  0000000000000000 ffff88007c8b3f38 ffffffff81754a5b 00000000000001b6
+[344820.926076]  0000000001235e08 ffff88007c8b3f78 ffffffffa0261059 0000000000000000
+[344820.926080]  00007fc84232bcfd 0000000001226f50 0000000000000008 00007fc84256e3c0
+[344820.926083] Call Trace:
+[344820.926087]  [<ffffffff81754a5b>] dump_stack+0x45/0x57
+[344820.926090]  [<ffffffffa0261059>] our_sys_open+0x59/0xb0 [syscall]
+[344820.926094]  [<ffffffff8175c1cd>] system_call_fastpath+0x16/0x1b
+[344820.926095] Opened file by 1001: /etc/apt/apt.conf.d/00trustcdrom
+[344820.926136] CPU: 1 PID: 2678 Comm: command-not-fou Tainted: P           OE  3.19.8-ckt6-lyl2-cmdline-exported+ #4
+[344820.926138] Hardware name: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+[344820.926139]  0000000000000000 ffff88007c8b3f38 ffffffff81754a5b 00000000000001b6
+[344820.926142]  00000000012359a8 ffff88007c8b3f78 ffffffffa0261059 0000000000000000
+[344820.926145]  00007fc84232bcfd 0000000001226f50 0000000000000008 00007fc84256e3c0
+[344820.926149] Call Trace:
+[344820.926153]  [<ffffffff81754a5b>] dump_stack+0x45/0x57
+[344820.926157]  [<ffffffffa0261059>] our_sys_open+0x59/0xb0 [syscall]
+[344820.926162]  [<ffffffff8175c1cd>] system_call_fastpath+0x16/0x1b
+[344820.926163] Opened file by 1001: /etc/apt/apt.conf.d/01autoremove
+[344820.926335] CPU: 1 PID: 2678 Comm: command-not-fou Tainted: P           OE  3.19.8-ckt6-lyl2-cmdline-exported+ #4
+[344820.926337] Hardware name: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+[344820.926338]  0000000000000000 ffff88007c8b3f38 ffffffff81754a5b 00000000000001b6
+[344820.926341]  00000000012339d8 ffff88007c8b3f78 ffffffffa0261059 0000000000000000
+[344820.926344]  00007fc84232bcfd 0000000001226f50 0000000000000008 00007fc84256e3c0
+[344820.926347] Call Trace:
+[344820.926351]  [<ffffffff81754a5b>] dump_stack+0x45/0x57
+[344820.926355]  [<ffffffffa0261059>] our_sys_open+0x59/0xb0 [syscall]
+[344820.926358]  [<ffffffff8175c1cd>] system_call_fastpath+0x16/0x1b
+[344820.926359] Opened file by 1001: /etc/apt/apt.conf.d/01autoremove-kernels
+[344820.926636] CPU: 1 PID: 2678 Comm: command-not-fou Tainted: P           OE  3.19.8-ckt6-lyl2-cmdline-exported+ #4
+[344820.926639] Hardware name: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+[344820.926640]  0000000000000000 ffff88007c8b3f38 ffffffff81754a5b 00000000000001b6
+[344820.926643]  0000000001235f48 ffff88007c8b3f78 ffffffffa0261059 0000000000000000
+[344820.926645]  00007fc84232bcfd 0000000001226f50 0000000000000008 00007fc84256e3c0
+[344820.926649] Call Trace:
+[344820.926655]  [<ffffffff81754a5b>] dump_stack+0x45/0x57
+[344820.926658]  [<ffffffffa0261059>] our_sys_open+0x59/0xb0 [syscall]
+[344820.926662]  [<ffffffff8175c1cd>] system_call_fastpath+0x16/0x1b
+[344820.926665] Opened file by 1001: /etc/apt/apt.conf.d/10periodic
+[344820.926723] CPU: 1 PID: 2678 Comm: command-not-fou Tainted: P           OE  3.19.8-ckt6-lyl2-cmdline-exported+ #4
+[344820.926724] Hardware name: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+[344820.926725]  0000000000000000 ffff88007c8b3f38 ffffffff81754a5b 00000000000001b6
+[344820.926728]  0000000001235ef8 ffff88007c8b3f78 ffffffffa0261059 0000000000000000
+[344820.926730]  00007fc84232bcfd 0000000001226f50 0000000000000008 00007fc84256e3c0
+[344820.926733] Call Trace:
+[344820.926736]  [<ffffffff81754a5b>] dump_stack+0x45/0x57
+[344820.926739]  [<ffffffffa0261059>] our_sys_open+0x59/0xb0 [syscall]
+[344820.926742]  [<ffffffff8175c1cd>] system_call_fastpath+0x16/0x1b
+[344820.926744] Opened file by 1001: /etc/apt/apt.conf.d/15update-stamp
+[344820.927102] CPU: 1 PID: 2678 Comm: command-not-fou Tainted: P           OE  3.19.8-ckt6-lyl2-cmdline-exported+ #4
+[344820.927104] Hardware name: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+[344820.927106]  0000000000000000 ffff88007c8b3f38 ffffffff81754a5b 00000000000001b6
+[344820.927109]  0000000001236168 ffff88007c8b3f78 ffffffffa0261059 0000000000000000
+[344820.927112]  00007fc84232bcfd 0000000001226f50 0000000000000008 00007fc84256e3c0
+[344820.927115] Call Trace:
+[344820.927120]  [<ffffffff81754a5b>] dump_stack+0x45/0x57
+[344820.927123]  [<ffffffffa0261059>] our_sys_open+0x59/0xb0 [syscall]
+[344820.927128]  [<ffffffff8175c1cd>] system_call_fastpath+0x16/0x1b
+[344820.927129] Opened file by 1001: /etc/apt/apt.conf.d/20archive
+[344820.927179] CPU: 1 PID: 2678 Comm: command-not-fou Tainted: P           OE  3.19.8-ckt6-lyl2-cmdline-exported+ #4
+[344820.927181] Hardware name: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+[344820.927182]  0000000000000000 ffff88007c8b3f38 ffffffff81754a5b 00000000000001b6
+[344820.927185]  0000000001235ea8 ffff88007c8b3f78 ffffffffa0261059 0000000000000000
+[344820.927188]  00007fc84232bcfd 0000000001226f50 0000000000000008 00007fc84256e3c0
+[344820.927191] Call Trace:
+[344820.927194]  [<ffffffff81754a5b>] dump_stack+0x45/0x57
+[344820.927197]  [<ffffffffa0261059>] our_sys_open+0x59/0xb0 [syscall]
+[344820.927200]  [<ffffffff8175c1cd>] system_call_fastpath+0x16/0x1b
+[344820.927201] Opened file by 1001: /etc/apt/apt.conf.d/20changelog
+[344820.927255] CPU: 1 PID: 2678 Comm: command-not-fou Tainted: P           OE  3.19.8-ckt6-lyl2-cmdline-exported+ #4
+[344820.927257] Hardware name: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+[344820.927258]  0000000000000000 ffff88007c8b3f38 ffffffff81754a5b 00000000000001b6
+[344820.927261]  0000000001235e58 ffff88007c8b3f78 ffffffffa0261059 0000000000000000
+[344820.927264]  00007fc84232bcfd 0000000001226f50 0000000000000008 00007fc84256e3c0
+[344820.927267] Call Trace:
+[344820.927271]  [<ffffffff81754a5b>] dump_stack+0x45/0x57
+[344820.927274]  [<ffffffffa0261059>] our_sys_open+0x59/0xb0 [syscall]
+[344820.927277]  [<ffffffff8175c1cd>] system_call_fastpath+0x16/0x1b
+[344820.927279] Opened file by 1001: /etc/apt/apt.conf.d/50unattended-upgrades
+[344820.927530] CPU: 1 PID: 2678 Comm: command-not-fou Tainted: P           OE  3.19.8-ckt6-lyl2-cmdline-exported+ #4
+[344820.927532] Hardware name: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+[344820.927533]  0000000000000000 ffff88007c8b3f38 ffffffff81754a5b 00000000000001b6
+[344820.927535]  0000000001236038 ffff88007c8b3f78 ffffffffa0261059 0000000000000000
+[344820.927538]  00007fc84232bcfd 0000000001226f50 0000000000000008 00007fc84256e3c0
+[344820.927541] Call Trace:
+[344820.927544]  [<ffffffff81754a5b>] dump_stack+0x45/0x57
+[344820.927547]  [<ffffffffa0261059>] our_sys_open+0x59/0xb0 [syscall]
+[344820.927550]  [<ffffffff8175c1cd>] system_call_fastpath+0x16/0x1b
+[344820.927551] Opened file by 1001: /etc/apt/apt.conf.d/70debconf
+[344820.927592] CPU: 1 PID: 2678 Comm: command-not-fou Tainted: P           OE  3.19.8-ckt6-lyl2-cmdline-exported+ #4
+[344820.927594] Hardware name: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+[344820.927595]  0000000000000000 ffff88007c8b3f38 ffffffff81754a5b 00000000000001b6
+[344820.927597]  0000000001235fe8 ffff88007c8b3f78 ffffffffa0261059 0000000000000000
+[344820.927600]  00007fc84232bcfd 0000000001226f50 0000000000000008 00007fc84256e3c0
+[344820.927602] Call Trace:
+[344820.927605]  [<ffffffff81754a5b>] dump_stack+0x45/0x57
+[344820.927608]  [<ffffffffa0261059>] our_sys_open+0x59/0xb0 [syscall]
+[344820.927611]  [<ffffffff8175c1cd>] system_call_fastpath+0x16/0x1b
+[344820.927612] Opened file by 1001: /etc/apt/apt.conf.d/99update-notifier
+[344820.927835] CPU: 1 PID: 2678 Comm: command-not-fou Tainted: P           OE  3.19.8-ckt6-lyl2-cmdline-exported+ #4
+[344820.927837] Hardware name: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+[344820.927839]  0000000000080000 ffff88007c8b3f38 ffffffff81754a5b 00000000000001b6
+[344820.927842]  00007fc842b200f8 ffff88007c8b3f78 ffffffffa0261059 0000000000001000
+[344820.927844]  00007fc842b21a88 00007fc842b200f8 0000000000080000 0000000000000000
+[344820.927847] Call Trace:
+[344820.927851]  [<ffffffff81754a5b>] dump_stack+0x45/0x57
+[344820.927855]  [<ffffffffa0261059>] our_sys_open+0x59/0xb0 [syscall]
+[344820.927858]  [<ffffffff8175c1cd>] system_call_fastpath+0x16/0x1b
+[344820.927860] Opened file by 1001: /etc/apt/sources.list
+[344820.930643] CPU: 1 PID: 2678 Comm: command-not-fou Tainted: P           OE  3.19.8-ckt6-lyl2-cmdline-exported+ #4
+[344820.930646] Hardware name: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+[344820.930648]  0000000000000000 ffff88007c8b3f38 ffffffff81754a5b 0000000000000000
+[344820.930652]  00000000012335f0 ffff88007c8b3f78 ffffffffa0261059 0000000001235df0
+[344820.930654]  0000000000000000 00007fc841bb2818 000000000122daa0 0000000000000000
+[344820.930730] Call Trace:
+[344820.930739]  [<ffffffff81754a5b>] dump_stack+0x45/0x57
+[344820.930743]  [<ffffffffa0261059>] our_sys_open+0x59/0xb0 [syscall]
+[344820.930748]  [<ffffffff8175c1cd>] system_call_fastpath+0x16/0x1b
+[344820.930750] Opened file by 1001: /usr/share/command-not-found/programs.d/all-main.db
+[344820.930816] CPU: 1 PID: 2678 Comm: command-not-fou Tainted: P           OE  3.19.8-ckt6-lyl2-cmdline-exported+ #4
+[344820.930818] Hardware name: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+[344820.930822]  0000000000000000 ffff88007c8b3f38 ffffffff81754a5b 0000000000000000
+[344820.930826]  000000000122f250 ffff88007c8b3f78 ffffffffa0261059 0000000000001000
+[344820.930831]  0000000000000000 00007fc841c15ae0 00000000011d0b30 0000000000000000
+[344820.930834] Call Trace:
+[344820.930839]  [<ffffffff81754a5b>] dump_stack+0x45/0x57
+[344820.930844]  [<ffffffffa0261059>] our_sys_open+0x59/0xb0 [syscall]
+[344820.930848]  [<ffffffff8175c1cd>] system_call_fastpath+0x16/0x1b
+[344820.930850] Opened file by 1001: /usr/share/command-not-found/programs.d/amd64-universe.db
+[344820.930899] CPU: 1 PID: 2678 Comm: command-not-fou Tainted: P           OE  3.19.8-ckt6-lyl2-cmdline-exported+ #4
+[344820.930901] Hardware name: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+[344820.930902]  0000000000000000 ffff88007c8b3f38 ffffffff81754a5b 0000000000000000
+[344820.930905]  000000000122f960 ffff88007c8b3f78 ffffffffa0261059 0000000000001000
+[344820.930907]  0000000000000000 00007fc841c15ae0 000000000122f350 0000000000000000
+[344820.930910] Call Trace:
+[344820.930913]  [<ffffffff81754a5b>] dump_stack+0x45/0x57
+[344820.930916]  [<ffffffffa0261059>] our_sys_open+0x59/0xb0 [syscall]
+[344820.930919]  [<ffffffff8175c1cd>] system_call_fastpath+0x16/0x1b
+[344820.930921] Opened file by 1001: /usr/share/command-not-found/programs.d/amd64-multiverse.db
+[344820.930962] CPU: 1 PID: 2678 Comm: command-not-fou Tainted: P           OE  3.19.8-ckt6-lyl2-cmdline-exported+ #4
+[344820.930963] Hardware name: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+[344820.930965]  0000000000000000 ffff88007c8b3f38 ffffffff81754a5b 0000000000000000
+[344820.930967]  000000000122fa90 ffff88007c8b3f78 ffffffffa0261059 0000000000001000
+[344820.930970]  0000000000000000 00007fc841c15ae0 000000000122fa10 0000000000000000
+[344820.930972] Call Trace:
+[344820.930976]  [<ffffffff81754a5b>] dump_stack+0x45/0x57
+[344820.930978]  [<ffffffffa0261059>] our_sys_open+0x59/0xb0 [syscall]
+[344820.930981]  [<ffffffff8175c1cd>] system_call_fastpath+0x16/0x1b
+[344820.930983] Opened file by 1001: /usr/share/command-not-found/programs.d/amd64-restricted.db
+[344820.931023] CPU: 1 PID: 2678 Comm: command-not-fou Tainted: P           OE  3.19.8-ckt6-lyl2-cmdline-exported+ #4
+[344820.931024] Hardware name: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+[344820.931025]  0000000000000000 ffff88007c8b3f38 ffffffff81754a5b 0000000000000000
+[344820.931028]  0000000001233380 ffff88007c8b3f78 ffffffffa0261059 0000000000001000
+[344820.931030]  0000000000000000 00007fc841c15ae0 0000000001233300 0000000000000000
+[344820.931033] Call Trace:
+[344820.931036]  [<ffffffff81754a5b>] dump_stack+0x45/0x57
+[344820.931039]  [<ffffffffa0261059>] our_sys_open+0x59/0xb0 [syscall]
+[344820.931042]  [<ffffffff8175c1cd>] system_call_fastpath+0x16/0x1b
+[344820.931043] Opened file by 1001: /usr/share/command-not-found/programs.d/all-multiverse.db
+[344820.931084] CPU: 1 PID: 2678 Comm: command-not-fou Tainted: P           OE  3.19.8-ckt6-lyl2-cmdline-exported+ #4
+[344820.931086] Hardware name: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+[344820.931087]  0000000000000000 ffff88007c8b3f38 ffffffff81754a5b 0000000000000000
+[344820.931089]  000000000123ce60 ffff88007c8b3f78 ffffffffa0261059 0000000000001000
+[344820.931092]  0000000000000000 00007fc841bb2818 0000000001233430 0000000000000000
+[344820.931095] Call Trace:
+[344820.931098]  [<ffffffff81754a5b>] dump_stack+0x45/0x57
+[344820.931100]  [<ffffffffa0261059>] our_sys_open+0x59/0xb0 [syscall]
+[344820.931103]  [<ffffffff8175c1cd>] system_call_fastpath+0x16/0x1b
+[344820.931105] Opened file by 1001: /usr/share/command-not-found/programs.d/amd64-main.db
+[344820.931142] CPU: 1 PID: 2678 Comm: command-not-fou Tainted: P           OE  3.19.8-ckt6-lyl2-cmdline-exported+ #4
+[344820.931144] Hardware name: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+[344820.931145]  0000000000000000 ffff88007c8b3f38 ffffffff81754a5b 0000000000000000
+[344820.931147]  000000000123efa0 ffff88007c8b3f78 ffffffffa0261059 0000000000001000
+[344820.931150]  0000000000000000 00007fc841bb2818 000000000123ef20 0000000000000000
+[344820.931153] Call Trace:
+[344820.931156]  [<ffffffff81754a5b>] dump_stack+0x45/0x57
+[344820.931158]  [<ffffffffa0261059>] our_sys_open+0x59/0xb0 [syscall]
+[344820.931161]  [<ffffffff8175c1cd>] system_call_fastpath+0x16/0x1b
+[344820.931162] Opened file by 1001: /usr/share/command-not-found/programs.d/all-universe.db
+[344820.931250] CPU: 1 PID: 2678 Comm: command-not-fou Tainted: P           OE  3.19.8-ckt6-lyl2-cmdline-exported+ #4
+[344820.931252] Hardware name: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+[344820.931253]  0000000000080000 ffff88007c8b3f38 ffffffff81754a5b 00000000000001b6
+[344820.931256]  00007fc8445f2bcd ffff88007c8b3f78 ffffffffa0261059 00007fc8445f130e
+[344820.931258]  00007fc8445ef670 0000000001241410 0000000000000008 000000000108f4c0
+[344820.931261] Call Trace:
+[344820.931264]  [<ffffffff81754a5b>] dump_stack+0x45/0x57
+[344820.931267]  [<ffffffffa0261059>] our_sys_open+0x59/0xb0 [syscall]
+[344820.931270]  [<ffffffff8175c1cd>] system_call_fastpath+0x16/0x1b
+[344820.931271] Opened file by 1001: /etc/nsswitch.conf
+[344820.931326] CPU: 1 PID: 2678 Comm: command-not-fou Tainted: P           OE  3.19.8-ckt6-lyl2-cmdline-exported+ #4
+[344820.931328] Hardware name: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+[344820.931329]  0000000000080000 ffff88007c8b3f38 ffffffff81754a5b 0000000000000001
+[344820.931331]  00007fc844a72e47 ffff88007c8b3f78 ffffffffa0261059 00007fc8445f7b98
+[344820.931334]  00007ffee18562b0 00007fc844c7a0f0 0000000000000001 0000000000000000
+[344820.931337] Call Trace:
+[344820.931340]  [<ffffffff81754a5b>] dump_stack+0x45/0x57
+[344820.931342]  [<ffffffffa0261059>] our_sys_open+0x59/0xb0 [syscall]
+[344820.931345]  [<ffffffff8175c1cd>] system_call_fastpath+0x16/0x1b
+[344820.931347] Opened file by 1001: /etc/ld.so.cache
+[344820.931368] CPU: 1 PID: 2678 Comm: command-not-fou Tainted: P           OE  3.19.8-ckt6-lyl2-cmdline-exported+ #4
+[344820.931370] Hardware name: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+[344820.931371]  0000000000080000 ffff88007c8b3f38 ffffffff81754a5b 00007fc844c779b0
+[344820.931373]  00007fc844b25d83 ffff88007c8b3f78 ffffffffa0261059 00007ffee18562b0
+[344820.931376]  00007ffee1855ae8 00007fc844c779b0 00007ffee1855ad0 00007fc844c79060
+[344820.931379] Call Trace:
+[344820.931382]  [<ffffffff81754a5b>] dump_stack+0x45/0x57
+[344820.931384]  [<ffffffffa0261059>] our_sys_open+0x59/0xb0 [syscall]
+[344820.931387]  [<ffffffff8175c1cd>] system_call_fastpath+0x16/0x1b
+[344820.931388] Opened file by 1001: /lib/x86_64-linux-gnu/libnss_compat.so.2
+[344820.931445] CPU: 1 PID: 2678 Comm: command-not-fou Tainted: P           OE  3.19.8-ckt6-lyl2-cmdline-exported+ #4
+[344820.931447] Hardware name: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+[344820.931448]  0000000000080000 ffff88007c8b3f38 ffffffff81754a5b 0000000001241ce0
+[344820.931450]  00007fc844b25e53 ffff88007c8b3f78 ffffffffa0261059 00007ffee1855a60
+[344820.931453]  00007ffee1855848 0000000001241ce0 00007ffee1855830 00007fc844c79060
+[344820.931456] Call Trace:
+[344820.931459]  [<ffffffff81754a5b>] dump_stack+0x45/0x57
+[344820.931461]  [<ffffffffa0261059>] our_sys_open+0x59/0xb0 [syscall]
+[344820.931464]  [<ffffffff8175c1cd>] system_call_fastpath+0x16/0x1b
+[344820.931466] Opened file by 1001: /lib/x86_64-linux-gnu/libnsl.so.1
+[344820.931549] CPU: 1 PID: 2678 Comm: command-not-fou Tainted: P           OE  3.19.8-ckt6-lyl2-cmdline-exported+ #4
+[344820.931551] Hardware name: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+[344820.931552]  0000000000080000 ffff88007c8b3f38 ffffffff81754a5b 0000000000000001
+[344820.931554]  00007fc844a72e47 ffff88007c8b3f78 ffffffffa0261059 00007ffee18560e0
+[344820.931557]  00007ffee1856260 00007fc844c7a0f0 0000000000000001 0000000000000000
+[344820.931560] Call Trace:
+[344820.931563]  [<ffffffff81754a5b>] dump_stack+0x45/0x57
+[344820.931565]  [<ffffffffa0261059>] our_sys_open+0x59/0xb0 [syscall]
+[344820.931568]  [<ffffffff8175c1cd>] system_call_fastpath+0x16/0x1b
+[344820.931570] Opened file by 1001: /etc/ld.so.cache
+[344820.931586] CPU: 1 PID: 2678 Comm: command-not-fou Tainted: P           OE  3.19.8-ckt6-lyl2-cmdline-exported+ #4
+[344820.931587] Hardware name: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+[344820.931588]  0000000000080000 ffff88007c8b3f38 ffffffff81754a5b 00007fc844c779b0
+[344820.931591]  00007fc844b25b16 ffff88007c8b3f78 ffffffffa0261059 00007ffee1856260
+[344820.931594]  00007ffee1855a98 00007fc844c779b0 00007ffee1855a80 00007fc844c79060
+[344820.931596] Call Trace:
+[344820.931599]  [<ffffffff81754a5b>] dump_stack+0x45/0x57
+[344820.931602]  [<ffffffffa0261059>] our_sys_open+0x59/0xb0 [syscall]
+[344820.931605]  [<ffffffff8175c1cd>] system_call_fastpath+0x16/0x1b
+[344820.931606] Opened file by 1001: /lib/x86_64-linux-gnu/libnss_nis.so.2
+[344820.931723] CPU: 1 PID: 2678 Comm: command-not-fou Tainted: P           OE  3.19.8-ckt6-lyl2-cmdline-exported+ #4
+[344820.931726] Hardware name: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+[344820.931727]  0000000000080000 ffff88007c8b3f38 ffffffff81754a5b 00000000012427a0
+[344820.931730]  00007fc844b25c50 ffff88007c8b3f78 ffffffffa0261059 00007ffee1855a10
+[344820.931733]  00007ffee18557c8 00000000012427a0 00007ffee18557b0 00007fc844c79060
+[344820.931736] Call Trace:
+[344820.931740]  [<ffffffff81754a5b>] dump_stack+0x45/0x57
+[344820.931744]  [<ffffffffa0261059>] our_sys_open+0x59/0xb0 [syscall]
+[344820.931748]  [<ffffffff8175c1cd>] system_call_fastpath+0x16/0x1b
+[344820.931749] Opened file by 1001: /lib/x86_64-linux-gnu/libnss_files.so.2
+[344820.931840] CPU: 1 PID: 2678 Comm: command-not-fou Tainted: P           OE  3.19.8-ckt6-lyl2-cmdline-exported+ #4
+[344820.931842] Hardware name: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+[344820.931843]  0000000000080000 ffff88007c8b3f38 ffffffff81754a5b 00000000000001b6
+[344820.931845]  00007fc84179c351 ffff88007c8b3f78 ffffffffa0261059 00007ffee1856090
+[344820.931847]  00007fc84179c34d 0000000001243490 0000000000000008 00007fc844b601b8
+[344820.931849] Call Trace:
+[344820.931852]  [<ffffffff81754a5b>] dump_stack+0x45/0x57
+[344820.931855]  [<ffffffffa0261059>] our_sys_open+0x59/0xb0 [syscall]
+[344820.931857]  [<ffffffff8175c1cd>] system_call_fastpath+0x16/0x1b
+[344820.931859] Opened file by 1001: /etc/group
+[344820.931915] CPU: 1 PID: 2678 Comm: command-not-fou Tainted: P           OE  3.19.8-ckt6-lyl2-cmdline-exported+ #4
+[344820.931916] Hardware name: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+[344820.931917]  0000000000080000 ffff88007c8b3f38 ffffffff81754a5b 00000000000001b6
+[344820.931919]  00007fc84179c351 ffff88007c8b3f78 ffffffffa0261059 00000000011b37c8
+[344820.931921]  00007fc84179c34d 00000000012434c0 0000000000000008 00007fc844b601b8
+[344820.931923] Call Trace:
+[344820.931926]  [<ffffffff81754a5b>] dump_stack+0x45/0x57
+[344820.931928]  [<ffffffffa0261059>] our_sys_open+0x59/0xb0 [syscall]
+[344820.931931]  [<ffffffff8175c1cd>] system_call_fastpath+0x16/0x1b
+[344820.931932] Opened file by 1001: /etc/group
+[344820.932084] CPU: 1 PID: 2678 Comm: command-not-fou Tainted: P           OE  3.19.8-ckt6-lyl2-cmdline-exported+ #4
+[344820.932085] Hardware name: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+[344820.932086]  0000000000080000 ffff88007c8b3f38 ffffffff81754a5b 00000000000001b6
+[344820.932088]  00007fc842b1dd40 ffff88007c8b3f78 ffffffffa0261059 0000000000001000
+[344820.932090]  00007fc8435ba188 00007fc842b1dd40 0000000000080000 0000000000000000
+[344820.932092] Call Trace:
+[344820.932095]  [<ffffffff81754a5b>] dump_stack+0x45/0x57
+[344820.932098]  [<ffffffffa0261059>] our_sys_open+0x59/0xb0 [syscall]
+[344820.932100]  [<ffffffff8175c1cd>] system_call_fastpath+0x16/0x1b
+[344820.932101] Opened file by 1001: /home/test/.command-not-found.blacklist

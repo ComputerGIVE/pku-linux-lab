@@ -1,0 +1,50 @@
+# tracer: function_graph
+#
+# CPU  DURATION                  FUNCTION CALLS
+# |     |   |                     |   |   |   |
+ 1)   0.899 us    |    } /* __fdget_pos */
+ 1)               |    vfs_read() {
+ 1)               |      rw_verify_area() {
+ 1)               |        security_file_permission() {
+ 1)               |          apparmor_file_permission() {
+ 1)               |            common_file_perm() {
+ 1)   0.133 us    |              aa_file_perm();
+ 1)   0.966 us    |            }
+ 1)   1.728 us    |          }
+ 1)               |          __fsnotify_parent() {
+ 1)   0.144 us    |            dget_parent();
+ 1)   0.137 us    |            dput();
+ 1)   1.764 us    |          }
+ 1)   0.130 us    |          fsnotify();
+ 1)   5.733 us    |        }
+ 1)   6.565 us    |      }
+ 1)               |      __vfs_read() {
+ 1)               |        evdev_read() {
+ 1)   0.127 us    |          _raw_spin_lock_irq();
+ 1)   0.194 us    |          input_event_to_user();
+ 1)   1.858 us    |        }
+ 1)   2.623 us    |      }
+ 1)               |      __fsnotify_parent() {
+ 1)   0.147 us    |        dget_parent();
+ 1)   0.140 us    |        dput();
+ 1)   1.730 us    |      }
+ 1)   0.128 us    |      fsnotify();
+ 1) + 13.818 us   |    }
+ 1) + 17.263 us   |  } /* SyS_read */
+ 1)               |  SyS_select() {
+ 1)               |    core_sys_select() {
+ 1)               |      do_select() {
+ 1)               |        __fdget() {
+ 1)   0.126 us    |          __fget_light();
+ 1)   0.888 us    |        }
+ 1)               |        evdev_poll() {
+ 1)               |          __pollwait() {
+ 1)               |            add_wait_queue() {
+ 1)   0.131 us    |              _raw_spin_lock_irqsave();
+ 1)   0.168 us    |              _raw_spin_unlock_irqrestore();
+ 1)   1.694 us    |            }
+ 1)   2.525 us    |          }
+ 1)   3.307 us    |        }
+ 1)               |        __fdget() {
+ 1)   0.127 us    |          __fget_light();
+ 1)   0.882 us    |        }

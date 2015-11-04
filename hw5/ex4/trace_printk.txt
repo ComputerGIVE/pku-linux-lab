@@ -1,0 +1,500 @@
+            bash-4613  [000] ....  3849.083389:  <-system_call_fastpath
+            bash-4613  [000] ....  3849.083594:  <-system_call_fastpath
+            bash-4613  [000] ....  3849.083996:  <-system_call_fastpath
+            bash-4613  [000] ....  3849.347093:  <-system_call_fastpath
+            bash-4613  [000] ....  3849.348810:  <-system_call_fastpath
+            bash-4613  [000] ....  3849.350040:  <-system_call_fastpath
+            bash-4613  [000] ....  3849.355453:  <-system_call_fastpath
+            bash-4613  [000] ....  3849.355585:  <-system_call_fastpath
+            bash-4613  [000] ....  3849.355911:  <-system_call_fastpath
+            bash-4613  [000] ....  3850.060846:  <-system_call_fastpath
+            bash-4613  [000] ....  3850.062182:  <-system_call_fastpath
+            bash-4613  [000] ....  3850.063750:  <-system_call_fastpath
+            bash-4613  [000] ....  3850.068013:  <-system_call_fastpath
+            bash-4613  [000] ....  3850.068197:  <-system_call_fastpath
+            bash-4613  [000] ....  3850.068636:  <-system_call_fastpath
+             cat-5169  [000] ....  3850.449539:  <-system_call_fastpath
+             cat-5169  [000] ....  3850.449569:  <-system_call_fastpath
+             cat-5169  [000] ....  3850.450215:  <-system_call_fastpath
+             cat-5169  [000] ....  3850.450317:  <-system_call_fastpath
+      irqbalance-890   [000] ....  3851.603976:  <-system_call_fastpath
+      irqbalance-890   [000] ....  3851.604227:  <-system_call_fastpath
+      irqbalance-890   [000] ....  3851.604352:  <-system_call_fastpath
+      irqbalance-890   [000] ....  3851.604372:  <-system_call_fastpath
+      irqbalance-890   [000] ....  3851.604415:  <-system_call_fastpath
+      irqbalance-890   [000] ....  3851.604454:  <-system_call_fastpath
+      irqbalance-890   [000] ....  3851.604493:  <-system_call_fastpath
+      irqbalance-890   [000] ....  3851.604532:  <-system_call_fastpath
+      irqbalance-890   [000] ....  3851.604571:  <-system_call_fastpath
+      irqbalance-890   [000] ....  3851.604616:  <-system_call_fastpath
+      irqbalance-890   [000] ....  3851.604654:  <-system_call_fastpath
+      irqbalance-890   [000] ....  3851.604770:  <-system_call_fastpath
+      irqbalance-890   [000] ....  3851.604817:  <-system_call_fastpath
+      irqbalance-890   [000] ....  3851.604859:  <-system_call_fastpath
+          vminfo-995   [000] ....  3853.421959:  <-system_call_fastpath
+          vminfo-995   [000] ....  3858.424400:  <-system_call_fastpath
+            sudo-5170  [000] ....  3860.419136:  <-system_call_fastpath
+            sudo-5170  [000] ....  3860.419166:  <-system_call_fastpath
+            sudo-5170  [000] ....  3860.419233:  <-system_call_fastpath
+            sudo-5170  [000] ....  3860.419286:  <-system_call_fastpath
+            sudo-5170  [000] ....  3860.419338:  <-system_call_fastpath
+            sudo-5170  [000] ....  3860.419401:  <-system_call_fastpath
+            sudo-5170  [000] ....  3860.419955:  <-system_call_fastpath
+            sudo-5170  [000] ....  3860.420079:  <-system_call_fastpath
+            sudo-5170  [000] ....  3860.420150:  <-system_call_fastpath
+            sudo-5170  [000] ....  3860.420241:  <-system_call_fastpath
+            sudo-5170  [000] ....  3860.420351:  <-system_call_fastpath
+            sudo-5170  [000] ....  3860.420406:  <-system_call_fastpath
+            sudo-5170  [000] ....  3860.420428:  <-system_call_fastpath
+            sudo-5170  [000] ....  3860.420546:  <-system_call_fastpath
+            sudo-5170  [000] ....  3860.420683:  <-system_call_fastpath
+            sudo-5170  [000] ....  3860.420705:  <-system_call_fastpath
+            sudo-5170  [000] ....  3860.420763:  <-system_call_fastpath
+            sudo-5170  [000] ....  3860.420876:  <-system_call_fastpath
+            sudo-5170  [000] ....  3860.420944:  <-system_call_fastpath
+            sudo-5170  [000] ....  3860.420983:  <-system_call_fastpath
+            sudo-5170  [000] ....  3860.421608:  <-system_call_fastpath
+            sudo-5170  [000] ....  3860.421679:  <-system_call_fastpath
+            sudo-5170  [000] ....  3860.421698:  <-system_call_fastpath
+            sudo-5170  [000] ....  3860.421756:  <-system_call_fastpath
+            sudo-5170  [000] ....  3860.421953:  <-system_call_fastpath
+            sudo-5170  [000] ....  3860.421977:  <-system_call_fastpath
+            sudo-5170  [000] ....  3860.422046:  <-system_call_fastpath
+            sudo-5170  [000] ....  3860.422084:  <-system_call_fastpath
+            sudo-5170  [000] ....  3860.422168:  <-system_call_fastpath
+            sudo-5170  [000] ....  3860.422174:  <-system_call_fastpath
+            sudo-5170  [000] ....  3860.422178:  <-system_call_fastpath
+            sudo-5170  [000] ....  3860.422181:  <-system_call_fastpath
+            sudo-5170  [000] ....  3860.422261:  <-system_call_fastpath
+            sudo-5170  [000] ....  3860.422353:  <-system_call_fastpath
+            sudo-5170  [000] ....  3860.422815:  <-system_call_fastpath
+            sudo-5170  [000] ....  3860.422969:  <-system_call_fastpath
+            sudo-5170  [000] ....  3860.423240:  <-system_call_fastpath
+            sudo-5170  [000] ....  3860.423499:  <-system_call_fastpath
+            sudo-5170  [000] ....  3860.423544:  <-system_call_fastpath
+            sudo-5170  [000] ....  3860.423613:  <-system_call_fastpath
+            sudo-5170  [000] ....  3860.423867:  <-system_call_fastpath
+            sudo-5170  [000] ....  3860.423911:  <-system_call_fastpath
+            sudo-5170  [000] ....  3860.424060:  <-system_call_fastpath
+            sudo-5170  [000] ....  3860.424099:  <-system_call_fastpath
+            sudo-5170  [000] ....  3860.424191:  <-system_call_fastpath
+            sudo-5170  [000] ....  3860.424223:  <-system_call_fastpath
+            sudo-5170  [000] ....  3860.424672:  <-system_call_fastpath
+            sudo-5170  [000] ....  3860.424812:  <-system_call_fastpath
+            sudo-5170  [000] ....  3860.424950:  <-system_call_fastpath
+            sudo-5170  [000] ....  3860.425036:  <-system_call_fastpath
+            sudo-5170  [000] ....  3860.425073:  <-system_call_fastpath
+            sudo-5170  [000] ....  3860.425411:  <-system_call_fastpath
+            sudo-5170  [000] ....  3860.425526:  <-system_call_fastpath
+            sudo-5170  [000] ....  3860.425610:  <-system_call_fastpath
+            sudo-5170  [000] ....  3860.425773:  <-system_call_fastpath
+            sudo-5170  [000] ....  3860.425813:  <-system_call_fastpath
+            sudo-5170  [000] ....  3860.425905:  <-system_call_fastpath
+            sudo-5170  [000] ....  3860.425984:  <-system_call_fastpath
+            sudo-5170  [000] ....  3860.426066:  <-system_call_fastpath
+            sudo-5170  [000] ....  3860.426157:  <-system_call_fastpath
+            sudo-5170  [000] ....  3860.426264:  <-system_call_fastpath
+            sudo-5170  [000] ....  3860.426515:  <-system_call_fastpath
+            sudo-5170  [000] ....  3860.426630:  <-system_call_fastpath
+            sudo-5170  [000] ....  3860.426739:  <-system_call_fastpath
+            sudo-5170  [000] ....  3860.426822:  <-system_call_fastpath
+            sudo-5170  [000] ....  3860.426909:  <-system_call_fastpath
+            sudo-5170  [000] ....  3860.426998:  <-system_call_fastpath
+            sudo-5170  [000] ....  3860.427099:  <-system_call_fastpath
+            sudo-5170  [000] ....  3860.428477:  <-system_call_fastpath
+            sudo-5170  [000] ....  3860.428496:  <-system_call_fastpath
+            sudo-5170  [000] ....  3860.428517:  <-system_call_fastpath
+   rs:main Q:Reg-586   [001] ....  3860.428528:  <-system_call_fastpath
+   rs:main Q:Reg-586   [001] ....  3860.428553:  <-system_call_fastpath
+   rs:main Q:Reg-586   [001] ....  3860.428561:  <-system_call_fastpath
+   rs:main Q:Reg-586   [001] ....  3860.428569:  <-system_call_fastpath
+   rs:main Q:Reg-586   [001] ....  3860.428576:  <-system_call_fastpath
+   rs:main Q:Reg-586   [001] ....  3860.428583:  <-system_call_fastpath
+   rs:main Q:Reg-586   [001] ....  3860.428591:  <-system_call_fastpath
+   rs:main Q:Reg-586   [001] ....  3860.428599:  <-system_call_fastpath
+            sudo-5170  [000] ....  3860.428605:  <-system_call_fastpath
+   rs:main Q:Reg-586   [001] ....  3860.428606:  <-system_call_fastpath
+   rs:main Q:Reg-586   [001] ....  3860.428612:  <-system_call_fastpath
+            sudo-5170  [000] ....  3860.428706:  <-system_call_fastpath
+            sudo-5170  [000] ....  3860.428800:  <-system_call_fastpath
+            sudo-5170  [000] ....  3860.428877:  <-system_call_fastpath
+            sudo-5170  [000] ....  3860.428916:  <-system_call_fastpath
+            sudo-5170  [000] ....  3860.429015:  <-system_call_fastpath
+           rmmod-5171  [000] ....  3860.431374:  <-system_call_fastpath
+           rmmod-5171  [000] ....  3860.431408:  <-system_call_fastpath
+           rmmod-5171  [000] ....  3860.432010:  <-system_call_fastpath
+           rmmod-5171  [000] ....  3860.432088:  <-system_call_fastpath
+            sudo-5170  [001] ....  3860.437543:  <-system_call_fastpath
+      irqbalance-890   [000] ....  3861.604542:  <-system_call_fastpath
+      irqbalance-890   [000] ....  3861.604861:  <-system_call_fastpath
+      irqbalance-890   [000] ....  3861.604992:  <-system_call_fastpath
+      irqbalance-890   [000] ....  3861.605014:  <-system_call_fastpath
+      irqbalance-890   [000] ....  3861.605060:  <-system_call_fastpath
+      irqbalance-890   [000] ....  3861.605098:  <-system_call_fastpath
+      irqbalance-890   [000] ....  3861.605136:  <-system_call_fastpath
+      irqbalance-890   [000] ....  3861.605175:  <-system_call_fastpath
+      irqbalance-890   [000] ....  3861.605212:  <-system_call_fastpath
+      irqbalance-890   [000] ....  3861.605250:  <-system_call_fastpath
+      irqbalance-890   [000] ....  3861.605356:  <-system_call_fastpath
+      irqbalance-890   [000] ....  3861.605400:  <-system_call_fastpath
+      irqbalance-890   [000] ....  3861.605438:  <-system_call_fastpath
+      irqbalance-890   [000] ....  3861.605475:  <-system_call_fastpath
+            sudo-5172  [000] ....  3862.846118:  <-system_call_fastpath
+            sudo-5172  [000] ....  3862.846149:  <-system_call_fastpath
+            sudo-5172  [000] ....  3862.846224:  <-system_call_fastpath
+            sudo-5172  [000] ....  3862.846291:  <-system_call_fastpath
+            sudo-5172  [000] ....  3862.846352:  <-system_call_fastpath
+            sudo-5172  [000] ....  3862.846421:  <-system_call_fastpath
+            sudo-5172  [000] ....  3862.847269:  <-system_call_fastpath
+            sudo-5172  [000] ....  3862.847406:  <-system_call_fastpath
+            sudo-5172  [000] ....  3862.847486:  <-system_call_fastpath
+            sudo-5172  [000] ....  3862.847587:  <-system_call_fastpath
+            sudo-5172  [000] ....  3862.847761:  <-system_call_fastpath
+            sudo-5172  [000] ....  3862.847853:  <-system_call_fastpath
+            sudo-5172  [000] ....  3862.847888:  <-system_call_fastpath
+            sudo-5172  [000] ....  3862.847973:  <-system_call_fastpath
+            sudo-5172  [000] ....  3862.848099:  <-system_call_fastpath
+            sudo-5172  [000] ....  3862.848121:  <-system_call_fastpath
+            sudo-5172  [000] ....  3862.848207:  <-system_call_fastpath
+            sudo-5172  [000] ....  3862.848370:  <-system_call_fastpath
+            sudo-5172  [000] ....  3862.848484:  <-system_call_fastpath
+            sudo-5172  [000] ....  3862.848552:  <-system_call_fastpath
+            sudo-5172  [000] ....  3862.849354:  <-system_call_fastpath
+            sudo-5172  [000] ....  3862.849427:  <-system_call_fastpath
+            sudo-5172  [000] ....  3862.849448:  <-system_call_fastpath
+            sudo-5172  [000] ....  3862.849511:  <-system_call_fastpath
+            sudo-5172  [000] ....  3862.849779:  <-system_call_fastpath
+            sudo-5172  [000] ....  3862.849801:  <-system_call_fastpath
+            sudo-5172  [000] ....  3862.849877:  <-system_call_fastpath
+            sudo-5172  [000] ....  3862.849921:  <-system_call_fastpath
+            sudo-5172  [000] ....  3862.850009:  <-system_call_fastpath
+            sudo-5172  [000] ....  3862.850015:  <-system_call_fastpath
+            sudo-5172  [000] ....  3862.850020:  <-system_call_fastpath
+            sudo-5172  [000] ....  3862.850023:  <-system_call_fastpath
+            sudo-5172  [000] ....  3862.850093:  <-system_call_fastpath
+            sudo-5172  [000] ....  3862.850191:  <-system_call_fastpath
+            sudo-5172  [000] ....  3862.850249:  <-system_call_fastpath
+            sudo-5172  [000] ....  3862.850317:  <-system_call_fastpath
+            sudo-5172  [000] ....  3862.850491:  <-system_call_fastpath
+            sudo-5172  [000] ....  3862.850784:  <-system_call_fastpath
+            sudo-5172  [000] ....  3862.850832:  <-system_call_fastpath
+            sudo-5172  [000] ....  3862.850891:  <-system_call_fastpath
+            sudo-5172  [000] ....  3862.851102:  <-system_call_fastpath
+            sudo-5172  [000] ....  3862.851145:  <-system_call_fastpath
+            sudo-5172  [000] ....  3862.851274:  <-system_call_fastpath
+            sudo-5172  [000] ....  3862.851313:  <-system_call_fastpath
+            sudo-5172  [000] ....  3862.851380:  <-system_call_fastpath
+            sudo-5172  [000] ....  3862.851402:  <-system_call_fastpath
+            sudo-5172  [000] ....  3862.851688:  <-system_call_fastpath
+            sudo-5172  [000] ....  3862.851775:  <-system_call_fastpath
+            sudo-5172  [000] ....  3862.851859:  <-system_call_fastpath
+            sudo-5172  [000] ....  3862.851912:  <-system_call_fastpath
+            sudo-5172  [000] ....  3862.851934:  <-system_call_fastpath
+            sudo-5172  [000] ....  3862.852097:  <-system_call_fastpath
+            sudo-5172  [000] ....  3862.852160:  <-system_call_fastpath
+            sudo-5172  [000] ....  3862.852209:  <-system_call_fastpath
+            sudo-5172  [000] ....  3862.852337:  <-system_call_fastpath
+            sudo-5172  [000] ....  3862.852365:  <-system_call_fastpath
+            sudo-5172  [000] ....  3862.852423:  <-system_call_fastpath
+            sudo-5172  [000] ....  3862.852475:  <-system_call_fastpath
+            sudo-5172  [000] ....  3862.852530:  <-system_call_fastpath
+            sudo-5172  [000] ....  3862.852644:  <-system_call_fastpath
+            sudo-5172  [000] ....  3862.852714:  <-system_call_fastpath
+            sudo-5172  [000] ....  3862.852734:  <-system_call_fastpath
+            sudo-5172  [000] ....  3862.852794:  <-system_call_fastpath
+            sudo-5172  [000] ....  3862.852858:  <-system_call_fastpath
+            sudo-5172  [000] ....  3862.852915:  <-system_call_fastpath
+            sudo-5172  [000] ....  3862.852973:  <-system_call_fastpath
+            sudo-5172  [000] ....  3862.853029:  <-system_call_fastpath
+            sudo-5172  [000] ....  3862.853106:  <-system_call_fastpath
+            sudo-5172  [000] ....  3862.854435:  <-system_call_fastpath
+            sudo-5172  [000] ....  3862.854458:  <-system_call_fastpath
+            sudo-5172  [000] ....  3862.854481:  <-system_call_fastpath
+            sudo-5172  [000] ....  3862.854691:  <-system_call_fastpath
+            sudo-5172  [000] ....  3862.854777:  <-system_call_fastpath
+            sudo-5172  [000] ....  3862.854847:  <-system_call_fastpath
+            sudo-5172  [000] ....  3862.854919:  <-system_call_fastpath
+            sudo-5172  [000] ....  3862.854961:  <-system_call_fastpath
+            sudo-5172  [000] ....  3862.855063:  <-system_call_fastpath
+           rmmod-5173  [000] ....  3862.857405:  <-system_call_fastpath
+           rmmod-5173  [000] ....  3862.857436:  <-system_call_fastpath
+           rmmod-5173  [000] ....  3862.857986:  <-system_call_fastpath
+           rmmod-5173  [000] ....  3862.858052:  <-system_call_fastpath
+           rmmod-5173  [000] ....  3862.858110:  <-system_call_fastpath
+           rmmod-5173  [000] ....  3862.858140:  <-SyS_delete_module
+           rmmod-5173  [000] ....  3862.858141: : Goodbye world!
+          insmod-5176  [001] ....  3872.848605: : Hello, I am tracing!
+              ls-5185  [001] ....  4015.874163: : Opened file by 1001: 
+              ls-5185  [001] ....  4015.874511: : Opened file by 1001: 
+              ls-5185  [001] ....  4015.874751: : Opened file by 1001: 
+              ls-5185  [001] ....  4015.874880: : Opened file by 1001: 
+              ls-5185  [001] ....  4015.875028: : Opened file by 1001: 
+              ls-5185  [001] ....  4015.875143: : Opened file by 1001: 
+              ls-5185  [001] ....  4015.875250: : Opened file by 1001: 
+              ls-5185  [001] ....  4015.876120: : Opened file by 1001: 
+              ls-5185  [001] ....  4015.876331: : Opened file by 1001: 
+           rmmod-5511  [001] ....  4133.017133: : Goodbye world!
+          insmod-5514  [000] ....  4138.591508: : Hello, I am tracing!
+            sudo-5513  [001] ....  4138.607980:  <-system_call_fastpath
+      irqbalance-890   [000] ....  4141.604914:  <-system_call_fastpath
+      irqbalance-890   [000] ....  4141.605139:  <-system_call_fastpath
+      irqbalance-890   [000] ....  4141.605258:  <-system_call_fastpath
+      irqbalance-890   [000] ....  4141.605277:  <-system_call_fastpath
+      irqbalance-890   [000] ....  4141.605320:  <-system_call_fastpath
+      irqbalance-890   [000] ....  4141.605359:  <-system_call_fastpath
+      irqbalance-890   [000] ....  4141.605398:  <-system_call_fastpath
+      irqbalance-890   [000] ....  4141.605436:  <-system_call_fastpath
+      irqbalance-890   [000] ....  4141.605474:  <-system_call_fastpath
+      irqbalance-890   [000] ....  4141.605512:  <-system_call_fastpath
+      irqbalance-890   [000] ....  4141.605548:  <-system_call_fastpath
+      irqbalance-890   [000] ....  4141.605587:  <-system_call_fastpath
+      irqbalance-890   [000] ....  4141.605623:  <-system_call_fastpath
+      irqbalance-890   [000] ....  4141.605726:  <-system_call_fastpath
+              ls-5516  [001] ....  4141.979078:  <-system_call_fastpath
+              ls-5516  [001] ....  4141.979114: : Opened file by 1001: /etc/ld.so.cache
+              ls-5516  [001] ....  4141.979154:  <-system_call_fastpath
+              ls-5516  [001] ....  4141.979193: : Opened file by 1001: /lib/x86_64-linux-gnu/libselinux.so.1
+              ls-5516  [001] ....  4141.979285:  <-system_call_fastpath
+              ls-5516  [001] ....  4141.979312: : Opened file by 1001: /lib/x86_64-linux-gnu/libacl.so.1
+              ls-5516  [001] ....  4141.979367:  <-system_call_fastpath
+              ls-5516  [001] ....  4141.979436: : Opened file by 1001: /lib/x86_64-linux-gnu/libc.so.6
+              ls-5516  [001] ....  4141.979592:  <-system_call_fastpath
+              ls-5516  [001] ....  4141.979620: : Opened file by 1001: /lib/x86_64-linux-gnu/libpcre.so.3
+              ls-5516  [001] ....  4141.979731:  <-system_call_fastpath
+              ls-5516  [001] ....  4141.979757: : Opened file by 1001: /lib/x86_64-linux-gnu/libdl.so.2
+              ls-5516  [001] ....  4141.979858:  <-system_call_fastpath
+              ls-5516  [001] ....  4141.979885: : Opened file by 1001: /lib/x86_64-linux-gnu/libattr.so.1
+              ls-5516  [001] ....  4141.980588:  <-system_call_fastpath
+              ls-5516  [001] ....  4141.980607: : Opened file by 1001: /proc/filesystems
+              ls-5516  [001] ....  4141.980738:  <-system_call_fastpath
+              ls-5516  [001] ....  4141.980763: : Opened file by 1001: /usr/lib/locale/locale-archive
+          vminfo-995   [001] ....  4143.607791:  <-system_call_fastpath
+              ls-5517  [001] ....  4148.216367:  <-system_call_fastpath
+              ls-5517  [001] ....  4148.216396: : Opened file by 1001: /etc/ld.so.cache
+              ls-5517  [001] ....  4148.216426:  <-system_call_fastpath
+              ls-5517  [001] ....  4148.216455: : Opened file by 1001: /lib/x86_64-linux-gnu/libselinux.so.1
+              ls-5517  [001] ....  4148.216521:  <-system_call_fastpath
+              ls-5517  [001] ....  4148.216548: : Opened file by 1001: /lib/x86_64-linux-gnu/libacl.so.1
+              ls-5517  [001] ....  4148.216600:  <-system_call_fastpath
+              ls-5517  [001] ....  4148.216624: : Opened file by 1001: /lib/x86_64-linux-gnu/libc.so.6
+              ls-5517  [001] ....  4148.216698:  <-system_call_fastpath
+              ls-5517  [001] ....  4148.216724: : Opened file by 1001: /lib/x86_64-linux-gnu/libpcre.so.3
+              ls-5517  [001] ....  4148.216776:  <-system_call_fastpath
+              ls-5517  [001] ....  4148.216884: : Opened file by 1001: /lib/x86_64-linux-gnu/libdl.so.2
+              ls-5517  [001] ....  4148.216954:  <-system_call_fastpath
+              ls-5517  [001] ....  4148.216980: : Opened file by 1001: /lib/x86_64-linux-gnu/libattr.so.1
+              ls-5517  [001] ....  4148.217505:  <-system_call_fastpath
+              ls-5517  [001] ....  4148.217524: : Opened file by 1001: /proc/filesystems
+              ls-5517  [001] ....  4148.217653:  <-system_call_fastpath
+              ls-5517  [001] ....  4148.217678: : Opened file by 1001: /usr/lib/locale/locale-archive
+          vminfo-995   [001] ....  4148.611231:  <-system_call_fastpath
+      irqbalance-890   [000] ....  4151.603878:  <-system_call_fastpath
+      irqbalance-890   [000] ....  4151.604125:  <-system_call_fastpath
+      irqbalance-890   [000] ....  4151.604248:  <-system_call_fastpath
+      irqbalance-890   [000] ....  4151.604267:  <-system_call_fastpath
+      irqbalance-890   [000] ....  4151.604311:  <-system_call_fastpath
+      irqbalance-890   [000] ....  4151.604349:  <-system_call_fastpath
+      irqbalance-890   [000] ....  4151.604387:  <-system_call_fastpath
+      irqbalance-890   [000] ....  4151.604424:  <-system_call_fastpath
+      irqbalance-890   [000] ....  4151.604462:  <-system_call_fastpath
+      irqbalance-890   [000] ....  4151.604500:  <-system_call_fastpath
+      irqbalance-890   [000] ....  4151.604538:  <-system_call_fastpath
+      irqbalance-890   [000] ....  4151.604632:  <-system_call_fastpath
+      irqbalance-890   [000] ....  4151.604682:  <-system_call_fastpath
+      irqbalance-890   [000] ....  4151.604718:  <-system_call_fastpath
+  systemd-logind-595   [001] ....  4151.634996:  <-system_call_fastpath
+  systemd-logind-595   [001] ....  4151.635105:  <-system_call_fastpath
+  systemd-logind-595   [001] ....  4151.635231:  <-system_call_fastpath
+  systemd-logind-595   [001] ....  4151.635289:  <-system_call_fastpath
+  systemd-logind-595   [001] ....  4151.635352:  <-system_call_fastpath
+  systemd-logind-595   [001] ....  4151.635409:  <-system_call_fastpath
+  systemd-logind-595   [001] ....  4151.635471:  <-system_call_fastpath
+  systemd-logind-595   [001] ....  4151.635522:  <-system_call_fastpath
+  systemd-logind-595   [001] ....  4151.635579:  <-system_call_fastpath
+  systemd-logind-595   [001] ....  4151.635626:  <-system_call_fastpath
+  systemd-logind-595   [001] ....  4151.635680:  <-system_call_fastpath
+  systemd-logind-595   [001] ....  4151.635727:  <-system_call_fastpath
+  systemd-logind-595   [001] ....  4151.635781:  <-system_call_fastpath
+  systemd-logind-595   [001] ....  4151.635827:  <-system_call_fastpath
+  systemd-logind-595   [001] ....  4151.635951:  <-system_call_fastpath
+  systemd-logind-595   [001] ....  4151.636005:  <-system_call_fastpath
+  systemd-logind-595   [001] ....  4151.636199:  <-system_call_fastpath
+  systemd-logind-595   [001] ....  4151.636303:  <-system_call_fastpath
+  systemd-logind-595   [001] ....  4151.636368:  <-system_call_fastpath
+  systemd-logind-595   [001] ....  4151.636424:  <-system_call_fastpath
+  systemd-logind-595   [001] ....  4151.636480:  <-system_call_fastpath
+  systemd-logind-595   [001] ....  4151.636535:  <-system_call_fastpath
+          vminfo-995   [001] ....  4153.614363:  <-system_call_fastpath
+             cat-5518  [000] ....  4155.103705:  <-system_call_fastpath
+             cat-5518  [000] ....  4155.103735:  <-system_call_fastpath
+           <...>-5519  [001] ....  4155.104001:  <-system_call_fastpath
+           <...>-5519  [001] ....  4155.104027:  <-system_call_fastpath
+             cat-5518  [000] ....  4155.104244:  <-system_call_fastpath
+             cat-5518  [000] ....  4155.104325:  <-system_call_fastpath
+          vminfo-995   [001] ....  4158.617384:  <-system_call_fastpath
+      irqbalance-890   [000] ....  4161.603928:  <-system_call_fastpath
+      irqbalance-890   [000] ....  4161.604263:  <-system_call_fastpath
+      irqbalance-890   [000] ....  4161.604450:  <-system_call_fastpath
+      irqbalance-890   [000] ....  4161.604484:  <-system_call_fastpath
+      irqbalance-890   [000] ....  4161.604566:  <-system_call_fastpath
+      irqbalance-890   [000] ....  4161.604711:  <-system_call_fastpath
+      irqbalance-890   [000] ....  4161.604768:  <-system_call_fastpath
+      irqbalance-890   [000] ....  4161.604809:  <-system_call_fastpath
+      irqbalance-890   [000] ....  4161.604847:  <-system_call_fastpath
+      irqbalance-890   [000] ....  4161.604885:  <-system_call_fastpath
+      irqbalance-890   [000] ....  4161.604923:  <-system_call_fastpath
+      irqbalance-890   [000] ....  4161.604959:  <-system_call_fastpath
+      irqbalance-890   [000] ....  4161.604996:  <-system_call_fastpath
+      irqbalance-890   [000] ....  4161.605031:  <-system_call_fastpath
+          vminfo-995   [001] ....  4163.620809:  <-system_call_fastpath
+             cat-5520  [000] ....  4164.421018:  <-system_call_fastpath
+             cat-5520  [000] ....  4164.421050:  <-system_call_fastpath
+           <...>-5521  [001] ....  4164.421279:  <-system_call_fastpath
+           <...>-5521  [001] ....  4164.421315:  <-system_call_fastpath
+             cat-5520  [000] ....  4164.421602:  <-system_call_fastpath
+             cat-5520  [000] ....  4164.421721:  <-system_call_fastpath
+          vminfo-995   [001] ....  4168.623696:  <-system_call_fastpath
+  systemd-logind-595   [001] ....  4171.043977:  <-system_call_fastpath
+  systemd-logind-595   [001] ....  4171.044085:  <-system_call_fastpath
+  systemd-logind-595   [001] ....  4171.044213:  <-system_call_fastpath
+  systemd-logind-595   [001] ....  4171.044340:  <-system_call_fastpath
+  systemd-logind-595   [001] ....  4171.044433:  <-system_call_fastpath
+  systemd-logind-595   [001] ....  4171.044492:  <-system_call_fastpath
+  systemd-logind-595   [001] ....  4171.044555:  <-system_call_fastpath
+  systemd-logind-595   [001] ....  4171.044607:  <-system_call_fastpath
+  systemd-logind-595   [001] ....  4171.044663:  <-system_call_fastpath
+  systemd-logind-595   [001] ....  4171.044711:  <-system_call_fastpath
+  systemd-logind-595   [001] ....  4171.044765:  <-system_call_fastpath
+  systemd-logind-595   [001] ....  4171.044812:  <-system_call_fastpath
+  systemd-logind-595   [001] ....  4171.044865:  <-system_call_fastpath
+  systemd-logind-595   [001] ....  4171.044914:  <-system_call_fastpath
+  systemd-logind-595   [001] ....  4171.044974:  <-system_call_fastpath
+  systemd-logind-595   [001] ....  4171.045021:  <-system_call_fastpath
+  systemd-logind-595   [001] ....  4171.045214:  <-system_call_fastpath
+  systemd-logind-595   [001] ....  4171.045372:  <-system_call_fastpath
+  systemd-logind-595   [001] ....  4171.045440:  <-system_call_fastpath
+  systemd-logind-595   [001] ....  4171.045495:  <-system_call_fastpath
+  systemd-logind-595   [001] ....  4171.045551:  <-system_call_fastpath
+  systemd-logind-595   [001] ....  4171.045598:  <-system_call_fastpath
+      irqbalance-890   [000] ....  4171.603943:  <-system_call_fastpath
+      irqbalance-890   [000] ....  4171.604193:  <-system_call_fastpath
+      irqbalance-890   [000] ....  4171.604315:  <-system_call_fastpath
+      irqbalance-890   [000] ....  4171.604335:  <-system_call_fastpath
+      irqbalance-890   [000] ....  4171.604381:  <-system_call_fastpath
+      irqbalance-890   [000] ....  4171.604421:  <-system_call_fastpath
+      irqbalance-890   [000] ....  4171.604458:  <-system_call_fastpath
+      irqbalance-890   [000] ....  4171.604496:  <-system_call_fastpath
+      irqbalance-890   [000] ....  4171.604532:  <-system_call_fastpath
+      irqbalance-890   [000] ....  4171.604570:  <-system_call_fastpath
+      irqbalance-890   [000] ....  4171.604609:  <-system_call_fastpath
+      irqbalance-890   [000] ....  4171.604723:  <-system_call_fastpath
+      irqbalance-890   [000] ....  4171.604773:  <-system_call_fastpath
+      irqbalance-890   [000] ....  4171.604809:  <-system_call_fastpath
+          vminfo-995   [001] ....  4173.626241:  <-system_call_fastpath
+            sudo-5523  [001] ....  4174.327054:  <-system_call_fastpath
+            sudo-5523  [001] ....  4174.327083:  <-system_call_fastpath
+            sudo-5523  [001] ....  4174.327150:  <-system_call_fastpath
+            sudo-5523  [001] ....  4174.327203:  <-system_call_fastpath
+            sudo-5523  [001] ....  4174.327257:  <-system_call_fastpath
+            sudo-5523  [001] ....  4174.327322:  <-system_call_fastpath
+            sudo-5523  [001] ....  4174.327960:  <-system_call_fastpath
+            sudo-5523  [001] ....  4174.328136:  <-system_call_fastpath
+            sudo-5523  [001] ....  4174.328243:  <-system_call_fastpath
+            sudo-5523  [001] ....  4174.328359:  <-system_call_fastpath
+            sudo-5523  [001] ....  4174.328526:  <-system_call_fastpath
+            sudo-5523  [001] ....  4174.328596:  <-system_call_fastpath
+            sudo-5523  [001] ....  4174.328619:  <-system_call_fastpath
+            sudo-5523  [001] ....  4174.328677:  <-system_call_fastpath
+            sudo-5523  [001] ....  4174.328838:  <-system_call_fastpath
+            sudo-5523  [001] ....  4174.328871:  <-system_call_fastpath
+            sudo-5523  [001] ....  4174.328959:  <-system_call_fastpath
+            sudo-5523  [001] ....  4174.329116:  <-system_call_fastpath
+            sudo-5523  [001] ....  4174.329211:  <-system_call_fastpath
+            sudo-5523  [001] ....  4174.329256:  <-system_call_fastpath
+            sudo-5523  [001] ....  4174.329976:  <-system_call_fastpath
+            sudo-5523  [001] ....  4174.330045:  <-system_call_fastpath
+            sudo-5523  [001] ....  4174.330066:  <-system_call_fastpath
+            sudo-5523  [001] ....  4174.330140:  <-system_call_fastpath
+            sudo-5523  [001] ....  4174.330611:  <-system_call_fastpath
+            sudo-5523  [001] ....  4174.330633:  <-system_call_fastpath
+            sudo-5523  [001] ....  4174.330796:  <-system_call_fastpath
+            sudo-5523  [001] ....  4174.330841:  <-system_call_fastpath
+            sudo-5523  [001] ....  4174.330948:  <-system_call_fastpath
+            sudo-5523  [001] ....  4174.330955:  <-system_call_fastpath
+            sudo-5523  [001] ....  4174.330959:  <-system_call_fastpath
+            sudo-5523  [001] ....  4174.330965:  <-system_call_fastpath
+            sudo-5523  [001] ....  4174.331042:  <-system_call_fastpath
+            sudo-5523  [001] ....  4174.331163:  <-system_call_fastpath
+            sudo-5523  [001] ....  4174.331220:  <-system_call_fastpath
+            sudo-5523  [001] ....  4174.331258:  <-system_call_fastpath
+            sudo-5523  [001] ....  4174.331285:  <-system_call_fastpath
+            sudo-5523  [001] ....  4174.331312:  <-system_call_fastpath
+            sudo-5523  [001] ....  4174.331341:  <-system_call_fastpath
+            sudo-5523  [001] ....  4174.331381:  <-system_call_fastpath
+            sudo-5523  [001] ....  4174.331477:  <-system_call_fastpath
+            sudo-5523  [001] ....  4174.331522:  <-system_call_fastpath
+            sudo-5523  [001] ....  4174.331605:  <-system_call_fastpath
+            sudo-5523  [001] ....  4174.331798:  <-system_call_fastpath
+            sudo-5523  [001] ....  4174.331958:  <-system_call_fastpath
+            sudo-5523  [001] ....  4174.332050:  <-system_call_fastpath
+            sudo-5523  [001] ....  4174.332085:  <-system_call_fastpath
+            sudo-5523  [001] ....  4174.332144:  <-system_call_fastpath
+            sudo-5523  [001] ....  4174.332242:  <-system_call_fastpath
+            sudo-5523  [001] ....  4174.332294:  <-system_call_fastpath
+            sudo-5523  [001] ....  4174.332361:  <-system_call_fastpath
+            sudo-5523  [001] ....  4174.332581:  <-system_call_fastpath
+            sudo-5523  [001] ....  4174.332624:  <-system_call_fastpath
+            sudo-5523  [001] ....  4174.332770:  <-system_call_fastpath
+            sudo-5523  [001] ....  4174.332809:  <-system_call_fastpath
+            sudo-5523  [001] ....  4174.332872:  <-system_call_fastpath
+            sudo-5523  [001] ....  4174.332891:  <-system_call_fastpath
+            sudo-5523  [001] ....  4174.333240:  <-system_call_fastpath
+            sudo-5523  [001] ....  4174.333406:  <-system_call_fastpath
+            sudo-5523  [001] ....  4174.333599:  <-system_call_fastpath
+            sudo-5523  [001] ....  4174.333689:  <-system_call_fastpath
+            sudo-5523  [001] ....  4174.333724:  <-system_call_fastpath
+            sudo-5523  [001] ....  4174.333970:  <-system_call_fastpath
+            sudo-5523  [001] ....  4174.334053:  <-system_call_fastpath
+            sudo-5523  [001] ....  4174.334116:  <-system_call_fastpath
+            sudo-5523  [001] ....  4174.334691:  <-system_call_fastpath
+            sudo-5523  [001] ....  4174.334732:  <-system_call_fastpath
+            sudo-5523  [001] ....  4174.334796:  <-system_call_fastpath
+            sudo-5523  [001] ....  4174.334846:  <-system_call_fastpath
+            sudo-5523  [001] ....  4174.334897:  <-system_call_fastpath
+            sudo-5523  [001] ....  4174.334954:  <-system_call_fastpath
+            sudo-5523  [001] ....  4174.335023:  <-system_call_fastpath
+            sudo-5523  [001] ....  4174.335047:  <-system_call_fastpath
+            sudo-5523  [001] ....  4174.335112:  <-system_call_fastpath
+            sudo-5523  [001] ....  4174.335177:  <-system_call_fastpath
+            sudo-5523  [001] ....  4174.335234:  <-system_call_fastpath
+            sudo-5523  [001] ....  4174.335363:  <-system_call_fastpath
+            sudo-5523  [001] ....  4174.335421:  <-system_call_fastpath
+            sudo-5523  [001] ....  4174.335491:  <-system_call_fastpath
+            sudo-5523  [001] ....  4174.336274:  <-system_call_fastpath
+            sudo-5523  [001] ....  4174.336378:  <-system_call_fastpath
+            sudo-5523  [001] ....  4174.336681:  <-system_call_fastpath
+   rs:main Q:Reg-586   [001] ....  4174.337101:  <-system_call_fastpath
+   rs:main Q:Reg-586   [001] ....  4174.337122:  <-system_call_fastpath
+   rs:main Q:Reg-586   [001] ....  4174.337131:  <-system_call_fastpath
+   rs:main Q:Reg-586   [001] ....  4174.337139:  <-system_call_fastpath
+   rs:main Q:Reg-586   [001] ....  4174.337145:  <-system_call_fastpath
+   rs:main Q:Reg-586   [001] ....  4174.337152:  <-system_call_fastpath
+   rs:main Q:Reg-586   [001] ....  4174.337159:  <-system_call_fastpath
+   rs:main Q:Reg-586   [001] ....  4174.337166:  <-system_call_fastpath
+   rs:main Q:Reg-586   [001] ....  4174.337173:  <-system_call_fastpath
+   rs:main Q:Reg-586   [001] ....  4174.337180:  <-system_call_fastpath
+            sudo-5523  [001] ....  4174.337425:  <-system_call_fastpath
+            sudo-5523  [001] ....  4174.337445:  <-system_call_fastpath
+            sudo-5523  [001] ....  4174.337461:  <-system_call_fastpath
+            sudo-5523  [001] ....  4174.337524:  <-system_call_fastpath
+            sudo-5523  [001] ....  4174.337595:  <-system_call_fastpath
+            sudo-5523  [001] ....  4174.337662:  <-system_call_fastpath
+            sudo-5523  [001] ....  4174.337732:  <-system_call_fastpath
+            sudo-5523  [001] ....  4174.337769:  <-system_call_fastpath
+            sudo-5523  [001] ....  4174.337873:  <-system_call_fastpath
+           rmmod-5524  [001] ....  4174.340565:  <-system_call_fastpath
+           rmmod-5524  [001] ....  4174.340593:  <-system_call_fastpath
+           rmmod-5524  [001] ....  4174.341118:  <-system_call_fastpath
+           rmmod-5524  [001] ....  4174.341241:  <-system_call_fastpath
+           rmmod-5524  [001] ....  4174.341303:  <-system_call_fastpath
+           rmmod-5524  [001] ....  4174.341336: : Goodbye world!

@@ -1,0 +1,7 @@
+Script started on Mon 02 Nov 2015 09:03:19 PM CST
+gnoliyil@ubuntu:~/osprac/hw5/ex2$ cexit
+cexit: command not found
+gnoliyil@ubuntu:~/osprac/hw5/ex2$ ex[K[Kexit
+exit
+
+Script done on Mon 02 Nov 2015 09:03:29 PM CST

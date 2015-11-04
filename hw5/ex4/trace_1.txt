@@ -1,0 +1,30 @@
+# tracer: function
+#
+# entries-in-buffer/entries-written: 102494/3032799   #P:2
+#
+#                              _-----=> irqs-off
+#                             / _----=> need-resched
+#                            | / _---=> hardirq/softirq
+#                            || / _--=> preempt-depth
+#                            ||| /     delay
+#           TASK-PID   CPU#  ||||    TIMESTAMP  FUNCTION
+#              | |       |   ||||       |         |
+           acpid-897   [001] d...   785.246415: account_entity_dequeue <-dequeue_entity
+           acpid-897   [001] d...   785.246415: update_min_vruntime <-dequeue_entity
+           acpid-897   [001] d...   785.246415: update_cfs_shares <-dequeue_entity
+           acpid-897   [001] d...   785.246416: update_curr <-update_cfs_shares
+           acpid-897   [001] d...   785.246416: update_min_vruntime <-update_curr
+           acpid-897   [001] d...   785.246416: account_entity_dequeue <-update_cfs_shares
+           acpid-897   [001] d...   785.246417: account_entity_enqueue <-update_cfs_shares
+           acpid-897   [001] d...   785.246417: dequeue_entity <-dequeue_task_fair
+           acpid-897   [001] d...   785.246417: update_curr <-dequeue_entity
+           acpid-897   [001] d...   785.246417: update_cfs_rq_blocked_load <-dequeue_entity
+           acpid-897   [001] d...   785.246418: clear_buddies <-dequeue_entity
+           acpid-897   [001] d...   785.246418: account_entity_dequeue <-dequeue_entity
+           acpid-897   [001] d...   785.246418: update_min_vruntime <-dequeue_entity
+           acpid-897   [001] d...   785.246418: update_cfs_shares <-dequeue_entity
+           acpid-897   [001] d...   785.246419: hrtick_update <-dequeue_task_fair
+           acpid-897   [001] d...   785.246420: pick_next_task_fair <-__schedule
+           acpid-897   [001] d...   785.246421: msecs_to_jiffies <-pick_next_task_fair
+           acpid-897   [001] d...   785.246421: pick_next_task_idle <-__schedule
+           acpid-897   [001] d...   785.246422: put_prev_task_fair <-pick_next_task_idle
