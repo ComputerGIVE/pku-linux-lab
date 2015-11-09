@@ -50,10 +50,10 @@ static int consumer_thread_function(void *data)
 		ns_after = timeval_to_ns(&tv);
 
 #if 1
-		printk(KERN_INFO "[Consumer] after = %lld, before = %lld, minus = %lld\n", 
+		/* printk(KERN_INFO "[Consumer] after = %lld, before = %lld, minus = %lld\n", 
 		ns_after % 10000000000 / 1000, 
 		ns_before% 10000000000 / 1000, 
-		(ns_after - ns_before)/1000); 
+		(ns_after - ns_before)/1000); */
 #endif
 		
 		ms_sleep(sleep_ms - (ns_after - ns_before) / 1000000); 
