@@ -1,0 +1,1 @@
+cmd_/home/gnoliyil/osprac/hw8/ex1/hide.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o /home/gnoliyil/osprac/hw8/ex1/hide.ko /home/gnoliyil/osprac/hw8/ex1/hide.o /home/gnoliyil/osprac/hw8/ex1/hide.mod.o
