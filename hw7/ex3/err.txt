@@ -1,0 +1,144 @@
+/home/gnoliyil/osprac/hw7/ex3/syscall.c:36:25: error: '#' is not followed by a macro parameter
+ #define TABLE_ENTRY(type) \
+                         ^
+/home/gnoliyil/osprac/hw7/ex3/syscall.c:41:6: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘)’ token
+  next);  \
+      ^
+/home/gnoliyil/osprac/hw7/ex3/syscall.c:42:1: error: expected identifier or ‘(’ before ‘}’ token
+ } \
+ ^
+/home/gnoliyil/osprac/hw7/ex3/syscall.c:44:1: warning: return type defaults to ‘int’ [-Wreturn-type]
+ TABLE_ENTRY(pgd)
+ ^
+/home/gnoliyil/osprac/hw7/ex3/syscall.c:44:1: error: function declaration isn’t a prototype [-Werror=strict-prototypes]
+/home/gnoliyil/osprac/hw7/ex3/syscall.c: In function ‘TABLE_ENTRY’:
+/home/gnoliyil/osprac/hw7/ex3/syscall.c:45:1: error: expected declaration specifiers before ‘TABLE_ENTRY’
+ TABLE_ENTRY(pud)
+ ^
+/home/gnoliyil/osprac/hw7/ex3/syscall.c:104:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘{’ token
+ {
+ ^
+In file included from include/linux/linkage.h:4:0,
+                 from include/linux/kernel.h:6,
+                 from /home/gnoliyil/osprac/hw7/ex3/syscall.c:8:
+include/linux/compiler-gcc4.h:36:45: error: storage class specified for parameter ‘__UNIQUE_ID_license1’
+ #define __UNIQUE_ID(prefix) __PASTE(__PASTE(__UNIQUE_ID_, prefix), __COUNTER__)
+                                             ^
+include/linux/compiler.h:48:23: note: in definition of macro ‘___PASTE’
+ #define ___PASTE(a,b) a##b
+                       ^
+include/linux/compiler-gcc4.h:36:29: note: in expansion of macro ‘__PASTE’
+ #define __UNIQUE_ID(prefix) __PASTE(__PASTE(__UNIQUE_ID_, prefix), __COUNTER__)
+                             ^
+include/linux/compiler.h:49:22: note: in expansion of macro ‘___PASTE’
+ #define __PASTE(a,b) ___PASTE(a,b)
+                      ^
+include/linux/compiler-gcc4.h:36:37: note: in expansion of macro ‘__PASTE’
+ #define __UNIQUE_ID(prefix) __PASTE(__PASTE(__UNIQUE_ID_, prefix), __COUNTER__)
+                                     ^
+include/linux/moduleparam.h:21:19: note: in expansion of macro ‘__UNIQUE_ID’
+ static const char __UNIQUE_ID(name)[]       \
+                   ^
+include/linux/module.h:86:32: note: in expansion of macro ‘__MODULE_INFO’
+ #define MODULE_INFO(tag, info) __MODULE_INFO(tag, tag, info)
+                                ^
+include/linux/module.h:124:34: note: in expansion of macro ‘MODULE_INFO’
+ #define MODULE_LICENSE(_license) MODULE_INFO(license, _license)
+                                  ^
+/home/gnoliyil/osprac/hw7/ex3/syscall.c:107:1: note: in expansion of macro ‘MODULE_LICENSE’
+ MODULE_LICENSE("GPL"); 
+ ^
+/home/gnoliyil/osprac/hw7/ex3/syscall.c:107:1: error: parameter ‘__UNIQUE_ID_license1’ is initialized
+/home/gnoliyil/osprac/hw7/ex3/syscall.c:107:1: warning: ‘__used__’ attribute ignored [-Wattributes]
+In file included from include/linux/linkage.h:4:0,
+                 from include/linux/kernel.h:6,
+                 from /home/gnoliyil/osprac/hw7/ex3/syscall.c:8:
+include/linux/compiler-gcc4.h:36:45: error: section attribute not allowed for ‘__UNIQUE_ID_license1’
+ #define __UNIQUE_ID(prefix) __PASTE(__PASTE(__UNIQUE_ID_, prefix), __COUNTER__)
+                                             ^
+include/linux/compiler.h:48:23: note: in definition of macro ‘___PASTE’
+ #define ___PASTE(a,b) a##b
+                       ^
+include/linux/compiler-gcc4.h:36:29: note: in expansion of macro ‘__PASTE’
+ #define __UNIQUE_ID(prefix) __PASTE(__PASTE(__UNIQUE_ID_, prefix), __COUNTER__)
+                             ^
+include/linux/compiler.h:49:22: note: in expansion of macro ‘___PASTE’
+ #define __PASTE(a,b) ___PASTE(a,b)
+                      ^
+include/linux/compiler-gcc4.h:36:37: note: in expansion of macro ‘__PASTE’
+ #define __UNIQUE_ID(prefix) __PASTE(__PASTE(__UNIQUE_ID_, prefix), __COUNTER__)
+                                     ^
+include/linux/moduleparam.h:21:19: note: in expansion of macro ‘__UNIQUE_ID’
+ static const char __UNIQUE_ID(name)[]       \
+                   ^
+include/linux/module.h:86:32: note: in expansion of macro ‘__MODULE_INFO’
+ #define MODULE_INFO(tag, info) __MODULE_INFO(tag, tag, info)
+                                ^
+include/linux/module.h:124:34: note: in expansion of macro ‘MODULE_INFO’
+ #define MODULE_LICENSE(_license) MODULE_INFO(license, _license)
+                                  ^
+/home/gnoliyil/osprac/hw7/ex3/syscall.c:107:1: note: in expansion of macro ‘MODULE_LICENSE’
+ MODULE_LICENSE("GPL"); 
+ ^
+include/linux/compiler-gcc4.h:36:45: error: alignment may not be specified for ‘__UNIQUE_ID_license1’
+ #define __UNIQUE_ID(prefix) __PASTE(__PASTE(__UNIQUE_ID_, prefix), __COUNTER__)
+                                             ^
+include/linux/compiler.h:48:23: note: in definition of macro ‘___PASTE’
+ #define ___PASTE(a,b) a##b
+                       ^
+include/linux/compiler-gcc4.h:36:29: note: in expansion of macro ‘__PASTE’
+ #define __UNIQUE_ID(prefix) __PASTE(__PASTE(__UNIQUE_ID_, prefix), __COUNTER__)
+                             ^
+include/linux/compiler.h:49:22: note: in expansion of macro ‘___PASTE’
+ #define __PASTE(a,b) ___PASTE(a,b)
+                      ^
+include/linux/compiler-gcc4.h:36:37: note: in expansion of macro ‘__PASTE’
+ #define __UNIQUE_ID(prefix) __PASTE(__PASTE(__UNIQUE_ID_, prefix), __COUNTER__)
+                                     ^
+include/linux/moduleparam.h:21:19: note: in expansion of macro ‘__UNIQUE_ID’
+ static const char __UNIQUE_ID(name)[]       \
+                   ^
+include/linux/module.h:86:32: note: in expansion of macro ‘__MODULE_INFO’
+ #define MODULE_INFO(tag, info) __MODULE_INFO(tag, tag, info)
+                                ^
+include/linux/module.h:124:34: note: in expansion of macro ‘MODULE_INFO’
+ #define MODULE_LICENSE(_license) MODULE_INFO(license, _license)
+                                  ^
+/home/gnoliyil/osprac/hw7/ex3/syscall.c:107:1: note: in expansion of macro ‘MODULE_LICENSE’
+ MODULE_LICENSE("GPL"); 
+ ^
+include/linux/compiler-gcc4.h:36:45: error: declaration for parameter ‘__UNIQUE_ID_license1’ but no such parameter
+ #define __UNIQUE_ID(prefix) __PASTE(__PASTE(__UNIQUE_ID_, prefix), __COUNTER__)
+                                             ^
+include/linux/compiler.h:48:23: note: in definition of macro ‘___PASTE’
+ #define ___PASTE(a,b) a##b
+                       ^
+include/linux/compiler-gcc4.h:36:29: note: in expansion of macro ‘__PASTE’
+ #define __UNIQUE_ID(prefix) __PASTE(__PASTE(__UNIQUE_ID_, prefix), __COUNTER__)
+                             ^
+include/linux/compiler.h:49:22: note: in expansion of macro ‘___PASTE’
+ #define __PASTE(a,b) ___PASTE(a,b)
+                      ^
+include/linux/compiler-gcc4.h:36:37: note: in expansion of macro ‘__PASTE’
+ #define __UNIQUE_ID(prefix) __PASTE(__PASTE(__UNIQUE_ID_, prefix), __COUNTER__)
+                                     ^
+include/linux/moduleparam.h:21:19: note: in expansion of macro ‘__UNIQUE_ID’
+ static const char __UNIQUE_ID(name)[]       \
+                   ^
+include/linux/module.h:86:32: note: in expansion of macro ‘__MODULE_INFO’
+ #define MODULE_INFO(tag, info) __MODULE_INFO(tag, tag, info)
+                                ^
+include/linux/module.h:124:34: note: in expansion of macro ‘MODULE_INFO’
+ #define MODULE_LICENSE(_license) MODULE_INFO(license, _license)
+                                  ^
+/home/gnoliyil/osprac/hw7/ex3/syscall.c:107:1: note: in expansion of macro ‘MODULE_LICENSE’
+ MODULE_LICENSE("GPL"); 
+ ^
+/home/gnoliyil/osprac/hw7/ex3/syscall.c:107:1: error: expected ‘{’ at end of input
+/home/gnoliyil/osprac/hw7/ex3/syscall.c:107:1: warning: control reaches end of non-void function [-Wreturn-type]
+ MODULE_LICENSE("GPL"); 
+ ^
+cc1: some warnings being treated as errors
+make[2]: *** [/home/gnoliyil/osprac/hw7/ex3/syscall.o] Error 1
+make[1]: *** [_module_/home/gnoliyil/osprac/hw7/ex3] Error 2
+make: *** [all] Error 2

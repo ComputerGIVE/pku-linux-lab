@@ -1,0 +1,29 @@
+unreferenced object 0xffff880076b40000 (size 100000):
+  comm "insmod", pid 1785, jiffies 4295065947 (age 141.900s)
+  hex dump (first 32 bytes):
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  backtrace:
+    [<ffffffff8174bf1e>] kmemleak_alloc+0x4e/0xb0
+    [<ffffffff8118a47c>] kmalloc_order+0x5c/0x80
+    [<ffffffff8118a4c6>] kmalloc_order_trace+0x26/0xa0
+    [<ffffffffa0005018>] 0xffffffffa0005018
+    [<ffffffff8100212c>] do_one_initcall+0xbc/0x1f0
+    [<ffffffff810f2a89>] load_module+0x24a9/0x2a00
+    [<ffffffff810f3156>] SyS_finit_module+0x86/0xb0
+    [<ffffffff8175e7cd>] system_call_fastpath+0x16/0x1b
+    [<ffffffffffffffff>] 0xffffffffffffffff
+unreferenced object 0xffff8800755d4d00 (size 128):
+  comm "insmod", pid 2082, jiffies 4295082036 (age 77.548s)
+  hex dump (first 32 bytes):
+    80 49 5d 75 00 88 ff ff 00 00 00 00 00 00 00 00  .I]u............
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  backtrace:
+    [<ffffffff8174bf1e>] kmemleak_alloc+0x4e/0xb0
+    [<ffffffff811be93d>] kmem_cache_alloc_trace+0xbd/0x170
+    [<ffffffffa000501a>] 0xffffffffa000501a
+    [<ffffffff8100212c>] do_one_initcall+0xbc/0x1f0
+    [<ffffffff810f2a89>] load_module+0x24a9/0x2a00
+    [<ffffffff810f3156>] SyS_finit_module+0x86/0xb0
+    [<ffffffff8175e7cd>] system_call_fastpath+0x16/0x1b
+    [<ffffffffffffffff>] 0xffffffffffffffff

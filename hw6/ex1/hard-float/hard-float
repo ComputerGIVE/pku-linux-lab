@@ -1,0 +1,10 @@
+[93049.701960] atkbd serio0: Spurious NAK on isa0060/serio0. Some program might be trying to access hardware directly.
+[93125.648019] atkbd serio0: Spurious NAK on isa0060/serio0. Some program might be trying to access hardware directly.
+[93183.253702] atkbd serio0: Spurious NAK on isa0060/serio0. Some program might be trying to access hardware directly.
+[96185.775151] softfloat: module license 'unspecified' taints kernel.
+[96185.775156] Disabling lock debugging due to kernel taint
+[96185.775200] softfloat: Unknown symbol mcount (err 0)
+[97833.008659] [hard-float] hex(a) = 400921fb4d12d84a
+[97833.008664] [hard-float] hex(b) = 3ff3c0ca2a5b1d5d
+[97833.008665] [hard-float] hex(a*b) = 400f072fc2b04319
+[97836.969207] [hard-float] Goodbye.
