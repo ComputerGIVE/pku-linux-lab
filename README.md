@@ -85,3 +85,34 @@ ms）打印一条（字符串）信息，如下：
 - 也可以提供新的方案
 - 比较不同方案的优缺点
 - 注意编码风格
+
+
+LL201 -- 处理器核
+------------------
+
+实战1：在内核模块中增加浮点运算，编译选项采用-mhard-float和-msoft-float分别进行处理，查看反汇编结果，解释原因（1分）
+
+实战2：学习arch/x86/kernel/traps.c中的异常入口，分解do_invalid_op宏 <br>
+       根据自己VM的ISA，找到一条没有使用的编码，引发SIGILL（1分） <br>
+       然后增加该编码的模拟实现，打印一句HelloWorld（1分）
+	   
+实战3：限定某个用户的程序运行在一个cpu上（要求使用setaffinity）（1分）
+
+
+LL202 -- 内存管理
+------------------
+
+实战1：dump所有icache的内容和dcache的内容（2分）
+
+实战2：Detecting kernel memory leaks: http://lwn.net/Articles/187979/（1分）
+
+实战3：采用pagewalk dump一个用户进程的全部页表信息（1分）
+
+
+LL203 -- 进程线程
+------------------
+
+实战：创建一个kthread，每1分钟打印一次所有的kthread
+
+要求：从ps中隐藏（1分），从top中隐藏（1分），<br>
+      从lsmod/sysfs中隐藏（1分），从进程队列中隐藏（1分）
