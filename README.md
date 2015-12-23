@@ -21,9 +21,9 @@ LL102 -- 启动流程
 
 实战1：利用git方式获取linux内核（1分）
 
-实战2：开启initcall_debug，获取trace信息（1分）
+实战2：开启`initcall_debug`，获取trace信息（1分）
 
-实战3：采用scripts/bootgraph.pl生成SVG可缩放矢量图形（1分）
+实战3：采用`scripts/bootgraph.pl`生成SVG可缩放矢量图形（1分）
 
 实战4：对占据时间较大的前10个initcall，列出其所在文件、initcall level以及功能简要说明（1分）
 
@@ -117,5 +117,23 @@ LL203 -- 进程线程
 要求：从ps中隐藏（1分），从top中隐藏（1分），<br>
       从lsmod/sysfs中隐藏（1分），从进程队列中隐藏（1分）
 
-<<<<<<< HEAD
+
+LL204 -- 性能评估
+------------------
+
+实战1：在UnixBench中检测系统是否运行了perf类程序
+
+实战2：不改变UnixBench的代码，将UnixBench的得分提高2倍或者变为原来的1/2
+
+
+LL302 -- USB
+------------------
+
+实战1：Bash脚本模拟插拔USB设备500次(1分)
+       脚本要有一个输入参数，用于标识USB设备
+
+实战2：实现一个虚拟的USB存储设备(4分)<br>
+       `lsusb`命令能够看到该设备<br>
+       `/dev`下有设备描述符<br>
+       支持读写操作。能够对`/dev`下的设备描述符，进行读写操作
 
