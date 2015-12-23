@@ -1,0 +1,1 @@
+cmd_/home/gnoliyil/osprac/hw10/ex2/driver/usb-skeleton.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o /home/gnoliyil/osprac/hw10/ex2/driver/usb-skeleton.ko /home/gnoliyil/osprac/hw10/ex2/driver/usb-skeleton.o /home/gnoliyil/osprac/hw10/ex2/driver/usb-skeleton.mod.o
